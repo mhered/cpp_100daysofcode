@@ -42,4 +42,7 @@ if num_challenges > 0:
 else:
     templatetweet += "it seems that I took a rest!"
 
-print(templatetweet)
+with open("README.md", "a") as file:
+    # file.write("\n---\n")
+    file.write("\n ## "+datestr+"\n\n")
+    file.write(templatetweet)
