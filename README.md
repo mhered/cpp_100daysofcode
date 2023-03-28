@@ -15,13 +15,14 @@ My log for the #100DaysOfCode challenge with C++
 
 * https://edabit.com/challenges - resource with bite-sized exercises in several languages
 
-* https://www.learncpp.com/ - free resource to learn c++ seems quite detailed and frequently updated
+* https://www.learncpp.com/ - free resource to learn C++ seems, quite detailed and frequently updated
 
 * https://omkarghotekar.medium.com/100-days-of-code-complete-guide-w-resources-beginner-aae12a8af926 - a guide with resources to approach 100 days of code challenges 
 
 * https://www.geeksforgeeks.org/c-plus-plus/
 
-
+* https://app.theconstructsim.com/Course/59/ - C++ for Robotics
+* https://stackoverflow.com/questions/388242/the-definitive-c-book-guide-and-list - The Definitive C++ Book Guide and List
 
 ---
 
