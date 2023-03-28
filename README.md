@@ -11,6 +11,16 @@ My log for the #100DaysOfCode challenge with C++
     * inside each challenge subfolder it searches the file `info.md` for the line that starts with `#link:` to extract the link to each challenge
     * composes a progress tweet to add to the thread and appends it to this README.md
 
+## C++ learning resources
+
+* https://edabit.com/challenges - resource with bite-sized exercises in several languages
+
+* https://www.learncpp.com/ - free resource to learn c++ seems quite detailed and frequently updated
+
+* https://omkarghotekar.medium.com/100-days-of-code-complete-guide-w-resources-beginner-aae12a8af926 - a guide with resources to approach 100 days of code challenges 
+
+* https://www.geeksforgeeks.org/c-plus-plus/
+
 
 
 ---
