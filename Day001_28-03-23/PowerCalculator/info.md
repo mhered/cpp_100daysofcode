@@ -1,6 +1,6 @@
 #link: https://edabit.com/challenge/a2D3cva6PKrHyqdXC
 
-Power Calculator
+# Power Calculator
 
 Create a function that takes voltage and current and returns the calculated power.
 Examples
