@@ -1,5 +1,6 @@
 #link: https://edabit.com/challenge/vxpP4nnDhRr2Yc3Lo
-Burrrrrrrp
+
+# Burrrrrrrp
 
 Create a function that returns the string "Burp" with the amount of "r's" determined by the input parameters of the function.
 Examples
