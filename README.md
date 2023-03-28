@@ -31,3 +31,6 @@ My log for the #100DaysOfCode challenge with C++
 
 Day 1 #100DaysOfCode #cpp progress: today I worked on the following challenges: Burrrrrrrp https://edabit.com/challenge/vxpP4nnDhRr2Yc3Lo and PowerCalculator https://edabit.com/challenge/a2D3cva6PKrHyqdXC
 
+ ## 29-03-23
+
+Day 2: #100DaysOfCode in #Cpp progress - today I worked on the challenges AddNumbers https://edabit.com/challenge/XDx6JoaumAimRHgEt, FizzBuzz https://edabit.com/challenge/Ao7fJta5kEMNHSYEa and RockPaperScissors https://edabit.com/challenge/MYqnQ3DpPZi9di4iW
