@@ -34,3 +34,6 @@ Day 1 #100DaysOfCode #cpp progress: today I worked on the following challenges: 
  ## 29-03-23
 
 Day 2: #100DaysOfCode in #Cpp progress - today I worked on the challenges AddNumbers https://edabit.com/challenge/XDx6JoaumAimRHgEt, FizzBuzz https://edabit.com/challenge/Ao7fJta5kEMNHSYEa and RockPaperScissors https://edabit.com/challenge/MYqnQ3DpPZi9di4iW
+ ## 30-03-23
+
+Day 3: #100DaysOfCode in #Cpp progress - today I worked on the challenges ProductOfOthers https://edabit.com/challenge/aQnur99HSdYbyypLd, SecondLargest https://edabit.com/challenge/pp2DgYDhyhoaXbqQw and CamelToSnake https://edabit.com/challenge/mEEsMKznTCq25PWvD
