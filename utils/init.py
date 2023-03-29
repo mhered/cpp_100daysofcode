@@ -5,7 +5,7 @@ import shutil
 parent_dir = os.getcwd()
 print(parent_dir)
 
-date = datetime.datetime(2023, 3, 28)
+date = datetime.datetime(2023, 3, 27)
 
 # Create and populate folders
 src_path = os.path.join(parent_dir, "utils")
@@ -13,7 +13,7 @@ code_path = os.path.join(parent_dir, "code")
 
 
 # offset >0 to modify folders beyond a given day (if offset = N first day affected is N+1)
-offset = 4
+offset = 3
 date += datetime.timedelta(days=offset)
 
 for i in range(offset,100):
