@@ -37,3 +37,6 @@ Day 2: #100DaysOfCode in #Cpp progress - today I worked on the challenges AddNum
  ## 29-03-23
 
 Day 3: #100DaysOfCode in #Cpp progress - today I worked on the challenges ProductOfOthers https://edabit.com/challenge/aQnur99HSdYbyypLd, SecondLargest https://edabit.com/challenge/pp2DgYDhyhoaXbqQw and CamelToSnake https://edabit.com/challenge/mEEsMKznTCq25PWvD
+ ## 30-03-23
+
+Day 4: #100DaysOfCode in #Cpp progress - today I played with basic file input/output FileIO https://www.learncpp.com/cpp-tutorial/basic-file-io/ and worked on the challenges Transpose https://edabit.com/challenge/4KaoDvxaFSmf38bPQ and Sudoku https://edabit.com/challenge/JevwpdjTnoJT5t29F
