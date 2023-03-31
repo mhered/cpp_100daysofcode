@@ -4,11 +4,11 @@ My log for the #100DaysOfCode challenge with C++
 
 * `code` folder contains one folder per day of the challenge. Inside each folder there is one subfolder per challenge taken in the day. 
 * `utils` folder contains some helper python functions and template files used to initialize the folder structure and compose the progress tweets 
-  * `init.py` creates the folder structure and template `main.cpp` and `info.md` files
+  * `init.py` creates the folder structure and template `main.cpp` and `README.md` files
 
   * `tweet.py` 
     * reads the title of each challenge from the subfolder names inside the day folder that matches the current date 
-    * inside each challenge subfolder it searches the file `info.md` for the line that starts with `#link:` to extract the link to each challenge
+    * inside each challenge subfolder it searches the file `README.md` for the line that starts with `#link:` to extract the link to each challenge
     * composes a progress tweet to add to the thread and appends it to this README.md
 
 ## C++ learning resources
@@ -43,4 +43,3 @@ Day 4: #100DaysOfCode in #Cpp progress - today I played with basic file input/ou
  ## 31-03-23
 
 Day 5: #100DaysOfCode in #Cpp progress - today I practiced reading from CSV, XML and JSON files and loading the data into a vector of custom objects. In ReadDataFiles https://github.com/mhered/cpp_100daysofcode/tree/main/code/Day005_31-03-23/ReadDataFiles I used #mockaroo #json/nlohmann and #rapidxml but no animals were harmed
-
