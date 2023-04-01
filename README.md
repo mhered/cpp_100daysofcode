@@ -43,3 +43,6 @@ Day 4: #100DaysOfCode in #Cpp progress - today I played with basic file input/ou
  ## 31-03-23
 
 Day 5: #100DaysOfCode in #Cpp progress - today I practiced reading from CSV, XML and JSON files and loading the data into a vector of custom objects. In ReadDataFiles https://github.com/mhered/cpp_100daysofcode/tree/main/code/Day005_31-03-23/ReadDataFiles I used #mockaroo #json/nlohmann and #rapidxml but no animals were harmed
+ ## 01-04-23
+
+Day 6: #100DaysOfCode in #Cpp progress - today I worked on the challenge DaysUntil2021 https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day006_01-04-23/DaysUntil2021 (see https://edabit.com/challenge/Fmo9fFHfZw3u88QLZ) and learned about dates in C++
