@@ -46,3 +46,6 @@ Day 5: #100DaysOfCode in #Cpp progress - today I practiced reading from CSV, XML
  ## 01-04-23
 
 Day 6: #100DaysOfCode in #Cpp progress - today I worked on the challenge DaysUntil2021 https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day006_01-04-23/DaysUntil2021 (see https://edabit.com/challenge/Fmo9fFHfZw3u88QLZ) and learned about dates in C++
+ ## 02-04-23
+
+Day 7: #100DaysOfCode in #Cpp progress - today I adapted @pybites #Python Bite 332 - Searching for an apartment https://codechalleng.es/bites/332/ to C++ and added some extra fun formatting strings to build the visual representation of the Skyline https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day007_02-04-23/Skyline 
