@@ -16,13 +16,13 @@ void showMatrix(std::vector<std::vector<int>> matrix)
 
 std::vector<std::vector<int>> transposeMatrix(std::vector<std::vector<int>> arr)
 {
-    int rows = arr.size();
-    int cols = arr[0].size();
+    uint rows = arr.size();
+    uint cols = arr[0].size();
 
     std::vector<std::vector<int>> transpose(cols, std::vector<int>(rows));
-    for (int i = 0; i < rows; i++)
+    for (uint i = 0; i < rows; i++)
     {
-        for (int j = 0; j < cols; j++)
+        for (uint j = 0; j < cols; j++)
         {
             transpose[j][i] = arr[i][j];
         }

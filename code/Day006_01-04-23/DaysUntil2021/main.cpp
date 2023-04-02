@@ -5,11 +5,11 @@
 
 std::tm make_tm(int year, int month, int day)
 {
-    std::tm tm = {0};
+    std::tm tm{};
     tm.tm_year = year - 1900; // years count from 1900
     tm.tm_mon = month - 1;    // months count from January=0
     tm.tm_mday = day;         // days count from 1
-    // tm.tm_isdst = -1;          // what is this?
+    tm.tm_isdst = -1;          // data saving time set to "No info"
     return tm;
 }
 
@@ -44,7 +44,7 @@ std::string daysUntil2021(std::string date)
 {
     std::tm year2021 = make_tm(2021, 1, 1);
     int day, month, year;
-    std::tm tm = {0};
+    std::tm tm{};
 
     if (!extractDate(date, day, month, year, tm))
         return "invalid date";

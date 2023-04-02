@@ -39,7 +39,7 @@ bool isMiniSudoku(std::vector<std::vector<int>> square)
         }
     }
 
-    for (int i = 0; i < 9; i++)
+    for (uint i = 0; i < 9; i++)
     {
         if (!found[i])
             return false; // redundant: check all numbers 1-9 found

@@ -3,7 +3,7 @@
 
 std::string toSnakeCase(std::string str)
 {
-    for (int i = 0; i < str.length(); i++)
+    for (uint i = 0; i < str.length(); i++)
     {
         if (isupper(str[i]))
         {
@@ -16,7 +16,7 @@ std::string toSnakeCase(std::string str)
 
 std::string toCamelCase(std::string str)
 {
-    for (int i = 0; i < str.length(); i++)
+    for (uint i = 0; i < str.length(); i++)
     {
         if (str[i] == '_')
         {

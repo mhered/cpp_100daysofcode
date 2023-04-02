@@ -1,7 +1,7 @@
 #include <string>
 #include <iostream>
 
-std::string longBurp(int num)
+std::string longBurp(uint num)
 {
     if (num < 1)
     {

@@ -3,14 +3,14 @@
 #include <algorithm>
 #include <iomanip>
 
-void print_vector(std::vector<int> vec)
+void print_vector(std::vector<uint> vec)
 {
     for (auto elem : vec)
         std::cout << elem << ' ';
     std::cout << std::endl;
 }
 
-std::string make_column(int n_times, const char symbol, int nrows)
+std::string make_column(uint n_times, const char symbol, uint nrows)
 {
     // fill with symbol
     std::string col(n_times + 1, symbol);
@@ -22,7 +22,7 @@ std::string make_column(int n_times, const char symbol, int nrows)
     return col;
 }
 
-void plot_skyline(std::vector<int> skyline)
+void plot_skyline(std::vector<uint> skyline)
 {
 
     //     _
@@ -34,7 +34,7 @@ void plot_skyline(std::vector<int> skyline)
     const char floor = '_';
     const char wall = '|';
 
-    int nrows = *max_element(skyline.begin(), skyline.end()) + 2;
+    uint nrows = *max_element(skyline.begin(), skyline.end()) + 2;
 
     // build canvas_transposed column-wise from left to right
     std::vector<std::string> canvas_transposed;
@@ -43,7 +43,7 @@ void plot_skyline(std::vector<int> skyline)
     canvas_transposed.push_back(make_column(1, floor, nrows));
     canvas_transposed.push_back(make_column(skyline[0], wall, nrows));
 
-    for (int i = 0; i < skyline.size(); i++)
+    for (uint i = 0; i < skyline.size(); i++)
     {
         // add column of floors
         canvas_transposed.push_back(make_column(skyline[i] + 1, floor, nrows));
@@ -73,15 +73,15 @@ void plot_skyline(std::vector<int> skyline)
     // transpose
     // initialize canvas
     std::vector<std::string> canvas;
-    for (int i = 0; i < canvas_transposed[0].size(); i++)
+    for (uint i = 0; i < canvas_transposed[0].size(); i++)
     {
         std::string row(canvas_transposed.size(), '*');
         canvas.push_back(row);
     }
     // copy transpose
-    for (int i = 0; i < nrows; i++)
+    for (uint i = 0; i < nrows; i++)
     {
-        for (int j = 0; j < canvas_transposed.size(); j++)
+        for (uint j = 0; j < canvas_transposed.size(); j++)
         {
             canvas[i][j] = canvas_transposed[j][nrows - i];
         }
@@ -100,18 +100,18 @@ void plot_skyline(std::vector<int> skyline)
     std::cout << std::endl;
 }
 
-std::vector<int> search_apartment(std::vector<int> skyline, char direction)
+std::vector<uint> search_apartment(std::vector<uint> skyline, char direction)
 {
-    std::vector<int> has_view(skyline.size(), 1);
+    std::vector<uint> has_view(skyline.size(), 1);
 
     plot_skyline(skyline);
 
     if (toupper(direction) == 'W')
     {
 
-        for (int i = 0; i < skyline.size(); i++)
+        for (uint i = 0; i < skyline.size(); i++)
         {
-            for (int j = 0; j < i; j++)
+            for (uint j = 0; j < i; j++)
             {
                 if (skyline[j] >= skyline[i])
                 {
@@ -125,11 +125,11 @@ std::vector<int> search_apartment(std::vector<int> skyline, char direction)
     if (toupper(direction) == 'E')
     {
 
-        for (int i = 0; i < skyline.size(); i++)
+        for (uint i = 0; i < skyline.size(); i++)
         {
-            int start_scan = i + 1;
-            int end_scan = skyline.size();
-            for (int j = start_scan; j < end_scan; j++)
+            uint start_scan = i + 1;
+            uint end_scan = skyline.size();
+            for (uint j = start_scan; j < end_scan; j++)
             {
                 if (skyline[j] >= skyline[i])
                 {
@@ -145,8 +145,8 @@ std::vector<int> search_apartment(std::vector<int> skyline, char direction)
     std::cout << std::endl;
 
     // build return vector with positions of building with a view
-    std::vector<int> result;
-    for (int i = 0; i < has_view.size(); i++)
+    std::vector<uint> result;
+    for (uint i = 0; i < has_view.size(); i++)
         if (has_view[i])
             result.push_back(i);
     return result;

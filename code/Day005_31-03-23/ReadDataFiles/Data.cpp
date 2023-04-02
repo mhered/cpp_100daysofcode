@@ -1,10 +1,6 @@
 #include "Data.h"
 #include <iostream>
 
-Data::Data()
-{
-}
-
 Data::Data(int id,
            std::string first_name,
            std::string last_name,
