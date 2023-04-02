@@ -3,11 +3,6 @@
 
 std::string longBurp(uint num)
 {
-    if (num < 1)
-    {
-        return "Error";
-    }
-
     std::string rs(num, 'r');
     std::string burp = "Bu" + rs + "p";
     return burp;
