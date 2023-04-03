@@ -49,3 +49,6 @@ Day 6: #100DaysOfCode in #Cpp progress - today I worked on the challenge DaysUnt
  ## 02-04-23
 
 Day 7: #100DaysOfCode in #Cpp progress - today I adapted @pybites #Python Bite 332 - Searching for an apartment https://codechalleng.es/bites/332/ to C++ and added some extra fun formatting strings to build the visual representation of the Skyline https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day007_02-04-23/Skyline 
+ ## 03-04-23
+
+Day 8: #100DaysOfCode in #Cpp progress - today I worked on the challenges CountingBoomerangs https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day008_03-04-23/CountingBoomerangs ( see https://edabit.com/challenge/oL3q28iPjuo5BWHu9) and TicTacToe https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day008_03-04-23/TicTacToe ( see https://edabit.com/challenge/rscwis53jKokoKRYo)
