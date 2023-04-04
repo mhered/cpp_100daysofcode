@@ -31,4 +31,3 @@ ticTacToe([
 ### Notes
 
 All inputs are valid (there will be no games where both players win).
-

@@ -52,3 +52,6 @@ Day 7: #100DaysOfCode in #Cpp progress - today I adapted @pybites #Python Bite 3
  ## 03-04-23
 
 Day 8: #100DaysOfCode in #Cpp progress - today I worked on the challenges CountingBoomerangs https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day008_03-04-23/CountingBoomerangs ( see https://edabit.com/challenge/oL3q28iPjuo5BWHu9) and TicTacToe https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day008_03-04-23/TicTacToe ( see https://edabit.com/challenge/rscwis53jKokoKRYo)
+ ## 04-04-23
+
+Day 9: #100DaysOfCode in #Cpp progress - today I worked on the challenge MakingBoxes https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day009_04-04-23/MakingBoxes (see https://edabit.com/challenge/yHeTBuJ6LDw3nhA7k) 
