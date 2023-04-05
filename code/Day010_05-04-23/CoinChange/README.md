@@ -25,7 +25,7 @@ coinsCombinations(11, [5, 7]) ➞ 0
 - You have an infinite amount of coins.
 
 ### Bonus
-Implement the three different approaches described here: https://www.codingninjas.com/codestudio/library/coin-change-combination-problem and time them!
+Implement the three different approaches described here: https://www.codingninjas.com/codestudio/library/coin-change-combination-problem and time them (using e.g. this approach https://www.geeksforgeeks.org/how-to-measure-elapsed-time-in-cpp/):
 
 ```
 target = 11, coins = {1, 2, 5}
