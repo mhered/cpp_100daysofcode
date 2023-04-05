@@ -45,7 +45,7 @@ if num_challenges > 0:
 
     for connector, challenge, external_link, github_link in zip(connectors, challenges, external_links, github_links):
         tmp = connector + challenge + " " + \
-            github_link + " ( see " + external_link + ")"
+            github_link + " (see " + external_link + ")"
         templatetweet += tmp
 
 else:

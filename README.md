@@ -55,3 +55,6 @@ Day 8: #100DaysOfCode in #Cpp progress - today I worked on the challenges Counti
  ## 04-04-23
 
 Day 9: #100DaysOfCode in #Cpp progress - today I worked on the challenge MakingBoxes https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day009_04-04-23/MakingBoxes (see https://edabit.com/challenge/yHeTBuJ6LDw3nhA7k) 
+ ## 05-04-23
+
+Day 10: #100DaysOfCode in #Cpp progress - today I practiced recursive algorithms and timing code execution while working on the challenge CoinChange https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day010_05-04-23/CoinChange (see https://edabit.com/challenge/TykFvvciNeGvRDbsS)
