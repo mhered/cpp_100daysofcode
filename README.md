@@ -58,3 +58,6 @@ Day 9: #100DaysOfCode in #Cpp progress - today I worked on the challenge MakingB
  ## 05-04-23
 
 Day 10: #100DaysOfCode in #Cpp progress - today I practiced recursive algorithms and timing code execution while working on the challenge CoinChange https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day010_05-04-23/CoinChange (see https://edabit.com/challenge/TykFvvciNeGvRDbsS)
+ ## 06-04-23
+
+Day 11: #100DaysOfCode in #Cpp progress - more fun with recursion today building a SudokuSolver https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day011_06-04-23/SudokuSolver (based on https://www.tutorialspoint.com/sudoku-solver-in-cplusplus)
