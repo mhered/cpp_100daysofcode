@@ -41,4 +41,6 @@ The expected output will be:
 
 ## Bonus
 
-Create a `class Sudoku`
+* Encapsulate on a `class Sudoku`
+
+* Some examples to practice: https://sandiway.arizona.edu/sudoku/examples.html
