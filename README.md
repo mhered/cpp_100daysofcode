@@ -61,3 +61,6 @@ Day 10: #100DaysOfCode in #Cpp progress - today I practiced recursive algorithms
  ## 06-04-23
 
 Day 11: #100DaysOfCode in #Cpp progress - more fun with recursion today building a SudokuSolver https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day011_06-04-23/SudokuSolver (based on https://www.tutorialspoint.com/sudoku-solver-in-cplusplus)
+ ## 07-04-23
+
+Day 12: #100DaysOfCode in #Cpp progress - today I learned in this tutorial https://www.youtube.com/watch?v=FOIbK4bJKS8 about wxWidgets to build cross-platform GUIs with C++ and applied it to implement a BasicGUI https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day012_07-04-23/BasicGUI and the game MineSweeper https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day012_07-04-23/MineSweeper
