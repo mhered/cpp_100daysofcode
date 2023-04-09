@@ -67,3 +67,6 @@ Day 12: #100DaysOfCode in #Cpp progress - today I learned in this tutorial https
  ## 08-04-23
 
 Day 13: #100DaysOfCode in #Cpp progress - today life took over, but I still found time to keep my fingers warm working on an easy one: Password https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day013_08-04-23/Password (see https://edabit.com/challenge/2MAr9P4TTGooXS8Xa)
+ ## 09-04-23
+
+Day 14: #100DaysOfCode in #Cpp progress - today I worked on the challenge EasterDates https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day014_09-04-23/EasterDates (see https://edabit.com/challenge/QMQWmSbvrvTaBFPN6)
