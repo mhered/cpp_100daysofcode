@@ -2,7 +2,8 @@ import os
 import datetime
 
 
-date_of_today = datetime.date.today()
+# use timedelta to easily adjust the date if needed (e.g. after 23:59)
+date_of_today = datetime.date.today()- datetime.timedelta(days=0) 
 start_date = datetime.date(2023, 3, 27)
 
 num_of_days = (date_of_today - start_date).days + 1
