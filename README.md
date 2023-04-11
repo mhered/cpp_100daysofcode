@@ -70,3 +70,8 @@ Day 13: #100DaysOfCode in #Cpp progress - today life took over, but I still foun
  ## 09-04-23
 
 Day 14: #100DaysOfCode in #Cpp progress - today I worked on the challenge EasterDates https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day014_09-04-23/EasterDates (see https://edabit.com/challenge/QMQWmSbvrvTaBFPN6)
+ ## 10-04-23
+
+Day 15: #100DaysOfCode in #Cpp progress - today I explored the capabilities of ChatGPT. I asked it to solve a programming exercise, comment the code, help me install Google Test framework and write unit tests, then translate the code to python and refactor it to make it more pythonic. The game-changing result in TestDriveChatGPT https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day015_10-04-23/TestDriveChatGPT (based on https://www.youtube.com/watch?v=QG3IgW-FBRg).
+
+
