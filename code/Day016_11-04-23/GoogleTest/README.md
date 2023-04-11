@@ -1,8 +1,6 @@
 #link: https://www.youtube.com/watch?v=16FI1-d2P4E
 
-# My notes on Google Test Primer
-
-https://google.github.io/googletest/primer.html![]()
+# My notes on [Google Test Primer](https://google.github.io/googletest/primer.html)
 
 Tests should be:
 
