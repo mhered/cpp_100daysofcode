@@ -76,3 +76,6 @@ Day 15: #100DaysOfCode in #Cpp progress - today I explored the capabilities of C
  ## 11-04-23
 
 Day 16: #100DaysOfCode in #Cpp progress - after the yesterday's gentle introduction by ChatGPT, today I  dived into the framework GoogleTest https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day016_11-04-23/GoogleTest (see https://www.youtube.com/watch?v=16FI1-d2P4E) and applied it to a previous challenge: TestEasterDates https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day016_11-04-23/TestEasterDates 
+ ## 12-04-23
+
+Day 17: #100DaysOfCode in #Cpp progress - today I worked on the challenges Median https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day017_12-04-23/Median (see https://edabit.com/challenge/iuXEXDGarZ9MxSyZ8) and TestingMedian https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day017_12-04-23/TestingMedian 
