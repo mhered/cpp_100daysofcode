@@ -54,7 +54,7 @@ std::vector<float> RandVector(int size = 1, float min = 0, float max = 1)
 
 float Median(std::vector<float> arr, bool verbose = false)
 {
-
+    float median;
     if (arr.empty())
         throw std::invalid_argument("Cannot calculate median of empty vector");
 
@@ -62,7 +62,7 @@ float Median(std::vector<float> arr, bool verbose = false)
         return arr[0];
 
     arr = BubbleSort(arr, verbose);
-    float median;
+
     if (arr.size() % 2 == 0) // even number of elements
         median = (arr[arr.size() / 2] + arr[arr.size() / 2 - 1]) / 2;
     else
@@ -128,22 +128,24 @@ INSTANTIATE_TEST_CASE_P(Default, MedianTest,
 
                                 ));
 
-
 // A standalone test of an exception
 TEST(EdgeCasesTest, EmptyVectorThrowsExceptionTest)
 {
     // initialize empty vector
     std::vector<float> empty_vec = {};
 
-    // assert call throws expected exception
-    try
-    {
-        float output = Median(empty_vec);
-    }
-    catch (const std::invalid_argument &e)
-    {
-        EXPECT_STREQ(e.what(), "Cannot calculate median of empty vector"); //need STREQ to compare C strings
-    }
+    EXPECT_THROW({ // check that the call throws the expected exception
+        try
+        {
+            float output = Median(empty_vec);
+        }
+        catch (const std::invalid_argument &e) // check that the exception has the correct message
+        {
+            EXPECT_STREQ(e.what(), "Cannot calculate median of empty vector"); // need STREQ to compare C strings
+            throw;                                                             // rethow the exception
+        }
+    },
+                 std::invalid_argument);
 }
 
 // invoking the tests
