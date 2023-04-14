@@ -1,0 +1,22 @@
+Describe(cars_){
+It(test1){Assert::That(cars(37, 15, 20), Equals(9));}
+It(test2){Assert::That(cars(72, 7, 21), Equals(7));}
+It(test3){Assert::That(cars(9, 44, 34), Equals(2));}
+It(test4){Assert::That(cars(50, 38, 7), Equals(3));}
+It(test5){Assert::That(cars(68, 9, 44), Equals(9));}
+It(test6){Assert::That(cars(3, 29, 54), Equals(0));}
+It(test7){Assert::That(cars(28, 34, 80), Equals(7));}
+It(test8){Assert::That(cars(88, 50, 83), Equals(22));}
+It(test9){Assert::That(cars(66, 18, 21), Equals(10));}
+It(test10){Assert::That(cars(97, 6, 10), Equals(5));}
+It(test11){Assert::That(cars(921, 310, 350), Equals(175));}
+It(test12){Assert::That(cars(736, 430, 851), Equals(184));}
+It(test13){Assert::That(cars(405, 379, 740), Equals(101));}
+It(test14){Assert::That(cars(593, 78, 389), Equals(78));}
+It(test15){Assert::That(cars(875, 370, 675), Equals(218));}
+It(test16){Assert::That(cars(863, 274, 203), Equals(101));}
+It(test17){Assert::That(cars(959, 331, 537), Equals(239));}
+It(test18){Assert::That(cars(416, 340, 551), Equals(104));}
+It(test19){Assert::That(cars(692, 348, 543), Equals(173));}
+It(test20){Assert::That(cars(527, 412, 951), Equals(131));}
+};

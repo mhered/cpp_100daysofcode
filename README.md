@@ -79,3 +79,9 @@ Day 16: #100DaysOfCode in #Cpp progress - after the yesterday's gentle introduct
  ## 12-04-23
 
 Day 17: #100DaysOfCode in #Cpp progress - today I worked on the challenges Median https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day017_12-04-23/Median (see https://edabit.com/challenge/iuXEXDGarZ9MxSyZ8) and TestingMedian https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day017_12-04-23/TestingMedian 
+ ## 13-04-23
+
+Day 18: #100DaysOfCode in #Cpp progress - a very simple one today: ToyCars https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day018_13-04-23/ToyCars (see https://edabit.com/challenge/Ccoo3SHJwv4qCLKQb)
+ ## 14-04-23
+
+Day 19: #100DaysOfCode in #Cpp progress - today I built myself a simple tool to translate edabit tests. It's crude, but it works, and it will save some typing: TestParsing https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day019_14-04-23/TestParsing
