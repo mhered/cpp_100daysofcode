@@ -1,10 +1,7 @@
 #include <iostream>
 #include <fstream>
 #include <vector>
-
-// #include <string>
 #include <sstream>
-// #include <ios>
 
 bool formatAsGtest(std::string filename)
 {
