@@ -85,3 +85,10 @@ Day 18: #100DaysOfCode in #Cpp progress - a very simple one today: ToyCars https
  ## 14-04-23
 
 Day 19: #100DaysOfCode in #Cpp progress - today I built myself a simple tool to translate edabit tests. It's crude, but it works, and it will save some typing: TestParsing https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day019_14-04-23/TestParsing
+
+ ## 16-04-23
+
+Day 21: #100DaysOfCode in #Cpp progress - today I worked on the challenges Challenge2 https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day021_16-04-23/Challenge2 (see ) and Challenge1 https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day021_16-04-23/Challenge1 (see )
+ ## 15-04-23
+
+Day 20: #100DaysOfCode in #Cpp progress - today I wrote a TicTacToe computer player inspired by the 80's cult classic WarGames https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day020_15-04-23/WarGames (see https://www.geeksforgeeks.org/finding-optimal-move-in-tic-tac-toe-using-minimax-algorithm-in-game-theory/)

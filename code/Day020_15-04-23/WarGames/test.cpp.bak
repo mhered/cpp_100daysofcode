@@ -1,0 +1,158 @@
+#include <iostream>
+#include <vector>
+#include <gtest/gtest.h>
+#include "TicTacToe.h"
+
+// A parametrized test
+// a struct to hold the parametrized test cases, a constructor and a streamer
+struct Sample
+{
+    std::vector<char> input;
+    int expected;
+
+    // constructor
+    Sample(std::vector<char> input, int expected) : input(input), expected(expected){};
+
+    // we override the << operator to have a stream method for Sample
+    friend std::ostream &operator<<(std::ostream &os, const Sample &obj)
+    {
+        os << "board: ";
+        for (int i = 0; i < 3; i++)
+        {
+            for (int j = 0; j < 3; j++)
+                os << obj.input[3 * i + j] << ' ';
+            os << "|";
+        }
+
+        return os
+               << " expected: " << obj.expected;
+    }
+};
+
+// create a fixture class derived from the struct of parametrized test cases
+struct EvaluateTest : testing::Test, testing::WithParamInterface<Sample>
+{
+};
+
+// the parametric test
+TEST_P(EvaluateTest, ParametricTest)
+{
+    // get parameters
+    auto sample = GetParam();
+    // call the function with the input to calculate the actual result
+    int output = TicTacToe(sample.input).Evaluate();
+    // assert result matches expected
+    EXPECT_EQ(sample.expected, output);
+}
+
+INSTANTIATE_TEST_CASE_P(Default, EvaluateTest,
+                        testing::Values(
+                            Sample({'#', '#', '#',
+                                    '#', '#', '#',
+                                    '#', '#', '#'},
+                                   0), // "It's a Tie": 0
+                            Sample({'X', '#', 'O',
+                                    'X', 'X', 'O',
+                                    '#', 'O', '#'},
+                                   0), //"It's a Tie": 0
+                            Sample({'X', 'X', 'O',
+                                    'O', 'X', 'O',
+                                    'X', 'O', '#'},
+                                   0), // "It's a Tie": 0
+                            Sample({'X', 'O', 'O',
+                                    'O', 'X', 'O',
+                                    'O', 'O', '#'},
+                                   0), //"It's a Tie": 0
+                            Sample({'X', 'O', 'O',
+                                    'X', 'O', 'O',
+                                    '#', 'X', 'X'},
+                                   0), //"It's a Tie": 0
+
+                            Sample({'X', 'O', 'O',
+                                    'O', 'O', 'O',
+                                    '#', 'X', 'X'},
+                                   -10), //"Player 2 wins": -10
+                            Sample({'X', 'O', 'O',
+                                    'O', 'X', 'O',
+                                    'X', '#', 'O'},
+                                   -10), //"Player 2 wins": -10
+                            Sample({'X', '#', 'O',
+                                    'O', 'O', '#',
+                                    'O', '#', 'X'},
+                                   -10), //"Player 2 wins": -10
+                            Sample({'X', 'O', 'O',
+                                    'O', 'X', 'O',
+                                    'O', '#', 'O'},
+                                   -10), //"Player 2 wins": -10
+
+                            Sample({'X', 'O', 'O',
+                                    'X', 'X', 'O',
+                                    'X', 'O', '#'},
+                                   10), //"Player 1 wins": +10
+                            Sample({'X', 'O', 'O',
+                                    'O', 'X', 'O',
+                                    'O', '#', 'X'},
+                                   10), // "Player 1 wins": +10
+                            Sample({'X', 'X', 'X',
+                                    'X', 'O', 'O',
+                                    'O', 'O', 'X'},
+                                   10) //"Player 1 wins": +10
+                            ));
+
+/*
+INSTANTIATE_TEST_CASE_P(Default, EvaluateTest,
+                        testing::Values(
+                            Sample({'x', '#', 'o',
+                                    'x', 'x', 'o',
+                                    '#', 'o', '#'},
+                                   0), //"It's a Tie": 0
+                            Sample({'x', 'x', 'o',
+                                    'o', 'x', 'o',
+                                    'x', 'o', '#'},
+                                   0), // "It's a Tie": 0
+                            Sample({'x', 'o', 'o',
+                                    'o', 'x', 'o',
+                                    'o', 'o', '#'},
+                                   0), //"It's a Tie": 0
+                            Sample({'x', 'o', 'o',
+                                    'x', 'o', 'o',
+                                    '#', 'x', 'x'},
+                                   0), //"It's a Tie": 0
+                            Sample({'x', 'o', 'o',
+                                    'o', 'o', 'o',
+                                    '#', 'x', 'x'},
+                                   -10), //"Player 2 wins": -10
+                            Sample({'x', 'o', 'o',
+                                    'o', 'x', 'o',
+                                    'x', '#', 'o'},
+                                   -10), //"Player 2 wins": -10
+                            Sample({'x', '#', 'o',
+                                    'o', 'o', '#',
+                                    'o', '#', 'x'},
+                                   -10), //"Player 2 wins": -10
+                            Sample({'x', 'o', 'o',
+                                    'o', 'x', 'o',
+                                    'o', '#', 'o'},
+                                   -10), //"Player 2 wins": -10
+
+                            Sample({'x', 'o', 'o',
+                                    'x', 'x', 'o',
+                                    'x', 'o', '#'},
+                                   10), //"Player 1 wins": +10
+                            Sample({'x', 'o', 'o',
+                                    'o', 'x', 'o',
+                                    'o', '#', 'x'},
+                                   10), // "Player 1 wins": +10
+                            Sample({'x', 'x', 'x',
+                                    'x', 'o', 'o',
+                                    'o', 'o', 'x'},
+                                   10) //"Player 1 wins": +10
+                            ));
+*/
+
+// invoking the tests
+int main(int argc, char *argv[])
+{
+    testing::InitGoogleTest(&argc, argv);
+    return RUN_ALL_TESTS();
+}
