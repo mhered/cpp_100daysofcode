@@ -92,3 +92,6 @@ Day 21: #100DaysOfCode in #Cpp progress - today I worked on the challenges Chall
  ## 15-04-23
 
 Day 20: #100DaysOfCode in #Cpp progress - today I wrote a TicTacToe computer player inspired by the 80's cult classic WarGames https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day020_15-04-23/WarGames (see https://www.geeksforgeeks.org/finding-optimal-move-in-tic-tac-toe-using-minimax-algorithm-in-game-theory/)
+ ## 16-04-23
+
+Day 21: #100DaysOfCode in #Cpp progress - today I added a GUI based on the Minesweeper one from Day012 to yesterday's TicTacToe engine, and the result is: TicTacToeGUI https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day021_16-04-23/TicTacToeGUI #wxWidgets 
