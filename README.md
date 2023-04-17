@@ -95,3 +95,6 @@ Day 20: #100DaysOfCode in #Cpp progress - today I wrote a TicTacToe computer pla
  ## 16-04-23
 
 Day 21: #100DaysOfCode in #Cpp progress - today I added a GUI based on the Minesweeper one from Day012 to yesterday's TicTacToe engine, and the result is: TicTacToeGUI https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day021_16-04-23/TicTacToeGUI #wxWidgets 
+ ## 17-04-23
+
+Day 22: #100DaysOfCode in #Cpp progress - today I had fun with LEDs: Arduino101 https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day022_17-04-23/Arduino101 and 3Blinks https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day022_17-04-23/3Blinks. The C++ code was trivial, but I explored a world of great tools related to Arduino: IDE, vscode extension, circuit-diagram, fritzing...
