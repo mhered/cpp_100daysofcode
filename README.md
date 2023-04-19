@@ -95,3 +95,6 @@ Day 21: #100DaysOfCode in #Cpp progress - today I added a GUI based on the Mines
  ## 17-04-23
 
 Day 22: #100DaysOfCode in #Cpp progress - today I had fun with LEDs: Arduino101 https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day022_17-04-23/Arduino101 and 3Blinks https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day022_17-04-23/3Blinks. The C++ code was trivial, but I explored a world of great tools related to Arduino: IDE, vscode extension, circuit-diagram, fritzing...
+ ## 18-04-23
+
+Day 23: #100DaysOfCode in #Cpp progress - today I practiced Recursion https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day023_18-04-23/Recursion with this great Stanford Lecture by Julie Zelenski https://www.youtube.com/watch?v=NdF1QDTRkck. Oh, and on the side I made a really inefficient Lexicon https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day023_18-04-23/Lexicon
