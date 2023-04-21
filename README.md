@@ -101,3 +101,6 @@ Day 23: #100DaysOfCode in #Cpp progress - today I practiced Recursion https://gi
  ## 19-04-23
 
 Day 24: #100DaysOfCode in #Cpp progress - yesterday I didn't complete the challenge that I set out to do, but I made some partial progress: CombinationSums https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day024_19-04-23/CombinationSums (see https://stackoverflow.com/questions/4632322/finding-all-possible-combinations-of-numbers-to-reach-a-given-sum?rq=2) #recursion
+ ## 20-04-23
+
+Day 25: #100DaysOfCode in #Cpp progress - today I worked on the project PitStops https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day025_20-04-23/PitStops (see https://www.codechef.com/problems/REFUELS?tab=statement)
