@@ -98,3 +98,6 @@ Day 22: #100DaysOfCode in #Cpp progress - today I had fun with LEDs: Arduino101 
  ## 18-04-23
 
 Day 23: #100DaysOfCode in #Cpp progress - today I practiced Recursion https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day023_18-04-23/Recursion with this great Stanford Lecture by Julie Zelenski https://www.youtube.com/watch?v=NdF1QDTRkck. Oh, and on the side I made a really inefficient Lexicon https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day023_18-04-23/Lexicon
+ ## 19-04-23
+
+Day 24: #100DaysOfCode in #Cpp progress - yesterday I didn't complete the challenge that I set out to do, but I made some partial progress: CombinationSums https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day024_19-04-23/CombinationSums (see https://stackoverflow.com/questions/4632322/finding-all-possible-combinations-of-numbers-to-reach-a-given-sum?rq=2) #recursion

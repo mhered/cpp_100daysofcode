@@ -161,6 +161,11 @@ int main()
     timed_fun(11, {5, 7}, false, 'b'); //  0
     std::cout << std::endl;
 
+    timed_fun(219, {2, 5, 10, 20, 50}, false, 'f'); // 1859
+    timed_fun(219, {2, 5, 10, 20, 50}, false, 't'); // 1859
+    timed_fun(219, {2, 5, 10, 20, 50}, false, 'b'); // 1859
+    std::cout << std::endl;
+
     timed_fun(419, {2, 5, 10, 20, 50}, false, 'f'); // 18515
     timed_fun(419, {2, 5, 10, 20, 50}, false, 't'); // 18515
     timed_fun(419, {2, 5, 10, 20, 50}, false, 'b'); // 18515
