@@ -5,20 +5,20 @@
 # Tags
 #tags: 
 
-- [ ] basics
-- [ ] algorithms
-- [ ] data_structures: trees, graphs
-- [ ] strings: regex
+- [x] basics
+- [x] algorithms
+- [x] data_structures: trees, graphs
+- [x] strings: regex
 - [ ] dates_times: timezones
 - [ ] file_management: input, output, folders and files
 - [ ] testing
 - [ ] exceptions
 - [ ] logging
 - [ ] object_oriented_programming
-- [ ] GUI
-- [ ] plotting_data
-- [ ] CLI
-- [ ] arduino
+- [x] GUI
+- [x] plotting_data
+- [x] CLI
+- [x] arduino
 - [ ] ROS
 - [ ] chatGPT
 - [ ] databases

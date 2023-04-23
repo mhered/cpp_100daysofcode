@@ -110,3 +110,7 @@ Day 26: #100DaysOfCode in #Cpp progress - today I looked around for C++ librarie
  ## 22-04-23
 
 Day 27: #100DaysOfCode in #Cpp progress - today I played with the excellent Matplot++ library: 2D and 3D plots, images, maps, heatmaps, word clouds... MorePlots https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day027_22-04-23/MorePlots (see https://github.com/alandefreitas/matplotplusplus)
+
+ ## 23-04-23
+
+Day 28: #100DaysOfCode in #Cpp progress - today added tags to all my projects and built a simple app to keep track of the progress. A nice excuse to practice #filesystem #counters #parsing strings #Matplotplusplus etc: Tags https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day028_23-04-23/Tags 

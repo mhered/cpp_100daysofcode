@@ -1,0 +1,177 @@
+Day 1 (27-03-23) Project: Burrrrrrrp
+"/home/mhered/cpp_100daysofcode/code/Day001_27-03-23/Burrrrrrrp"
+ 2 Tags: basics, strings
+
+Day 1 (27-03-23) Project: PowerCalculator
+"/home/mhered/cpp_100daysofcode/code/Day001_27-03-23/PowerCalculator"
+ 1 Tags: basics
+
+Day 2 (28-03-23) Project: AddNumbers
+"/home/mhered/cpp_100daysofcode/code/Day002_28-03-23/AddNumbers"
+ 1 Tags: basics
+
+Day 2 (28-03-23) Project: FizzBuzz
+"/home/mhered/cpp_100daysofcode/code/Day002_28-03-23/FizzBuzz"
+ 1 Tags: basics
+
+Day 2 (28-03-23) Project: RockPaperScissors
+"/home/mhered/cpp_100daysofcode/code/Day002_28-03-23/RockPaperScissors"
+ 1 Tags: basics
+
+Day 3 (29-03-23) Project: CamelToSnake
+"/home/mhered/cpp_100daysofcode/code/Day003_29-03-23/CamelToSnake"
+ 1 Tags: strings
+
+Day 3 (29-03-23) Project: ProductOfOthers
+"/home/mhered/cpp_100daysofcode/code/Day003_29-03-23/ProductOfOthers"
+ 2 Tags: basics, algorithms
+
+Day 3 (29-03-23) Project: SecondLargest
+"/home/mhered/cpp_100daysofcode/code/Day003_29-03-23/SecondLargest"
+ 2 Tags: basics, algorithms
+
+Day 4 (30-03-23) Project: FileIO
+"/home/mhered/cpp_100daysofcode/code/Day004_30-03-23/FileIO"
+ 1 Tags: file_management
+
+Day 4 (30-03-23) Project: Sudoku
+"/home/mhered/cpp_100daysofcode/code/Day004_30-03-23/Sudoku"
+ 3 Tags: basics, algorithms, strings
+
+Day 4 (30-03-23) Project: Transpose
+"/home/mhered/cpp_100daysofcode/code/Day004_30-03-23/Transpose"
+ 4 Tags: basics, algorithms, data_structures, strings
+
+Day 5 (31-03-23) Project: ReadDataFiles
+"/home/mhered/cpp_100daysofcode/code/Day005_31-03-23/ReadDataFiles"
+ 3 Tags: strings, file_management, CLI
+
+Day 6 (01-04-23) Project: DaysUntil2021
+"/home/mhered/cpp_100daysofcode/code/Day006_01-04-23/DaysUntil2021"
+ 1 Tags: dates_times
+
+Day 7 (02-04-23) Project: Skyline
+"/home/mhered/cpp_100daysofcode/code/Day007_02-04-23/Skyline"
+ 2 Tags: algorithms, strings
+
+Day 8 (03-04-23) Project: CountingBoomerangs
+"/home/mhered/cpp_100daysofcode/code/Day008_03-04-23/CountingBoomerangs"
+ 2 Tags: basics, algorithms
+
+Day 8 (03-04-23) Project: TicTacToe
+"/home/mhered/cpp_100daysofcode/code/Day008_03-04-23/TicTacToe"
+ 1 Tags: algorithms
+
+Day 9 (04-04-23) Project: MakingBoxes
+"/home/mhered/cpp_100daysofcode/code/Day009_04-04-23/MakingBoxes"
+ 2 Tags: basics, strings
+
+Day 10 (05-04-23) Project: CoinChange
+"/home/mhered/cpp_100daysofcode/code/Day010_05-04-23/CoinChange"
+ 1 Tags: algorithms
+
+Day 11 (06-04-23) Project: SudokuSolver
+"/home/mhered/cpp_100daysofcode/code/Day011_06-04-23/SudokuSolver"
+ 3 Tags: algorithms, strings, object_oriented_programming
+
+Day 12 (07-04-23) Project: BasicGUI
+"/home/mhered/cpp_100daysofcode/code/Day012_07-04-23/BasicGUI"
+ 2 Tags: object_oriented_programming, GUI
+
+Day 12 (07-04-23) Project: MineSweeper
+"/home/mhered/cpp_100daysofcode/code/Day012_07-04-23/MineSweeper"
+ 1 Tags: GUI
+
+Day 13 (08-04-23) Project: Password
+"/home/mhered/cpp_100daysofcode/code/Day013_08-04-23/Password"
+ 3 Tags: basics, algorithms, strings
+
+Day 14 (09-04-23) Project: EasterDates
+"/home/mhered/cpp_100daysofcode/code/Day014_09-04-23/EasterDates"
+ 2 Tags: algorithms, dates_times
+
+Day 15 (10-04-23) Project: TestDriveChatGPT
+"/home/mhered/cpp_100daysofcode/code/Day015_10-04-23/TestDriveChatGPT"
+ 3 Tags: data_structures, testing, chatGPT
+
+Day 16 (11-04-23) Project: GoogleTest
+"/home/mhered/cpp_100daysofcode/code/Day016_11-04-23/GoogleTest"
+ 1 Tags: testing
+
+Day 16 (11-04-23) Project: TestEasterDates
+"/home/mhered/cpp_100daysofcode/code/Day016_11-04-23/TestEasterDates"
+ 1 Tags: testing
+
+Day 17 (12-04-23) Project: Median
+"/home/mhered/cpp_100daysofcode/code/Day017_12-04-23/Median"
+ 1 Tags: algorithms
+
+Day 17 (12-04-23) Project: TestingMedian
+"/home/mhered/cpp_100daysofcode/code/Day017_12-04-23/TestingMedian"
+ 1 Tags: testing
+
+Day 18 (13-04-23) Project: ToyCars
+"/home/mhered/cpp_100daysofcode/code/Day018_13-04-23/ToyCars"
+ 1 Tags: basics
+
+Day 19 (14-04-23) Project: TestParsing
+"/home/mhered/cpp_100daysofcode/code/Day019_14-04-23/TestParsing"
+ 1 Tags: strings
+
+Day 20 (15-04-23) Project: WarGames
+"/home/mhered/cpp_100daysofcode/code/Day020_15-04-23/WarGames"
+ 4 Tags: algorithms, strings, object_oriented_programming, CLI
+
+Day 21 (16-04-23) Project: TicTacToeGUI
+"/home/mhered/cpp_100daysofcode/code/Day021_16-04-23/TicTacToeGUI"
+ 2 Tags: object_oriented_programming, GUI
+
+Day 22 (17-04-23) Project: 3Blinks
+"/home/mhered/cpp_100daysofcode/code/Day022_17-04-23/3Blinks"
+ 1 Tags: arduino
+
+Day 22 (17-04-23) Project: Arduino101
+"/home/mhered/cpp_100daysofcode/code/Day022_17-04-23/Arduino101"
+ 1 Tags: arduino
+
+Day 23 (18-04-23) Project: Lexicon
+"/home/mhered/cpp_100daysofcode/code/Day023_18-04-23/Lexicon"
+ 4 Tags: basics, algorithms, strings, object_oriented_programming
+
+Day 23 (18-04-23) Project: Recursion
+"/home/mhered/cpp_100daysofcode/code/Day023_18-04-23/Recursion"
+ 1 Tags: algorithms
+
+Day 24 (19-04-23) Project: CombinationSums
+"/home/mhered/cpp_100daysofcode/code/Day024_19-04-23/CombinationSums"
+ 1 Tags: algorithms
+
+Day 25 (20-04-23) Project: PitStops
+"/home/mhered/cpp_100daysofcode/code/Day025_20-04-23/PitStops"
+ 3 Tags: algorithms, strings, file_management
+
+Day 26 (21-04-23) Project: PlotGraph
+"/home/mhered/cpp_100daysofcode/code/Day026_21-04-23/PlotGraph"
+ 1 Tags: plotting_data
+
+Day 27 (22-04-23) Project: MorePlots
+"/home/mhered/cpp_100daysofcode/code/Day027_22-04-23/MorePlots"
+ 1 Tags: plotting_data
+
+Day 28 (23-04-23) Project: Tags
+"/home/mhered/cpp_100daysofcode/code/Day028_23-04-23/Tags"
+ 3 Tags: strings, file_management, plotting_data
+
+arduino:2
+testing:4
+GUI:3
+object_oriented_programming:5
+dates_times:2
+data_structures:2
+file_management:4
+CLI:2
+algorithms:17
+plotting_data:3
+chatGPT:1
+strings:14
+basics:14
