@@ -40,3 +40,27 @@ Create:
 
 * a `class cApp` inherited from `public wxApp`. Doesn't show anything, it is just a launcher.
 * a `class cMain` inherited from `public wxFrame` to make a window. In the constructor we override the base class with parent pointer (none because it is the root window), ID, and title.
+
+# Tags
+
+#tags: 
+- [ ] basics
+- [ ] algorithms
+- [ ] data_structures: trees, graphs
+- [ ] strings: regex
+- [ ] dates_times: timezones
+- [ ] file_management: input, output, folders and files
+- [ ] testing
+- [ ] exceptions
+- [ ] logging
+- [x] object_oriented_programming
+- [x] GUI
+- [ ] plotting_data
+- [ ] CLI
+- [ ] arduino
+- [ ] ROS
+- [ ] chatGPT
+- [ ] databases
+- [ ] API
+- [ ] web_scraping
+- [ ] OpenCV

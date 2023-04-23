@@ -25,3 +25,27 @@ median([-23, -43, -29, -53, -67]) ➞ -43
 
 * Sorting algorithms: https://www.geeksforgeeks.org/sorting-algorithms/
 * Exception handling: https://www.tutorialspoint.com/cplusplus/cpp_exceptions_handling.htm
+
+# Tags
+
+#tags: 
+- [ ] basics
+- [x] algorithms
+- [ ] data_structures: trees, graphs
+- [ ] strings: regex
+- [ ] dates_times: timezones
+- [ ] file_management: input, output, folders and files
+- [ ] testing
+- [ ] exceptions
+- [ ] logging
+- [ ] object_oriented_programming
+- [ ] GUI
+- [ ] plotting_data
+- [ ] CLI
+- [ ] arduino
+- [ ] ROS
+- [ ] chatGPT
+- [ ] databases
+- [ ] API
+- [ ] web_scraping
+- [ ] OpenCV

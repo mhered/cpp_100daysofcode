@@ -79,6 +79,7 @@ Maybe I can now go back and try Matplot++ again...
 
 #tags: 
 
+ -[ ] basics
 - [ ] algorithms
 - [ ] data_structures: trees, graphs
 - [ ] strings: regex

@@ -33,3 +33,27 @@ While analyzing this problem I realized I needed a way to explore all possible r
 Note this is a variation of the [CoinChange](https://github.com/mhered/cpp_100daysofcode/tree/main/code/Day010_05-04-23/CoinChange) problem from Day010. On that occasion we only needed the number of combinations, and now we need the function to return the actual list of all combinations possible. 
 
 The solution is based on what I learnt about [Recursion](https://github.com/mhered/cpp_100daysofcode/tree/main/code/Day023_18-04-23/Recursion) on Day 023 and also on the StackOverflow Q&A provided in the link.
+
+# Tags
+
+#tags: 
+- [ ] basics
+- [x] algorithms
+- [ ] data_structures: trees, graphs
+- [ ] strings: regex
+- [ ] dates_times: timezones
+- [ ] file_management: input, output, folders and files
+- [ ] testing
+- [ ] exceptions
+- [ ] logging
+- [ ] object_oriented_programming
+- [ ] GUI
+- [ ] plotting_data
+- [ ] CLI
+- [ ] arduino
+- [ ] ROS
+- [ ] chatGPT
+- [ ] databases
+- [ ] API
+- [ ] web_scraping
+- [ ] OpenCV

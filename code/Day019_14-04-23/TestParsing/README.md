@@ -85,3 +85,26 @@ std::cout << cars(527, 412, 951) << std::endl; // 131
 ```
 
 
+# Tags
+
+#tags: 
+- [ ] basics
+- [ ] algorithms
+- [ ] data_structures: trees, graphs
+- [x] strings: regex
+- [ ] dates_times: timezones
+- [ ] file_management: input, output, folders and files
+- [ ] testing
+- [ ] exceptions
+- [ ] logging
+- [ ] object_oriented_programming
+- [ ] GUI
+- [ ] plotting_data
+- [ ] CLI
+- [ ] arduino
+- [ ] ROS
+- [ ] chatGPT
+- [ ] databases
+- [ ] API
+- [ ] web_scraping
+- [ ] OpenCV

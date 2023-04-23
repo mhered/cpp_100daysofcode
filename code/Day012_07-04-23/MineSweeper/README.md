@@ -11,3 +11,27 @@ In this exercise we expand on the use of `wxWidgets` to build cross-platform GUI
 ## Bonus
 
 More fun with GUIs with `wxWidgets`: https://www.youtube.com/watch?v=FwUGeV2fnfM
+
+# Tags
+
+#tags: 
+- [ ] basics
+- [ ] algorithms
+- [ ] data_structures: trees, graphs
+- [ ] strings: regex
+- [ ] dates_times: timezones
+- [ ] file_management: input, output, folders and files
+- [ ] testing
+- [ ] exceptions
+- [ ] logging
+- [ ] object_oriented_programming
+- [x] GUI
+- [ ] plotting_data
+- [ ] CLI
+- [ ] arduino
+- [ ] ROS
+- [ ] chatGPT
+- [ ] databases
+- [ ] API
+- [ ] web_scraping
+- [ ] OpenCV

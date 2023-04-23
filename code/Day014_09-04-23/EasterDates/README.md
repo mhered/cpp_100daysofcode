@@ -36,3 +36,27 @@ Before 1600 the Julian calendar was used in most countries. The algorithm we wil
 * An Online Easter calculator: https://www.omnicalculator.com/everyday-life/easter
 * Meeus/Jones/Butcher Algorithm: https://en.wikipedia.org/wiki/Date_of_Easter#Anonymous_Gregorian_algorithm
 * Easter Sunday in history: https://www.rappler.com/newsbreak/iq/55843-easter-sunday-in-history/
+
+# Tags
+
+#tags: 
+- [ ] basics
+- [x] algorithms
+- [ ] data_structures: trees, graphs
+- [ ] strings: regex
+- [x] dates_times: timezones
+- [ ] file_management: input, output, folders and files
+- [ ] testing
+- [ ] exceptions
+- [ ] logging
+- [ ] object_oriented_programming
+- [ ] GUI
+- [ ] plotting_data
+- [ ] CLI
+- [ ] arduino
+- [ ] ROS
+- [ ] chatGPT
+- [ ] databases
+- [ ] API
+- [ ] web_scraping
+- [ ] OpenCV

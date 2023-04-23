@@ -61,3 +61,27 @@ sudo apt-get install libxml++5.0-dev libxml++5.0-doc
 ```
 
 Compiling instructions: https://libxmlplusplus.github.io/libxmlplusplus/manual/html/sect-comp-link.html
+
+# Tags
+
+#tags: 
+- [ ] basics
+- [ ] algorithms
+- [ ] data_structures: trees, graphs
+- [x] strings: regex
+- [ ] dates_times: timezones
+- [x] file_management: input, output, folders and files
+- [ ] testing
+- [ ] exceptions
+- [ ] logging
+- [ ] object_oriented_programming
+- [ ] GUI
+- [ ] plotting_data
+- [x] CLI
+- [ ] arduino
+- [ ] ROS
+- [ ] chatGPT
+- [ ] databases
+- [ ] API
+- [ ] web_scraping
+- [ ] OpenCV

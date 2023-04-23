@@ -17,3 +17,27 @@ I made a crude version and will leave it for later to implement something more p
 * For serious fun, a text file containing 479k English words (4Mb): https://github.com/dwyl/english-words
 * Lexicon ADT case study: a discussion on best data structures to store a lexicon: https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1212/lectures/28-lexicon/slides
 
+
+# Tags
+
+#tags: 
+- [x] basics
+- [x] algorithms
+- [ ] data_structures: trees, graphs
+- [x] strings: regex
+- [ ] dates_times: timezones
+- [ ] file_management: input, output, folders and files
+- [ ] testing
+- [ ] exceptions
+- [ ] logging
+- [x] object_oriented_programming
+- [ ] GUI
+- [ ] plotting_data
+- [ ] CLI
+- [ ] arduino
+- [ ] ROS
+- [ ] chatGPT
+- [ ] databases
+- [ ] API
+- [ ] web_scraping
+- [ ] OpenCV

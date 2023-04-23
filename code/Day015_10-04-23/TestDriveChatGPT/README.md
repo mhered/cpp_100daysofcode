@@ -500,3 +500,27 @@ def calculate_sphere_volume(radius):
 ```
 
 In general, the refactored code removes unnecessary comments (e.g., `# Import the math module`) that are already obvious from the code, and adds comments that explain what the code is doing (e.g., the docstrings for the two functions). Additionally, the code is written in a more Pythonic style, using snake_case for function names and adding whitespace around operators for readability.
+
+# Tags
+
+#tags: 
+- [ ] basics
+- [ ] algorithms
+- [x] data_structures: trees, graphs
+- [ ] strings: regex
+- [ ] dates_times: timezones
+- [ ] file_management: input, output, folders and files
+- [x] testing
+- [ ] exceptions
+- [ ] logging
+- [ ] object_oriented_programming
+- [ ] GUI
+- [ ] plotting_data
+- [ ] CLI
+- [ ] arduino
+- [ ] ROS
+- [x] chatGPT
+- [ ] databases
+- [ ] API
+- [ ] web_scraping
+- [ ] OpenCV

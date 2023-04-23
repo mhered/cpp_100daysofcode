@@ -15,3 +15,27 @@ appends a vector of strings as lines to the end of a text file `filename`. Retur
 `bool readTextFromFile(std::string filename)`
 
 reads lines from a text file `filename` and prints them out separated by `\n`. Returns `true` if successful `false` otherwise. 
+
+# Tags
+
+#tags: 
+- [ ] basics
+- [ ] algorithms
+- [ ] data_structures: trees, graphs
+- [ ] strings: regex
+- [ ] dates_times: timezones
+- [x] file_management: input, output, folders and files
+- [ ] testing
+- [ ] exceptions
+- [ ] logging
+- [ ] object_oriented_programming
+- [ ] GUI
+- [ ] plotting_data
+- [ ] CLI
+- [ ] arduino
+- [ ] ROS
+- [ ] chatGPT
+- [ ] databases
+- [ ] API
+- [ ] web_scraping
+- [ ] OpenCV

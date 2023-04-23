@@ -29,3 +29,28 @@ maskify("") ➞ ""
 
 * Try a bit of crude unit testing!
 * For the future: Test-driven development and unit testing with examples in C++ https://alexott.net/en/cpp/CppTestingIntro.html
+
+
+# Tags
+
+#tags: 
+- [x] basics
+- [x] algorithms
+- [ ] data_structures: trees, graphs
+- [x] strings: regex
+- [ ] dates_times: timezones
+- [ ] file_management: input, output, folders and files
+- [ ] testing
+- [ ] exceptions
+- [ ] logging
+- [ ] object_oriented_programming
+- [ ] GUI
+- [ ] plotting_data
+- [ ] CLI
+- [ ] arduino
+- [ ] ROS
+- [ ] chatGPT
+- [ ] databases
+- [ ] API
+- [ ] web_scraping
+- [ ] OpenCV

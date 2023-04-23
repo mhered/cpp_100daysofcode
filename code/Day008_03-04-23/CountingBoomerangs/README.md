@@ -39,3 +39,27 @@ countBoomerangs([4, 4, 4, 9, 9, 9, 9]) ➞ 0
 ### Notes
 
 `[5, 5, 5]` (triple identical digits) is NOT considered a boomerang because the middle digit is identical to the first and last.
+
+# Tags
+
+#tags: 
+- [x] basics
+- [x] algorithms
+- [ ] data_structures: trees, graphs
+- [ ] strings: regex
+- [ ] dates_times: timezones
+- [ ] file_management: input, output, folders and files
+- [ ] testing
+- [ ] exceptions
+- [ ] logging
+- [ ] object_oriented_programming
+- [ ] GUI
+- [ ] plotting_data
+- [ ] CLI
+- [ ] arduino
+- [ ] ROS
+- [ ] chatGPT
+- [ ] databases
+- [ ] API
+- [ ] web_scraping
+- [ ] OpenCV

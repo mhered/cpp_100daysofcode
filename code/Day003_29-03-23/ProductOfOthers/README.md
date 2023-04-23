@@ -20,3 +20,27 @@ canPartition([-1, -20, 5, -1, -2, 2]) ➞ true
 - The array may contain duplicates.
 - Multiple solutions can exist, any solution is sufficient to return `true`.
 - Careful with edge case where there are zeroes in the vector!
+
+# Tags
+
+#tags: 
+- [x] basics
+- [x] algorithms
+- [ ] data_structures: trees, graphs
+- [ ] strings: regex
+- [ ] dates_times: timezones
+- [ ] file_management: input, output, folders and files
+- [ ] testing
+- [ ] exceptions
+- [ ] logging
+- [ ] object_oriented_programming
+- [ ] GUI
+- [ ] plotting_data
+- [ ] CLI
+- [ ] arduino
+- [ ] ROS
+- [ ] chatGPT
+- [ ] databases
+- [ ] API
+- [ ] web_scraping
+- [ ] OpenCV

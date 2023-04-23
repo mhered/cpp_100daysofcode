@@ -132,6 +132,7 @@ Race #14: best time is 41111110788620s
 
 #tags: 
 
+- [ ] basics
 - [x] algorithms
 - [ ] data_structures: trees, graphs
 - [x] strings: regex

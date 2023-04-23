@@ -18,3 +18,26 @@ All given dates will be in the year 2020.
 
 Used this Stack Overflow answer: https://stackoverflow.com/a/19482626 to validate the date, and this one: https://stackoverflow.com/a/9988487 for the subtraction of dates
 
+# Tags
+
+#tags: 
+- [ ] basics
+- [ ] algorithms
+- [ ] data_structures: trees, graphs
+- [ ] strings: regex
+- [x] dates_times: timezones
+- [ ] file_management: input, output, folders and files
+- [ ] testing
+- [ ] exceptions
+- [ ] logging
+- [ ] object_oriented_programming
+- [ ] GUI
+- [ ] plotting_data
+- [ ] CLI
+- [ ] arduino
+- [ ] ROS
+- [ ] chatGPT
+- [ ] databases
+- [ ] API
+- [ ] web_scraping
+- [ ] OpenCV

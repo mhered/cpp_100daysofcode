@@ -56,3 +56,27 @@ Expected output for this buildings input list:
 Write the function that generates the visual representation above
 
 `void plot_skyline (std::vector<int> skyline)`
+
+# Tags
+
+#tags: 
+- [ ] basics
+- [x] algorithms
+- [ ] data_structures: trees, graphs
+- [x] strings: regex
+- [ ] dates_times: timezones
+- [ ] file_management: input, output, folders and files
+- [ ] testing
+- [ ] exceptions
+- [ ] logging
+- [ ] object_oriented_programming
+- [ ] GUI
+- [ ] plotting_data
+- [ ] CLI
+- [ ] arduino
+- [ ] ROS
+- [ ] chatGPT
+- [ ] databases
+- [ ] API
+- [ ] web_scraping
+- [ ] OpenCV

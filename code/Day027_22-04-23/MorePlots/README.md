@@ -73,6 +73,7 @@ I played with the examples in the library and added a 3dplot, a heat map and a p
 
 #tags: 
 
+- [ ] basics
 - [ ] algorithms
 - [ ] data_structures: trees, graphs
 - [ ] strings: regex

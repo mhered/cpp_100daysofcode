@@ -43,3 +43,27 @@ Brute force: 125146 combinations (Elapsed Time: 904134 microseconds)
 Top Down dp: 125146 combinations (Elapsed Time: 302 microseconds)
 Bottom Up dp: 125146 combinations (Elapsed Time: 27 microseconds)
 ```
+
+# Tags
+
+#tags: 
+- [ ] basics
+- [x] algorithms
+- [ ] data_structures: trees, graphs
+- [ ] strings: regex
+- [ ] dates_times: timezones
+- [ ] file_management: input, output, folders and files
+- [ ] testing
+- [ ] exceptions
+- [ ] logging
+- [ ] object_oriented_programming
+- [ ] GUI
+- [ ] plotting_data
+- [ ] CLI
+- [ ] arduino
+- [ ] ROS
+- [ ] chatGPT
+- [ ] databases
+- [ ] API
+- [ ] web_scraping
+- [ ] OpenCV

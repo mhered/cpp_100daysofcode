@@ -24,3 +24,27 @@ fizzBuzz(4) ➞ "4"
 - Try to be precise with how you spell things and where you put the capital letters.
 - If you get stuck on a challenge, find help in the **Resources** tab.
 - If you're really stuck, unlock solutions in the **Solutions** tab.
+
+# Tags
+
+#tags: 
+- [x] basics
+- [ ] algorithms
+- [ ] data_structures: trees, graphs
+- [ ] strings: regex
+- [ ] dates_times: timezones
+- [ ] file_management: input, output, folders and files
+- [ ] testing
+- [ ] exceptions
+- [ ] logging
+- [ ] object_oriented_programming
+- [ ] GUI
+- [ ] plotting_data
+- [ ] CLI
+- [ ] arduino
+- [ ] ROS
+- [ ] chatGPT
+- [ ] databases
+- [ ] API
+- [ ] web_scraping
+- [ ] OpenCV
