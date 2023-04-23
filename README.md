@@ -107,3 +107,6 @@ Day 25: #100DaysOfCode in #Cpp progress - today I worked on the project PitStops
  ## 21-04-23
 
 Day 26: #100DaysOfCode in #Cpp progress - today I looked around for C++ libraries to plot graphs and I found https://sciplot.github.io/: PlotGraph https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day026_21-04-23/PlotGraph
+ ## 22-04-23
+
+Day 27: #100DaysOfCode in #Cpp progress - today I played with the excellent Matplot++ library: 2D and 3D plots, images, maps, heatmaps, word clouds... MorePlots https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day027_22-04-23/MorePlots (see https://github.com/alandefreitas/matplotplusplus)
