@@ -20,6 +20,7 @@ Write a program that will:
 
 * https://stackoverflow.com/questions/612097/how-can-i-get-the-list-of-files-in-a-directory-using-c-or-c
 * https://www.boost.org/doc/libs/1_82_0/libs/filesystem/doc/tutorial.html
+* Counter: https://stackoverflow.com/a/62518678/15472802
 
 ## Output
 
