@@ -104,3 +104,6 @@ Day 24: #100DaysOfCode in #Cpp progress - yesterday I didn't complete the challe
  ## 20-04-23
 
 Day 25: #100DaysOfCode in #Cpp progress - today I worked on the project PitStops https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day025_20-04-23/PitStops (see https://www.codechef.com/problems/REFUELS?tab=statement)
+ ## 21-04-23
+
+Day 26: #100DaysOfCode in #Cpp progress - today I looked around for C++ libraries to plot graphs and I found https://sciplot.github.io/: PlotGraph https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day026_21-04-23/PlotGraph
