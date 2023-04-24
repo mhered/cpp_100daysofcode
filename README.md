@@ -114,3 +114,7 @@ Day 27: #100DaysOfCode in #Cpp progress - today I played with the excellent Matp
  ## 23-04-23
 
 Day 28: #100DaysOfCode in #Cpp progress - today added tags to all my projects and built a simple app to keep track of the progress. A nice excuse to practice #filesystem #counters #parsing strings #Matplotplusplus etc: Tags https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day028_23-04-23/Tags 
+
+ ## 24-04-23
+
+Day 29: #100DaysOfCode in #Cpp progress - today I worked on the project 8Queens https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day029_24-04-23/8Queens (see https://www.youtube.com/watch?v=NdF1QDTRkck)
