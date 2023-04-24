@@ -30,7 +30,6 @@ My log for the #100DaysOfCode challenge with C++
  ## 27-03-23
 
 Day 1 #100DaysOfCode #cpp progress: today I worked on the following challenges: Burrrrrrrp https://edabit.com/challenge/vxpP4nnDhRr2Yc3Lo and PowerCalculator https://edabit.com/challenge/a2D3cva6PKrHyqdXC
-
  ## 28-03-23
 
 Day 2: #100DaysOfCode in #Cpp progress - today I worked on the challenges AddNumbers https://edabit.com/challenge/XDx6JoaumAimRHgEt, FizzBuzz https://edabit.com/challenge/Ao7fJta5kEMNHSYEa and RockPaperScissors https://edabit.com/challenge/MYqnQ3DpPZi9di4iW
@@ -85,7 +84,6 @@ Day 18: #100DaysOfCode in #Cpp progress - a very simple one today: ToyCars https
  ## 14-04-23
 
 Day 19: #100DaysOfCode in #Cpp progress - today I built myself a simple tool to translate edabit tests. It's crude, but it works, and it will save some typing: TestParsing https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day019_14-04-23/TestParsing
-
  ## 15-04-23
 
 Day 20: #100DaysOfCode in #Cpp progress - today I wrote a TicTacToe computer player inspired by the 80's cult classic WarGames https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day020_15-04-23/WarGames (see https://www.geeksforgeeks.org/finding-optimal-move-in-tic-tac-toe-using-minimax-algorithm-in-game-theory/)
@@ -110,11 +108,9 @@ Day 26: #100DaysOfCode in #Cpp progress - today I looked around for C++ librarie
  ## 22-04-23
 
 Day 27: #100DaysOfCode in #Cpp progress - today I played with the excellent Matplot++ library: 2D and 3D plots, images, maps, heatmaps, word clouds... MorePlots https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day027_22-04-23/MorePlots (see https://github.com/alandefreitas/matplotplusplus)
-
  ## 23-04-23
 
 Day 28: #100DaysOfCode in #Cpp progress - today added tags to all my projects and built a simple app to keep track of the progress. A nice excuse to practice #filesystem #counters #parsing strings #Matplotplusplus etc: Tags https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day028_23-04-23/Tags 
-
  ## 24-04-23
 
 Day 29: #100DaysOfCode in #Cpp progress - today I worked on the project 8Queens https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day029_24-04-23/8Queens (see https://www.youtube.com/watch?v=NdF1QDTRkck)
