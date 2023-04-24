@@ -39,9 +39,9 @@ num_challenges = len(challenges)
 if num_challenges > 0:
     connectors = [", "]*(num_challenges)
     if num_challenges == 1:
-        connectors[0] = "I worked on the challenge "
+        connectors[0] = "I worked on the project "
     else:
-        connectors[0] = "I worked on the challenges "
+        connectors[0] = "I worked on the projects "
         connectors[-1] = " and "
 
     for connector, challenge, external_link, github_link in zip(connectors, challenges, external_links, github_links):
