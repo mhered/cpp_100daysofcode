@@ -116,4 +116,4 @@ Day 28: #100DaysOfCode in #Cpp progress - today added tags to all my projects an
 Day 29: #100DaysOfCode in #Cpp progress - today I worked on the project 8Queens https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day029_24-04-23/8Queens (see https://www.youtube.com/watch?v=NdF1QDTRkck)
  ## 25-04-23
 
-Day 30: #100DaysOfCode in #Cpp progress - today I worked on the projects Challenge2 https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day030_25-04-23/Challenge2 (see ) and ToDoListCLI https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day030_25-04-23/ToDoListCLI (see https://www.youtube.com/watch?v=1DR-Sj-RLzQ)
+Day 30: #100DaysOfCode in #Cpp progress - today I worked on the project ToDoListCLI https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day030_25-04-23/ToDoListCLI (see https://www.youtube.com/watch?v=1DR-Sj-RLzQ)
