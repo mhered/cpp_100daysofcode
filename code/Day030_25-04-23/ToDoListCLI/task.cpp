@@ -240,15 +240,17 @@ bool log()
 
 void help()
 {
-    std::string msg = "TASK HELP\n";
-    msg += "help - display this help                $ ./task help\n";
-    msg += "ls   - show the list of pending tasks   $ ./task ls\n";
-    msg += "log  - show the log of completed tasks  $ ./task log\n";
-    msg += "add  - add a new pending task           $ ./task add \"New task\" \n";
-    msg += "del  - delete tasks (by #)              $ ./task del 2 3 10\n";
-    msg += "done - set tasks as complete (by #)     $ ./task done 1 2\n";
-    msg += "prio - prioritize tasks (by #)          $ ./task prio 6 3\n";
-    msg += "stat - display a status report          $ ./task stat\n";
+    std::string msg = "task- A simple command line interface To Do manager\n\n";
+    msg += "Usage: ./task {command} {parameters}\n\n";
+    msg += "Available commands:\n\n";
+    msg += "  help - display this help                $ ./task help\n";
+    msg += "  ls   - show the list of pending tasks   $ ./task ls\n";
+    msg += "  log  - show the log of completed tasks  $ ./task log\n";
+    msg += "  add  - add a new pending task           $ ./task add \"New task\" \n";
+    msg += "  del  - delete tasks (by #)              $ ./task del 2 3 10\n";
+    msg += "  done - set tasks as complete (by #)     $ ./task done 1 2\n";
+    msg += "  prio - prioritize a task (by #)         $ ./task prio 6\n";
+    msg += "  stat - display a status report          $ ./task stat\n";
 
     std::cout << msg << std::endl;
 }
