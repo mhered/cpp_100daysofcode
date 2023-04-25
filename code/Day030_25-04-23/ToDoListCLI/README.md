@@ -43,7 +43,7 @@ I cleaned up the code a bit, e.g. using auxiliary functions to avoid repetition,
 - [ ] data_structures: trees, graphs
 - [x] strings: regex
 - [x] dates_times: timezones
-- [ ] file_management: input, output, folders and files
+- [x] file_management: input, output, folders and files
 - [ ] testing
 - [ ] exceptions
 - [ ] logging
