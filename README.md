@@ -117,3 +117,6 @@ Day 29: #100DaysOfCode in #Cpp progress - today I worked on the project 8Queens 
  ## 25-04-23
 
 Day 30: #100DaysOfCode in #Cpp progress - today I worked on the project ToDoListCLI https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day030_25-04-23/ToDoListCLI (see https://www.youtube.com/watch?v=1DR-Sj-RLzQ)
+ ## 26-04-23
+
+Day 31: #100DaysOfCode in #Cpp progress - today I started a command line app that takes a string and transmits it in Morse code by flashing an Arduino-controlled LED. I did 2 parts out of 3 today: Morse1 https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day031_26-04-23/Morse1 & Morse2 https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day031_26-04-23/Morse2, more tomorrow!
