@@ -120,3 +120,6 @@ Day 30: #100DaysOfCode in #Cpp progress - today I worked on the project ToDoList
  ## 26-04-23
 
 Day 31: #100DaysOfCode in #Cpp progress - today I started a command line app that takes a string and transmits it in Morse code by flashing an Arduino-controlled LED. I did 2 parts out of 3 today: Morse1 https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day031_26-04-23/Morse1 & Morse2 https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day031_26-04-23/Morse2, more tomorrow!
+ ## 27-04-23
+
+Day 32: #100DaysOfCode in #Cpp progress - today I built the serial interface to get Arduino to transmit Morse code messages: Morse3 https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day032_27-04-23/Morse3 (see https://forum.arduino.cc/t/serial-input-basics-updated/382007)
