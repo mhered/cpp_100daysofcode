@@ -28,7 +28,7 @@ bool sendMessage()
 {
     if (newData == true)
     {
-        Serial.print("Just received: ");
+        Serial.print("Arduino received: ");
         Serial.println(Msg);
         delay(10 * TIME_UNIT); // give time to look at LED
 
@@ -38,7 +38,7 @@ bool sendMessage()
         {
             if (Msg[i] == '\n' || Msg[i] == '\r') // char 13  == '\r' carriage return
             {
-                Serial.println("SUCCESS Message sent!");
+                Serial.println("<SUCCESS Message sent!>");
                 newData = false;
                 return true;
             }
@@ -50,20 +50,18 @@ bool sendMessage()
             }
             else // invalid character
             {
-                Serial.print("ERROR Invalid character: ");
+                Serial.print("<ERROR Invalid character: ");
                 Serial.print((int)Msg[i]);
                 Serial.print(" (");
                 Serial.print((int)'\0');
-                Serial.println(")");
+                Serial.println(")>");
                 break;
             }
         }
-
         newData = false;
         return true;
     }
 }
-
 
 void receiveMessageWithEndMarker()
 {
