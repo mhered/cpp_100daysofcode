@@ -126,3 +126,6 @@ Day 32: #100DaysOfCode in #Cpp progress - today I built the serial interface to 
  ## 28-04-23
 
 Day 33: #100DaysOfCode in #Cpp progress - today I worked on the project ProgressBar https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day033_28-04-23/ProgressBar (see https://stackoverflow.com/questions/14539867/how-to-display-a-progress-indicator-in-pure-c-c-cout-printf/14539953#14539953)
+ ## 29-04-23
+
+Day 34: #100DaysOfCode in #Cpp progress - today I learnt to exchange data between C++ and Arduino through serial using the #libSerial library: ArduinoSerial https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day034_29-04-23/ArduinoSerial (see https://libserial.readthedocs.io/en/latest/tutorial.html)
