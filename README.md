@@ -123,3 +123,6 @@ Day 31: #100DaysOfCode in #Cpp progress - today I started a command line app tha
  ## 27-04-23
 
 Day 32: #100DaysOfCode in #Cpp progress - today I built the serial interface to get Arduino to transmit Morse code messages: Morse3 https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day032_27-04-23/Morse3 (see https://forum.arduino.cc/t/serial-input-basics-updated/382007)
+ ## 28-04-23
+
+Day 33: #100DaysOfCode in #Cpp progress - today I worked on the project ProgressBar https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day033_28-04-23/ProgressBar (see https://stackoverflow.com/questions/14539867/how-to-display-a-progress-indicator-in-pure-c-c-cout-printf/14539953#14539953)
