@@ -132,3 +132,6 @@ Day 34: #100DaysOfCode in #Cpp progress - today I learnt to exchange data betwee
  ## 30-04-23
 
 Day 35: #100DaysOfCode in #Cpp progress - today was an easy one: CumSum https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day035_30-04-23/CumSum 
+ ## 01-05-23
+
+Day 36: #100DaysOfCode in #Cpp progress - today I worked with #Matplotcplusplus to improve the progress report: BetterTags https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day036_01-05-23/BetterTags
