@@ -10,7 +10,7 @@ Improve the graphical representation of the tags information obtained in the pro
 - [ ] show also add tags with 0 count
 - [ ] fix aspect ratio of the graph
 
-![](./Day036.png)
+![](./tag_bars.png)
 
 # Tags
 #tags: 
