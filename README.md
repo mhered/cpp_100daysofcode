@@ -129,3 +129,6 @@ Day 33: #100DaysOfCode in #Cpp progress - today I worked on the project Progress
  ## 29-04-23
 
 Day 34: #100DaysOfCode in #Cpp progress - today I learnt to exchange data between C++ and Arduino through serial using the #libSerial library: ArduinoSerial https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day034_29-04-23/ArduinoSerial (see https://libserial.readthedocs.io/en/latest/tutorial.html)
+ ## 30-04-23
+
+Day 35: #100DaysOfCode in #Cpp progress - today was an easy one: CumSum https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day035_30-04-23/CumSum 
