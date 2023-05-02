@@ -271,12 +271,13 @@ int main()
 
     if (y.size())
     {
-        auto h = matplot::polarhistogram(theta, labels.size()); // distribute in as many bins a s labels
+        // distribute in as many bins as there are labels
+        auto h = matplot::polarhistogram(theta, labels.size());
 
         h->face_color("red");
         h->face_alpha(1.f - 0.3f);
 
-        // add labels
+        // add custom text labels
         std::vector<double> x_t, y_t;
         std::vector<std::string> str_t;
 
@@ -288,7 +289,8 @@ int main()
             str_t.push_back(str);
         }
 
-        matplot::xticklabels({}); // this does not remove ticks
+        // this does not work to remove ticks or labels
+        matplot::xticklabels({});
         matplot::xticks({});
 
         matplot::text(x_t, y_t, str_t);
