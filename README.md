@@ -135,3 +135,6 @@ Day 35: #100DaysOfCode in #Cpp progress - today was an easy one: CumSum https://
  ## 01-05-23
 
 Day 36: #100DaysOfCode in #Cpp progress - today I worked with #Matplotcplusplus to improve the progress report: BetterTags https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day036_01-05-23/BetterTags
+ ## 02-05-23
+
+Day 37: #100DaysOfCode in #Cpp progress - today I worked on the project PolarHistogram https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day037_02-05-23/PolarHistogram (more #Matplotplusplus)
