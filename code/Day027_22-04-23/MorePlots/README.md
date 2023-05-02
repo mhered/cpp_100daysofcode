@@ -15,7 +15,7 @@ Top recommendations after some googling (e.g. https://stackoverflow.com/question
 
 ## Matplot++
 
-Second try at Matplot++, see if it works adding  `  "-std=c++17",` to `args` in `tasks.json`  (yesterady it was not using C++v17) Seen here: https://stackoverflow.com/questions/49397233/how-to-enable-c17-support-in-vscode-c-extension
+Second try at Matplot++, see if it works adding  `  "-std=c++17",` to `args` in `tasks.json`  (yesterday it was not using C++ v17) Seen here: https://stackoverflow.com/questions/49397233/how-to-enable-c17-support-in-vscode-c-extension
 
 * need `vcpkg` (https://github.com/microsoft/vcpkg#quick-start-unix):
 
