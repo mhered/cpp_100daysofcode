@@ -141,3 +141,6 @@ Day 37: #100DaysOfCode in #Cpp progress - today I worked on the project PolarHis
  ## 03-05-23
 
 Day 38: #100DaysOfCode in #Cpp progress - today I worked on the project OpenCVIntro https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day038_03-05-23/OpenCVIntro (see https://medium.com/analytics-vidhya/how-to-install-opencv-for-visual-studio-code-using-ubuntu-os-9398b2f32d53)
+ ## 04-05-23
+
+Day 39: #100DaysOfCode in #Cpp progress - today I celebrated #StarWarsday day with a silly one: StarWarsNameGenerator https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day039_04-05-23/StarWarsNameGenerator
