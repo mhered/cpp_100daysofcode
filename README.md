@@ -138,3 +138,6 @@ Day 36: #100DaysOfCode in #Cpp progress - today I worked with #Matplotcplusplus 
  ## 02-05-23
 
 Day 37: #100DaysOfCode in #Cpp progress - today I worked on the project PolarHistogram https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day037_02-05-23/PolarHistogram (more #Matplotplusplus)
+ ## 03-05-23
+
+Day 38: #100DaysOfCode in #Cpp progress - today I worked on the project OpenCVIntro https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day038_03-05-23/OpenCVIntro (see https://medium.com/analytics-vidhya/how-to-install-opencv-for-visual-studio-code-using-ubuntu-os-9398b2f32d53)
