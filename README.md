@@ -144,3 +144,6 @@ Day 38: #100DaysOfCode in #Cpp progress - today I worked on the project OpenCVIn
  ## 04-05-23
 
 Day 39: #100DaysOfCode in #Cpp progress - today I celebrated #StarWarsday day with a silly one: StarWarsNameGenerator https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day039_04-05-23/StarWarsNameGenerator
+ ## 05-05-23
+
+Day 40: #100DaysOfCode in #Cpp progress - today I practiced real-time video processing with the #OpenCV library - resizing, filtering annotation, and more: MoreOpenCV https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day040_05-05-23/MoreOpenCV (see https://opencv-srf.com/p/opencv-lessons.html)
