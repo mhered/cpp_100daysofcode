@@ -147,3 +147,6 @@ Day 39: #100DaysOfCode in #Cpp progress - today I celebrated #StarWarsday day wi
  ## 05-05-23
 
 Day 40: #100DaysOfCode in #Cpp progress - today I practiced real-time video processing with the #OpenCV library - resizing, filtering annotation, and more: MoreOpenCV https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day040_05-05-23/MoreOpenCV (see https://opencv-srf.com/p/opencv-lessons.html)
+ ## 06-05-23
+
+Day 41: #100DaysOfCode in #Cpp progress - more #OpenCV today  - I worked on the project DuckieTracker https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day041_06-05-23/DuckieTracker (see https://www.opencv-srf.com/p/opencv-lessons.html)
