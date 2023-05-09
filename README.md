@@ -150,3 +150,6 @@ Day 40: #100DaysOfCode in #Cpp progress - today I practiced real-time video proc
  ## 06-05-23
 
 Day 41: #100DaysOfCode in #Cpp progress - more #OpenCV today  - I worked on the project DuckieTracker https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day041_06-05-23/DuckieTracker (see https://www.opencv-srf.com/p/opencv-lessons.html)
+ ## 07-05-23
+
+Day 42: #100DaysOfCode in #Cpp progress - today I worked on the project LargestIsland https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day042_07-05-23/LargestIsland (see https://edabit.com/challenge/EmEaT9K4wKe3g6QH3)
