@@ -156,3 +156,6 @@ Day 42: #100DaysOfCode in #Cpp progress - today I worked on the project LargestI
  ## 08-05-23
 
 Day 43: #100DaysOfCode in #Cpp progress - today I worked on the project Exceptions https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day043_08-05-23/Exceptions (see https://www.learncpp.com/cpp-tutorial/the-need-for-exceptions/)
+ ## 09-05-23
+
+Day 44: #100DaysOfCode in #Cpp progress - today I worked on the project FaceDetector https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day044_09-05-23/FaceDetector (see https://medium.com/analytics-vidhya/building-a-face-detector-with-opencv-in-c-8814cd374ea1) #OpenCV #AI Credit sample video: Thirdman https://www.pexels.com/video/woman-taking-selfie-with-friends-8020479/
