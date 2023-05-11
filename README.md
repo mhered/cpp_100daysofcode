@@ -10,19 +10,23 @@ My log for the #100DaysOfCode challenge with C++
     * reads the title of each challenge from the subfolder names inside the day folder that matches the current date 
     * inside each challenge subfolder it searches the file `README.md` for the line that starts with `#link:` to extract the link to each challenge
     * composes a progress tweet to add to the thread and appends it to this README.md
+* `todo` folder contains the pipeline of future projects
 
 ## C++ learning resources
 
-* https://edabit.com/challenges - resource with bite-sized exercises in several languages
-
-* https://www.learncpp.com/ - free resource to learn C++ seems, quite detailed and frequently updated
-
 * https://omkarghotekar.medium.com/100-days-of-code-complete-guide-w-resources-beginner-aae12a8af926 - a guide with resources to approach 100 days of code challenges 
 
-* https://www.geeksforgeeks.org/c-plus-plus/
+* https://edabit.com/challenges - resource with bite-sized exercises in several languages
+* https://www.learncpp.com/ - free resource to learn C++ seems, quite detailed and frequently updated, with example code: OOP, exceptions, STL etc
 
-* https://app.theconstructsim.com/Course/59/ - C++ for Robotics
+* https://www.geeksforgeeks.org/c-plus-plus/ -another track including also puzzles, competitive programming etc
+
+* https://en.cppreference.com/w/cpp/links/libs - list of libraries
+
+* [A curated list of (awesome) header-only C++ libraries](https://github.com/p-ranav/awesome-hpp) - more libraries
+
 * https://stackoverflow.com/questions/388242/the-definitive-c-book-guide-and-list - The Definitive C++ Book Guide and List
+* https://app.theconstructsim.com/Course/59/ - C++ for Robotics
 
 ---
 
@@ -162,3 +166,6 @@ Day 44: #100DaysOfCode in #Cpp progress - today I worked on the project FaceDete
  ## 10-05-23
 
 Day 45: #100DaysOfCode in #Cpp progress - today I worked on the project Pedestrians https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day045_10-05-23/Pedestrians (see https://youtube.com/watch?v=5SzNuPSaISM), detecting movement via image subtraction and processing #OpenCV
+ ## 11-05-23
+
+Day 46: #100DaysOfCode in #Cpp progress - today I worked on the project PredictMouseMove https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day046_11-05-23/PredictMouseMove (see https://www.youtube.com/watch?v=Tbcn7XTXunA&t=0s)

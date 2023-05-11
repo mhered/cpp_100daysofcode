@@ -1,6 +1,8 @@
-#link:
+#link: https://www.youtube.com/watch?v=Tbcn7XTXunA&t=0s
 
-# Title
+# Predicting Mouse Movement
+
+Tutorial 3 of the OpenCV Car Counting Series - modified to work on OpenCV v4.
 
 # Tags
 #tags: 
@@ -24,4 +26,4 @@
 - [ ] databases
 - [ ] API
 - [ ] web_scraping
-- [ ] OpenCV
+- [x] OpenCV
