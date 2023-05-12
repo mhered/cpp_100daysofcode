@@ -169,3 +169,6 @@ Day 45: #100DaysOfCode in #Cpp progress - today I worked on the project Pedestri
  ## 11-05-23
 
 Day 46: #100DaysOfCode in #Cpp progress - today I worked on the project PredictMouseMove https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day046_11-05-23/PredictMouseMove (see https://www.youtube.com/watch?v=Tbcn7XTXunA&t=0s)
+ ## 12-05-23
+
+Day 47: #100DaysOfCode in #Cpp progress - today I worked on the project Scrabble https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day047_12-05-23/Scrabble (see https://edabit.com/challenge/7k2mo5kHBuMJGdP5f)
