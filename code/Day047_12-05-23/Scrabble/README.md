@@ -33,7 +33,7 @@ Create a function that takes an array of words, scores the words based on the  S
 | Y      | 4      |
 | Z      | 10     |
 
-### Examples
+## Examples
 
 ```
 bestWords({"got","test","oh","sat","rents"}) -> {"oh","rents"}
@@ -44,16 +44,16 @@ bestWords({"library","index","memory","ghosts","quit"}) -> {"library","index","m
 bestWords({"singing","swine","llamas","crunchy","creamy"}) -> {"crunchy"}
 ```
 
-### Notes
-
-Input and output should both be arrays (see tests).
+## Notes
+* Input and output should both be arrays (see tests).
+* Use a `std::map` to store the table of Scrabble scores
 
 # Tags
 #tags: 
 
-- [ ] basics
+- [x] basics
 - [ ] algorithms
-- [ ] data_structures: trees, graphs
+- [x] data_structures: trees, graphs
 - [ ] strings: regex
 - [ ] dates_times: timezones
 - [ ] file_management: input, output, folders and files
