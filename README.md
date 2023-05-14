@@ -172,3 +172,6 @@ Day 46: #100DaysOfCode in #Cpp progress - today I worked on the project PredictM
  ## 12-05-23
 
 Day 47: #100DaysOfCode in #Cpp progress - today I worked on the project Scrabble https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day047_12-05-23/Scrabble (see https://edabit.com/challenge/7k2mo5kHBuMJGdP5f)
+ ## 13-05-23
+
+Day 48: #100DaysOfCode in #Cpp progress - today I worked on the project MultipleObjectTracking https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day048_13-05-23/MultipleObjectTracking (see https://www.youtube.com/watch?v=A4UDOAOTRdw)
