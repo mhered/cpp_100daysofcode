@@ -1,14 +1,18 @@
-#link:
+#link: https://thecodingtrain.com/challenges/166-image-to-ascii
 
-# Title
+# ASCII Video
+
+Use OpenCV to capture video and show it as ASCII art.
+Inspired by the tutorial in the link, which is for JS, not C++.
+
 
 # Tags
 #tags: 
 
-- [ ] basics
+- [x] basics
 - [ ] algorithms
 - [ ] data_structures: trees, graphs
-- [ ] strings: regex
+- [x] strings: regex
 - [ ] dates_times: timezones
 - [ ] file_management: input, output, folders and files
 - [ ] testing
@@ -24,4 +28,4 @@
 - [ ] databases
 - [ ] API
 - [ ] web_scraping
-- [ ] OpenCV
+- [x] OpenCV

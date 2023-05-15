@@ -175,3 +175,6 @@ Day 47: #100DaysOfCode in #Cpp progress - today I worked on the project Scrabble
  ## 13-05-23
 
 Day 48: #100DaysOfCode in #Cpp progress - today I worked on the project MultipleObjectTracking https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day048_13-05-23/MultipleObjectTracking (see https://www.youtube.com/watch?v=A4UDOAOTRdw)
+ ## 14-05-23
+
+Day 49: #100DaysOfCode in #Cpp progress - today I worked on the project Video2ASCII https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day049_14-05-23/Video2ASCII (see https://thecodingtrain.com/challenges/166-image-to-ascii)
