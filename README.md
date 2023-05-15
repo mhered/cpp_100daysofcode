@@ -178,3 +178,7 @@ Day 48: #100DaysOfCode in #Cpp progress - today I worked on the project Multiple
  ## 14-05-23
 
 Day 49: #100DaysOfCode in #Cpp progress - today I worked on the project Video2ASCII https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day049_14-05-23/Video2ASCII (see https://thecodingtrain.com/challenges/166-image-to-ascii)
+
+ ## 15-05-23
+
+Day 50: #100DaysOfCode in #Cpp progress - today I worked on the project CountingCars https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day050_15-05-23/CountingCars (see https://www.youtube.com/watch?v=Y3ac5rFMNZ0&t=0s)
