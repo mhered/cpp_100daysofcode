@@ -11,6 +11,14 @@ Repo: https://github.com/MicrocontrollersAndMore/OpenCV_3_Car_Counting_Cpp/tree/
 
 The idea of assigning an individual color to each car and drawing the last portion of the trayectory of the centre was taken from this example: https://www.youtube.com/watch?v=Z9X3IhHytrQ
 
+
+Sample files (not committed):
+* "CarsDrivingUnderBridge.mp4" original sample file from this repo: https://github.com/MicrocontrollersAndMore/OpenCV_3_Car_Counting_Cpp, works very well with crossing line at 35%
+* "count_cars_2.mp4" - zoomed in version of previous video (does not work as well)
+* "countingcars_input.mp4" - sample video from clips IMG_1832.MP4 - IMG_1843.MP$ recorded by me. Gives errors due to: different sizes of clips and transitions between them, cars moving close together at same speed in dense traffic, trucks, shadows, bird crossing field of view, trees moving from wind, crossing line too high... 
+* "countingcars_input2.mp4" -zoomed in version of previous video, also does not work so well, same reasons
+* "HSCCInterstateHighwaySurveillanceSystem-TESTVIDEO.mp4" original sample file from this repo: https://github.com/ahmetozlu/vehicle_counting/tree/master/src crossing line is too high -> works better at 45%, maybe need to detect smaller blobs. This sample also would allow counting traffic in both directions
+
 # Tags
 #tags: 
 

@@ -193,7 +193,7 @@ void draw_blobs_on_image(std::vector<Blob> &blobs, cv::Mat &frame)
 ////////////////////////////////////////////////////////////////////////////////
 int main(int argc, char *argv[])
 {
-    std::string filename = "CarsDrivingUnderBridge.mp4"; //"count_cars_2.mp4"; //"CarsDrivingUnderBridge.mp4"; // "countingcars_input2.mp4";// "CarsDrivingUnderBridge.mp4"; // "countingcars_input.mp4";
+    std::string filename = "HSCCInterstateHighwaySurveillanceSystem-TESTVIDEO.mp4"; //"CarsDrivingUnderBridge.mp4"; //"count_cars_2.mp4"; //"CarsDrivingUnderBridge.mp4"; // "countingcars_input2.mp4";// "CarsDrivingUnderBridge.mp4"; // "countingcars_input.mp4";
     // filename = ""; // empty filename -> open webcam
 
     std::string window_name = filename;
@@ -249,7 +249,7 @@ int main(int argc, char *argv[])
 
     // prepare to count cars
     cv::Point COUNTING_LINE[2];
-    const int COUNTING_LINE_POSITION = (int)std::round((double)frame1.rows * 0.35);
+    const int COUNTING_LINE_POSITION = (int)std::round((double)frame1.rows * 0.45);
     COUNTING_LINE[0].x = 0;
     COUNTING_LINE[0].y = COUNTING_LINE_POSITION;
 
