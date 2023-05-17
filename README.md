@@ -185,3 +185,6 @@ Day 50: #100DaysOfCode in #Cpp progress - today I worked on the project Counting
  ## 16-05-23
 
 Day 51: #100DaysOfCode in #Cpp progress - today I worked on the project Javelin https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day051_16-05-23/Javelin (see https://edabit.com/challenge/cS48jymeLrkjhDZ8x)
+ ## 17-05-23
+
+Day 52: #100DaysOfCode in #Cpp progress - today I worked on the project SQLite https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day052_17-05-23/SQLite (see https://www.geeksforgeeks.org/sql-using-c-c-and-sqlite/)
