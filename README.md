@@ -188,3 +188,6 @@ Day 51: #100DaysOfCode in #Cpp progress - today I worked on the project Javelin 
  ## 17-05-23
 
 Day 52: #100DaysOfCode in #Cpp progress - today I worked on the project SQLite https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day052_17-05-23/SQLite (see https://www.geeksforgeeks.org/sql-using-c-c-and-sqlite/)
+ ## 18-05-23
+
+Day 53: #100DaysOfCode in #Cpp progress - today I played with  a C++ library to control my drone: Tello https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day053_18-05-23/Tello (see https://github.com/herrnamenlos123/tello). I couldn't finish the last of 3 demos I had planned, but it is late and the drone battery is dead. Let's call it a day.
