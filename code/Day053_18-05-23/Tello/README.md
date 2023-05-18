@@ -2,7 +2,7 @@
 
 # Tello
 
-The ultimate goal is to replicate using C++ at least some of the projects I did two years ago using python: https://github.com/mhered/tello-fun then proceed to integrate it in ROS2.
+The ultimate goal is to replicate using C++ at least some of the projects I did two years ago with my Tello drone using python: https://github.com/mhered/tello-fun , then proceed to integrate it with ROS2:
 
 * After looking around I decide to try out [tello](https://github.com/herrnamenlos123/tello), a C++14 single-header library to control the Tello, last updated in Nov22. Note it uses SDK 2.0, which apparently may be not fully compatible with the "normal" Tello. 
 
@@ -15,17 +15,18 @@ The ultimate goal is to replicate using C++ at least some of the projects I did 
 2. Download the example `main.cpp` from https://github.com/mcx/tello/tree/master/example/src/
 3. Note: compiling failed with message `usr/include/c++/9/thread:126: undefined reference to 'pthread_create'`. I fixed it adding `"-lpthread"` to `"args":` in `tasks.json`, see here: https://stackoverflow.com/questions/1662909/undefined-reference-to-pthread-create-in-linux
 
-To connect to Tello:
-1. Switch on Tello with side button
-2. Connect the laptop to `TELLO-EFD008` WIFI network and wait for blinking yellow light
+Note: to connect the Tello drone to the laptop:
+1. Switch on the Tello drone pressing the side button
+2. Connect the laptop to `TELLO-EFD008` WIFI network and wait for a blinking yellow LED in the Tello drone
 
-Implement a simple manu to launch 3 different basic demos:
-* `void demo_fly()` automatically take off, turn left and right and land, with suitable waits in between.
-* `void demo_cam()` switch on the Tello camera and stream video to the laptop, using OpenCV
-* `void demo_key()` implement basic control for the Tello with the laptop keyboard: take off, move up/down, rotate left/right and land. 
+## The task
+
+Implement a simple menu to launch 3 different basic demos:
+* `void demo_fly()` - automatically take off, turn left and right and land, with suitable waits in between.
+* `void demo_cam()` - switch on the Tello camera and stream video to the laptop, using OpenCV
+* `void demo_key()` - implement basic control for the Tello with the laptop keyboard: take off, move up/down, rotate left/right and land. 
 
 Even though I was not able to get the third demo working I call it a day: it is very late and I have exhausted three batteries. Tomorrow more!
-
 
 ## Other C++ Tello libraries
 
@@ -56,4 +57,5 @@ Although I initially discarded them, they have interesting elements like swarm o
 - [ ] databases
 - [ ] API
 - [ ] web_scraping
-- [ ] OpenCV
+- [x] OpenCV
+- [x] Tello
