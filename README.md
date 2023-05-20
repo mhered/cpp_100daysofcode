@@ -191,3 +191,6 @@ Day 52: #100DaysOfCode in #Cpp progress - today I worked on the project SQLite h
  ## 18-05-23
 
 Day 53: #100DaysOfCode in #Cpp progress - today I played with  a C++ library to control my drone: Tello https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day053_18-05-23/Tello (see https://github.com/herrnamenlos123/tello). I couldn't finish the last of 3 demos I had planned, but it is late and the drone battery is dead. Let's call it a day.
+ ## 19-05-23
+
+Day 54: #100DaysOfCode in #Cpp progress - today I worked on the projects Keypress https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day054_19-05-23/Keypress (see https://stackoverflow.com/a/63708756/15472802) and Snakes https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day054_19-05-23/Snakes (see https://stackoverflow.com/questions/61479597/how-can-i-use-kbhit-and-getch-on-linux-c)

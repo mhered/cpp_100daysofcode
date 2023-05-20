@@ -1,7 +1,8 @@
-#link:
+#link: https://stackoverflow.com/a/63708756/15472802
 
-# Title
-
+# Detect keypresses in Linux
+The stackoverflow answer in the link proposes an implementation of `kbhit` and `getch`. How to remove repeat delay?
+Alternative: `conio.h` for linux: https://github.com/zoelabbb/conio.h
 # Tags
 #tags: 
 
