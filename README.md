@@ -196,4 +196,4 @@ Day 53: #100DaysOfCode in #Cpp progress - today I played with  a C++ library to 
 Day 54: #100DaysOfCode in #Cpp progress - today I worked on the projects Keypress https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day054_19-05-23/Keypress (see https://stackoverflow.com/a/63708756/15472802) and Snakes https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day054_19-05-23/Snakes (see https://stackoverflow.com/questions/61479597/how-can-i-use-kbhit-and-getch-on-linux-c)
  ## 20-05-23
 
-Day 55: #100DaysOfCode in #Cpp progress - today I worked on the project Rubik https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day055_20-05-23/Rubik (see )
+Day 55: #100DaysOfCode in #Cpp progress - today I worked on the project Rubik https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day055_20-05-23/Rubik (see https://live.worldcubeassociation.org/competitions/2634/rounds/36520/projector)
