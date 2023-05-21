@@ -197,3 +197,6 @@ Day 54: #100DaysOfCode in #Cpp progress - today I worked on the projects Keypres
  ## 20-05-23
 
 Day 55: #100DaysOfCode in #Cpp progress - today I worked on the project Rubik https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day055_20-05-23/Rubik (see https://live.worldcubeassociation.org/competitions/2634/rounds/36520/projector)
+ ## 21-05-23
+
+Day 56: #100DaysOfCode in #Cpp progress - today I worked on the project TextColors https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day056_21-05-23/TextColors (see http://www.lihaoyi.com/post/BuildyourownCommandLinewithANSIescapecodes.html)
