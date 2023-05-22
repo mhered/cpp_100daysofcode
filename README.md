@@ -200,3 +200,6 @@ Day 55: #100DaysOfCode in #Cpp progress - today I worked on the project Rubik ht
  ## 21-05-23
 
 Day 56: #100DaysOfCode in #Cpp progress - today I worked on the project TextColors https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day056_21-05-23/TextColors (see http://www.lihaoyi.com/post/BuildyourownCommandLinewithANSIescapecodes.html)
+ ## 22-05-23
+
+Day 57: #100DaysOfCode in #Cpp progress - today I worked on the projects Diagonals https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day057_22-05-23/Diagonals and Connect4 https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day057_22-05-23/Connect4. My ambition was to code a computer player for Connect4, but it is so slow it only works on a 4x4 board. Next: profiling to speed it up.
