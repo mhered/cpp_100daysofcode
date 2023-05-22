@@ -12,7 +12,7 @@ int main()
          'x', 'o', 'o', '_',
          'x', 'x', 'o', 'o',
          'o', 'o', 'o', 'x'});
-         */
+    
     Connect4 game(
         {'_', '_', '_', '_', '_', '_', '_',
          'o', '_', '_', '_', '_', '_', '_',
@@ -21,10 +21,8 @@ int main()
          'x', 'x', 'x', 'o', 'x', 'o', '_',
          'o', 'o', 'o', 'x', 'x', 'o', 'o'});
 
-    
-
     game.Display();
-    /*
+
     std::string str = game.IsGameOver() ? "yes" : "no";
     std::cout << "Is game over? " << str << std::endl;
     str = game.check_for_win(Connect4::X) ? "yes" : "no";
@@ -32,7 +30,8 @@ int main()
     str = game.check_for_win(Connect4::O) ? "yes" : "no";
     std::cout << "Did O win? " << str << std::endl;
     */
-    //Connect4 game;
+    
+    Connect4 game;
     game.Display();
 
     do
