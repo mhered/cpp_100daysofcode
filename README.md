@@ -206,3 +206,6 @@ Day 57: #100DaysOfCode in #Cpp progress - today I worked on the projects Diagona
  ## 23-05-23
 
 Day 58: #100DaysOfCode in #Cpp progress - today I worked on the project Profiling https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day058_23-05-23/Profiling (see https://www.youtube.com/watch?v=nXaxk27zwlk)
+ ## 24-05-23
+
+Day 59: #100DaysOfCode in #Cpp progress - today I worked on the project LinesOfCode https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day059_24-05-23/LinesOfCode (see https://en.wikipedia.org/wiki/Source_lines_of_code)
