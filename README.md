@@ -203,3 +203,6 @@ Day 56: #100DaysOfCode in #Cpp progress - today I worked on the project TextColo
  ## 22-05-23
 
 Day 57: #100DaysOfCode in #Cpp progress - today I worked on the projects Diagonals https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day057_22-05-23/Diagonals and Connect4 https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day057_22-05-23/Connect4. My ambition was to code a computer player for Connect4, but it is so slow it only works on a 4x4 board. Next: profiling to speed it up.
+ ## 23-05-23
+
+Day 58: #100DaysOfCode in #Cpp progress - today I worked on the project Profiling https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day058_23-05-23/Profiling (see https://www.youtube.com/watch?v=nXaxk27zwlk)
