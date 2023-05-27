@@ -209,3 +209,6 @@ Day 58: #100DaysOfCode in #Cpp progress - today I worked on the project Profilin
  ## 24-05-23
 
 Day 59: #100DaysOfCode in #Cpp progress - today I worked on the project LinesOfCode https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day059_24-05-23/LinesOfCode (see https://en.wikipedia.org/wiki/Source_lines_of_code)
+ ## 25-05-23
+
+Day 60: #100DaysOfCode in #Cpp progress - today I worked on the project GraphPlot https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day060_25-05-23/GraphPlot
