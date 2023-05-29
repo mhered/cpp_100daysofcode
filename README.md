@@ -215,3 +215,6 @@ Day 60: #100DaysOfCode in #Cpp progress - today I worked on the project GraphPlo
  ## 26-05-23
 
 Day 61: #100DaysOfCode in #Cpp progress - today I made a crude attempt at profiling and refactoring. Performance improved x3, but this is still very far from sufficient... :-( ImprovingConnect4 https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day061_26-05-23/ImprovingConnect4
+ ## 27-05-23
+
+Day 62: #100DaysOfCode in #Cpp progress - today I worked on the project ImprovingConnect4_Part2 https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day062_27-05-23/ImprovingConnect4_Part2. Another 40% improvement in performance, but still no cigar...
