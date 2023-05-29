@@ -13,7 +13,7 @@ public:
     const static char O = 'O';
     const static char EMPTY = '_';
     const static uint NROWS = 4; // standard board 6x7 but works max with 4x4
-    const static uint NCOLS = 4;
+    const static uint NCOLS = 5;
     const static uint MIN_DIAG = 4;
 
 public:

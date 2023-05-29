@@ -17,7 +17,8 @@ Working on `check_for_win()`
 * scan rows from top to bottom -> 10s 
 * replace `std::vector<char> board`  for `bool bool_board[]` -> no improvement. Why?
 * precompute the `NCOLS * i + j` for the diagonals -> 9s
-* precompute the `NCOLS * i + j` for the horizontals and verticals diagonals -> 15s!! Why??
+* precompute the `NCOLS * i + j` for the horizontals and verticals diagonals -> 15s!! Why?? REVERTED
+* refactor `Evaluate` to 1) check for `Connect4::X` and `Connect::O` in the same loop instead of calling sequentially `check_for_win()` for for `Connect4::X` and then `Connect::O` and also 2) in columns, stop exploring when an Connect4::EMPTY is found -> 6s!
 
 # Tags
 #tags: 
