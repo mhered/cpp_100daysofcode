@@ -218,3 +218,6 @@ Day 61: #100DaysOfCode in #Cpp progress - today I made a crude attempt at profil
  ## 27-05-23
 
 Day 62: #100DaysOfCode in #Cpp progress - today I worked on the project ImprovingConnect4_Part2 https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day062_27-05-23/ImprovingConnect4_Part2. Another 40% improvement in performance, but still no cigar...
+ ## 28-05-23
+
+Day 63: #100DaysOfCode in #Cpp progress - today I worked on the project ResistorColorCode https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day063_28-05-23/ResistorColorCode (see https://edabit.com/challenge/nWBCvjboaxAvqyWSt)
