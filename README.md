@@ -224,3 +224,6 @@ Day 63: #100DaysOfCode in #Cpp progress - today I worked on the project Resistor
  ## 29-05-23
 
 Day 64: #100DaysOfCode in #Cpp progress - today I worked on the project LinesOfCodeTable https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day064_29-05-23/LinesOfCodeTable. The final goal is to plot a graph showing the daily the progress in terms of LOC. I am close but not quite there yet.  
+ ## 30-05-23
+
+Day 65: #100DaysOfCode in #Cpp progress - today I worked on the project LinesOfCodeGraph https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day065_30-05-23/LinesOfCodeGraph (see )
