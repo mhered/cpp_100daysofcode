@@ -221,3 +221,6 @@ Day 62: #100DaysOfCode in #Cpp progress - today I worked on the project Improvin
  ## 28-05-23
 
 Day 63: #100DaysOfCode in #Cpp progress - today I worked on the project ResistorColorCode https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day063_28-05-23/ResistorColorCode (see https://edabit.com/challenge/nWBCvjboaxAvqyWSt)
+ ## 29-05-23
+
+Day 64: #100DaysOfCode in #Cpp progress - today I worked on the project LinesOfCodeTable https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day064_29-05-23/LinesOfCodeTable. The final goal is to plot a graph showing the daily the progress in terms of LOC. I am close but not quite there yet.  
