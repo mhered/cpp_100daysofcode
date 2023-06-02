@@ -93,7 +93,8 @@ int main()
     graph g = AdjList_from_AdjMatrix(Adjacency);
     g.print();
 
-    PlotGraph(NodeCoordinates, Adjacency);
+    // PlotGraph(NodeCoordinates, Adjacency);
+    FasterPlotGraph(NodeCoordinates, Adjacency); // NEW FROM DAY068
 
     // wait for keystroke
     cv::waitKey(0);

@@ -35,7 +35,7 @@ Expected result:
 
 ##To do
 - [x] make image for Day067
-- [ ] simplify graph plot because always bidirectional
+- [x] simplify graph plot because always bidirectional. (Done on Day068)
 - [ ] refactor to make OOP
 
 # Tags
