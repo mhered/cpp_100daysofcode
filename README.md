@@ -227,3 +227,6 @@ Day 64: #100DaysOfCode in #Cpp progress - today I worked on the project LinesOfC
  ## 30-05-23
 
 Day 65: #100DaysOfCode in #Cpp progress - today I worked on the project LinesOfCodeGraph https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day065_30-05-23/LinesOfCodeGraph. I got my graphs, but they are ugly though...
+ ## 31-05-23
+
+Day 66: #100DaysOfCode in #Cpp progress - today I worked on the project AdjacencyMatrixAndList https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day066_31-05-23/AdjacencyMatrixAndList (see https://www.section.io/engineering-education/graphs-in-data-structure-using-cplusplus/)
