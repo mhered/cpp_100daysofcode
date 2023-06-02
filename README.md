@@ -233,3 +233,6 @@ Day 66: #100DaysOfCode in #Cpp progress - today I worked on the project Adjacenc
  ## 01-06-23
 
 Day 67: #100DaysOfCode in #Cpp progress - today I worked on the project Bitmap2Graph https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day067_01-06-23/Bitmap2Graph
+ ## 02-06-23
+
+Day 68: #100DaysOfCode in #Cpp progress - today I worked on the project FasterGraphPlots https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day068_02-06-23/FasterGraphPlots (see https://github.com/alandefreitas/matplotplusplus/blob/master/examples/graphs/graph/graph_3.cpp)
