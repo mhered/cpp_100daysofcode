@@ -230,3 +230,6 @@ Day 65: #100DaysOfCode in #Cpp progress - today I worked on the project LinesOfC
  ## 31-05-23
 
 Day 66: #100DaysOfCode in #Cpp progress - today I worked on the project AdjacencyMatrixAndList https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day066_31-05-23/AdjacencyMatrixAndList (see https://www.section.io/engineering-education/graphs-in-data-structure-using-cplusplus/)
+ ## 01-06-23
+
+Day 67: #100DaysOfCode in #Cpp progress - today I worked on the project Bitmap2Graph https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day067_01-06-23/Bitmap2Graph
