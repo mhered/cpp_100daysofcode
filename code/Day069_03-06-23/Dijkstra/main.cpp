@@ -74,9 +74,19 @@ void dijkstra(Graph &graph, size_t Source, size_t Target)
     // display
 
     const int COLWID1 = 10;
-    const int COLWID2 = 48;
-    const int COLWID3 = 12;
+    const int COLWID2 = 50;
+    const int COLWID3 = 15;
+
+    const std::string GREEN("\033[0;32m");
+    const std::string BLUE("\033[0;34m");
+    const std::string YELLOW("\033[0;33m");
+    const std::string CYAN("\033[0;36m");
+    const std::string MAGENTA("\033[0;35m");
+    const std::string RESET("\033[0m");
+
     // header
+    std::cout << std::endl
+              << "Source: " << Source << " Target: " << Target << std::endl;
     std::cout << "|" << std::setw(COLWID1) << std::left << "  Nodes";
     std::cout << "|" << std::setw(COLWID2) << std::left << "  Shortest Path";
     std::cout << "|" << std::setw(COLWID3) << std::left << "  Distance";
@@ -89,11 +99,18 @@ void dijkstra(Graph &graph, size_t Source, size_t Target)
 
     for (int i = 0; i < graph.N; i++)
     {
+        std::string format;
+
+        if (i == Target)
+            format = GREEN;
+        else
+            format = RESET;
+
         std::stringstream ss1;
         ss1 << "  " << Source << " - " << i;
 
-        std::cout << "|" << std::setw(COLWID1)
-                  << std::left << ss1.str() << "|" << std::flush;
+        std::cout << "|" << format << std::setw(COLWID1)
+                  << std::left << ss1.str() << RESET << "|" << std::flush;
 
         std::list<size_t> path;
         size_t k = i;
@@ -113,8 +130,8 @@ void dijkstra(Graph &graph, size_t Source, size_t Target)
         }
         ss2 << "/";
 
-        std::cout << std::setw(COLWID2) << ss2.str();
-        std::cout << "|  " << std::setw(COLWID3 - 2) << dist[i] << "|" << std::endl;
+        std::cout << format << std::setw(COLWID2) << ss2.str() << RESET;
+        std::cout << "|  " << format << std::setw(COLWID3 - 2) << dist[i] << RESET << "|" << std::endl;
     }
 
     // tear down
@@ -195,6 +212,7 @@ int main()
     g.print();
 
     dijkstra(g, 0, 2);
+    dijkstra(g, 0, 3);
 
     return 0;
 }
