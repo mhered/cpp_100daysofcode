@@ -236,3 +236,6 @@ Day 67: #100DaysOfCode in #Cpp progress - today I worked on the project Bitmap2G
  ## 02-06-23
 
 Day 68: #100DaysOfCode in #Cpp progress - today I worked on the project FasterGraphPlots https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day068_02-06-23/FasterGraphPlots (see https://github.com/alandefreitas/matplotplusplus/blob/master/examples/graphs/graph/graph_3.cpp)
+ ## 03-06-23
+
+Day 69: #100DaysOfCode in #Cpp progress - today I worked on the project Dijkstra https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day069_03-06-23/Dijkstra (see https://favtutor.com/blogs/dijkstras-algorithm-cpp)
