@@ -239,3 +239,6 @@ Day 68: #100DaysOfCode in #Cpp progress - today I worked on the project FasterGr
  ## 03-06-23
 
 Day 69: #100DaysOfCode in #Cpp progress - today I worked on the project Dijkstra https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day069_03-06-23/Dijkstra (see https://favtutor.com/blogs/dijkstras-algorithm-cpp)
+ ## 04-06-23
+
+Day 70: #100DaysOfCode in #Cpp progress - today I worked on the project 2048 https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day070_04-06-23/2048 (see https://play2048.co/)
