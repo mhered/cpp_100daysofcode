@@ -1,0 +1,5 @@
+[2023-06-08 00:40:25] [main.cpp:8] ERROR: Error message
+[2023-06-08 00:40:25] [main.cpp:9] WARNING: Warning message
+[2023-06-08 00:40:25] [main.cpp:10] INFO: Info message
+[2023-06-08 00:40:25] [main.cpp:11] DEBUG: Debug message
+>>>>>> END OF RUN >>>>>

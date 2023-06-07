@@ -242,3 +242,6 @@ Day 69: #100DaysOfCode in #Cpp progress - today I worked on the project Dijkstra
  ## 04-06-23
 
 Day 70: #100DaysOfCode in #Cpp progress - today I worked on the project 2048 https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day070_04-06-23/2048 (see https://play2048.co/)
+ ## 05-06-23
+
+Day 71: #100DaysOfCode in #Cpp progress - today I tried different approaches to add a simple logging facility to my C++ programs: Logging1, Logging 2 and Logging3 https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day071_05-06-23/ For the third attempt I enlisted the help of ChatGPT (see https://chat.openai.com/share/0df65979-3ea5-4469-8ac9-ca7fcf4f8916). Happy with the result, even if some fiddling was required.
