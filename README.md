@@ -248,3 +248,6 @@ Day 71: #100DaysOfCode in #Cpp progress - today I tried different approaches to 
  ## 06-06-23
 
 Day 72: #100DaysOfCode in #Cpp progress - today I worked on the project PlotShortestPath https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day072_06-06-23/PlotShortestPath (see https://github.com/alandefreitas/matplotplusplus/blob/master/examples/graphs/graph/graph_4.cpp)
+ ## 07-06-23
+
+Day 73: #100DaysOfCode in #Cpp progress - today I worked on the project SaveGraph https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day073_07-06-23/SaveGraph
