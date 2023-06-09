@@ -251,3 +251,6 @@ Day 72: #100DaysOfCode in #Cpp progress - today I worked on the project PlotShor
  ## 07-06-23
 
 Day 73: #100DaysOfCode in #Cpp progress - today I worked on the project SaveGraph https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day073_07-06-23/SaveGraph
+ ## 08-06-23
+
+Day 74: #100DaysOfCode in #Cpp progress - today I worked on the projects Bitmap2Graph2 https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day074_08-06-23/Bitmap2Graph2 (see ) and PlotShortestPath2 https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day074_08-06-23/PlotShortestPath2 (see https://github.com/alandefreitas/matplotplusplus/blob/master/examples/graphs/graph/graph_4.cpp)
