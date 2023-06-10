@@ -254,3 +254,6 @@ Day 73: #100DaysOfCode in #Cpp progress - today I worked on the project SaveGrap
  ## 08-06-23
 
 Day 74: #100DaysOfCode in #Cpp progress - today I worked on the projects Bitmap2Graph2 https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day074_08-06-23/Bitmap2Graph2 (see ) and PlotShortestPath2 https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day074_08-06-23/PlotShortestPath2 (see https://github.com/alandefreitas/matplotplusplus/blob/master/examples/graphs/graph/graph_4.cpp)
+ ## 09-06-23
+
+Day 75: #100DaysOfCode in #Cpp progress - today I worked on the project RotateScale https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day075_09-06-23/RotateScale (see https://stackoverflow.com/questions/22041699/rotate-an-image-without-cropping-in-opencv-in-c/33564950#33564950)
