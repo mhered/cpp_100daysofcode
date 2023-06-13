@@ -1,10 +1,13 @@
-#link:
+#link: https://holowczak.com/introduction-to-multithreading-in-cplusplus/?amp=1
 
-# Title
+# More threads: Mutex
+
+`std::mutex` allows locking shared resources to avoid data races.
+In this example there could be a conflict between two instances of the thread worker but it does not appear to have any effect.
 
 # Tags
 #tags: 
-
+- [x] threads
 - [ ] basics
 - [ ] algorithms
 - [ ] data_structures: trees, graphs

@@ -263,3 +263,6 @@ Day 76: #100DaysOfCode in #Cpp progress - today I worked on the project Dobble h
  ## 11-06-23
 
 Day 77: #100DaysOfCode in #Cpp progress - threads, threads, threads: https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day077_11-06-23/Threads1 , https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day077_11-06-23/Threads2 and https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day077_11-06-23/Threads3 
+ ## 12-06-23
+
+Day 78: #100DaysOfCode in #Cpp progress - more threads: https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day078_12-06-23/MoreThreads1 , https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day078_12-06-23/MoreThreads2 and https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day078_12-06-23/MoreThreads3 (see https://holowczak.com/introduction-to-multithreading-in-cplusplus/?amp=1). 
