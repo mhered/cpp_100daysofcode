@@ -20,7 +20,7 @@ Sample results in folder [output/](./output/)
 - [ ] data_structures: trees, graphs
 - [ ] strings: regex
 - [ ] dates_times: timezones
-- [ ] file_management: input, output, folders and files
+- [x] file_management: input, output, folders and files
 - [ ] testing
 - [ ] exceptions
 - [ ] logging
@@ -34,4 +34,4 @@ Sample results in folder [output/](./output/)
 - [ ] databases
 - [ ] API
 - [ ] web_scraping
-- [ ] OpenCV
+- [x] OpenCV
