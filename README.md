@@ -260,3 +260,6 @@ Day 75: #100DaysOfCode in #Cpp progress - today I worked on the project RotateSc
  ## 10-06-23
 
 Day 76: #100DaysOfCode in #Cpp progress - today I worked on the project Dobble https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day076_10-06-23/Dobble (see https://www.101computing.net/the-dobble-algorithm/)
+ ## 11-06-23
+
+Day 77: #100DaysOfCode in #Cpp progress - threads, threads, threads: https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day077_11-06-23/Threads1 , https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day077_11-06-23/Threads2 and https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day077_11-06-23/Threads3 
