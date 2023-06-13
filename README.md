@@ -257,3 +257,6 @@ Day 74: #100DaysOfCode in #Cpp progress - today I worked on the projects Bitmap2
  ## 09-06-23
 
 Day 75: #100DaysOfCode in #Cpp progress - today I worked on the project RotateScale https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day075_09-06-23/RotateScale (see https://stackoverflow.com/questions/22041699/rotate-an-image-without-cropping-in-opencv-in-c/33564950#33564950)
+ ## 10-06-23
+
+Day 76: #100DaysOfCode in #Cpp progress - today I worked on the project Dobble https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day076_10-06-23/Dobble (see https://www.101computing.net/the-dobble-algorithm/)
