@@ -269,3 +269,6 @@ Day 78: #100DaysOfCode in #Cpp progress - more threads: https://github.com/mhere
  ## 13-06-23
 
 Day 79: #100DaysOfCode in #Cpp progress - today I worked on the project MultiThreadingDemo https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day079_13-06-23/MultiThreadingDemo (see https://m.youtube.com/watch?v=xPqnoB2hjjA)
+ ## 14-06-23
+
+Day 80: #100DaysOfCode in #Cpp progress - today I worked on the project ParallelImageProcessing https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day080_14-06-23/ParallelImageProcessing (see https://solarianprogrammer.com/2011/12/16/cpp-11-thread-tutorial/)
