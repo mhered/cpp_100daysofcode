@@ -272,3 +272,6 @@ Day 79: #100DaysOfCode in #Cpp progress - today I worked on the project MultiThr
  ## 14-06-23
 
 Day 80: #100DaysOfCode in #Cpp progress - today I worked on the project ParallelImageProcessing https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day080_14-06-23/ParallelImageProcessing (see https://solarianprogrammer.com/2011/12/16/cpp-11-thread-tutorial/)
+ ## 15-06-23
+
+Day 81: #100DaysOfCode in #Cpp progress - today I worked on the project WeatherApp https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day081_15-06-23/WeatherApp (see https://m.youtube.com/watch?v=xPqnoB2hjjA) #threads
