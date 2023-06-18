@@ -275,3 +275,6 @@ Day 80: #100DaysOfCode in #Cpp progress - today I worked on the project Parallel
  ## 15-06-23
 
 Day 81: #100DaysOfCode in #Cpp progress - today I worked on the project WeatherApp https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day081_15-06-23/WeatherApp (see https://m.youtube.com/watch?v=xPqnoB2hjjA) #threads
+ ## 16-06-23
+
+Day 82: #100DaysOfCode in #Cpp progress - today I worked on the project WebScraping https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day082_16-06-23/WebScraping (see https://www.scrapingbee.com/blog/web-scraping-c++/)
