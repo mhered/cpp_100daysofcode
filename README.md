@@ -278,3 +278,6 @@ Day 81: #100DaysOfCode in #Cpp progress - today I worked on the project WeatherA
  ## 16-06-23
 
 Day 82: #100DaysOfCode in #Cpp progress - today I worked on the project WebScraping https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day082_16-06-23/WebScraping (see https://www.scrapingbee.com/blog/web-scraping-c++/)
+ ## 17-06-23
+
+Day 83: #100DaysOfCode in #Cpp progress - today I worked on the project Rectangle https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day083_17-06-23/Rectangle
