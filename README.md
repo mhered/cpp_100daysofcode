@@ -281,3 +281,6 @@ Day 82: #100DaysOfCode in #Cpp progress - today I worked on the project WebScrap
  ## 17-06-23
 
 Day 83: #100DaysOfCode in #Cpp progress - today I worked on the project Rectangle https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day083_17-06-23/Rectangle
+ ## 18-06-23
+
+Day 84: #100DaysOfCode in #Cpp progress - today I worked on the projects Ncurses0 https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day084_18-06-23/Ncurses0 (see https://www.youtube.com/watch?v=lV-OPQhPvSM) and Ncurses1 https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day084_18-06-23/Ncurses1 (see https://www.youtube.com/watch?v=A5lX1h_2zy0)

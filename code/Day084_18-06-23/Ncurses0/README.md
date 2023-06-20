@@ -1,6 +1,14 @@
-#link:
+#link: https://www.youtube.com/watch?v=lV-OPQhPvSM
 
-# Title
+# Ncurses Tutorial 0
+
+First of the tutorial series on the `ncurses` library. 
+
+This little more than a basic hello world covering `initscr()`, `endwin()`, `refresh()`, `printw()` and `getch()`
+
+
+Note: `ncurses` was installed already in my system.
+
 
 # Tags
 #tags: 
@@ -17,7 +25,7 @@
 - [ ] object_oriented_programming
 - [ ] GUI
 - [ ] plotting_data
-- [ ] CLI
+- [x] CLI
 - [ ] arduino
 - [ ] ROS
 - [ ] chatGPT
