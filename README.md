@@ -290,3 +290,6 @@ Day 85: #100DaysOfCode in #Cpp progress - today I worked on the project Ncurses2
  ## 20-06-23
 
 Day 86: #100DaysOfCode in #Cpp progress - today I worked on the project KeyboardGameControl https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day086_20-06-23/KeyboardGameControl (see https://gamedev.stackexchange.com/questions/144558/key-released-multiple-keys-how-to-go-around-ncurses-limitations)
+ ## 21-06-23
+
+Day 87: #100DaysOfCode in #Cpp progress - today I worked on the project CollisionDetection https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day087_21-06-23/CollisionDetection (see https://www.jeffreythompson.org/collision-detection/)
