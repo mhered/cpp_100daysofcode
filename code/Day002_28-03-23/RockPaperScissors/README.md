@@ -50,3 +50,4 @@ There are several ways to solve this challenge.
 - [ ] API
 - [ ] web_scraping
 - [ ] OpenCV
+- [x] games

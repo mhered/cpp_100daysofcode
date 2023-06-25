@@ -23,3 +23,4 @@
 - [ ] API
 - [ ] web_scraping
 - [ ] OpenCV
+- [x] games

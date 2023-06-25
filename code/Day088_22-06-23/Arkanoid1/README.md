@@ -29,3 +29,4 @@ The first three tutorials discuss drawing pixels, managing user input, managing 
 - [ ] API
 - [ ] web_scraping
 - [ ] OpenCV
+- [x] games

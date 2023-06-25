@@ -35,3 +35,4 @@ More fun with GUIs with `wxWidgets`: https://www.youtube.com/watch?v=FwUGeV2fnfM
 - [ ] API
 - [ ] web_scraping
 - [ ] OpenCV
+- [x] games

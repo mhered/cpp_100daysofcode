@@ -50,3 +50,4 @@ How can I profile and improve performance?
 - [ ] API
 - [ ] web_scraping
 - [ ] OpenCV
+- [x] games

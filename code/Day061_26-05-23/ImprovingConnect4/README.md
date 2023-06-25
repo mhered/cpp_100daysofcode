@@ -40,3 +40,4 @@ Working on `check_for_win()`
 - [ ] API
 - [ ] web_scraping
 - [ ] OpenCV
+- [x] games

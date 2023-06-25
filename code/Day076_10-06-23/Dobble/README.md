@@ -35,3 +35,4 @@ Sample results in folder [output/](./output/)
 - [ ] API
 - [ ] web_scraping
 - [x] OpenCV
+- [x] games

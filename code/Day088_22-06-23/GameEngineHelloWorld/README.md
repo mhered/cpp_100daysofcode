@@ -71,3 +71,4 @@ $ sudo apt install build-essential libglu1-mesa-dev libpng-dev
 - [ ] API
 - [ ] web_scraping
 - [ ] OpenCV
+- [x] games

@@ -31,3 +31,4 @@ Make it beautiful by printing colored characters with cout: https://stackoverflo
 - [ ] API
 - [ ] web_scraping
 - [ ] OpenCV
+- [x] games
