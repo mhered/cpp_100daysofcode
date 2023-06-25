@@ -164,45 +164,44 @@ public:
         if (GetKey(olc::Key::LEFT).bHeld)
             vBatPos.x -= fBatSpeed * fElapsedTime;
         if (GetKey(olc::Key::RIGHT).bHeld)
-            vBatPos.x += fBatSpeed * fElapsedTime;  
+            vBatPos.x += fBatSpeed * fElapsedTime;
 
-    if (vBatPos.x < 1.0f)
-        vBatPos.x = 1.0f;
-    if (vBatPos.x + fBatWidth > float(WIDTH - 1))
-        vBatPos.x = float(WIDTH - 1) - fBatWidth;
+        if (vBatPos.x < 1.0f)
+            vBatPos.x = 1.0f;
+        if (vBatPos.x + fBatWidth > float(WIDTH - 1))
+            vBatPos.x = float(WIDTH - 1) - fBatWidth;
 
-    // Check if Ball hits Bat
-    if ((vBallPos.y >= (vBatPos.y - vTileBallRadialDims.y)) && (vBallPos.x > vBatPos.x) && (vBallPos.x < (vBatPos.x + fBatWidth)))
-        vBallDir.y *= -1.0f;
+        // Check if Ball hits Bat
+        if ((vBallPos.y >= (vBatPos.y - vTileBallRadialDims.y)) && (vBallPos.x > vBatPos.x) && (vBallPos.x < (vBatPos.x + fBatWidth)))
+            vBallDir.y *= -1.0f;
 
-    // Check if ball has gone off screen
-    if (vBallPos.y >= HEIGHT - 1)
-    {
-        // Reset ball location
-        vBallPos = {WIDTH / 2.0f, HEIGHT / 2.0f};
-        // Choose Random direction
-        float fAngle = (float(rand()) / float(RAND_MAX)) * 2.0f * 3.14159f;
-        vBallDir = {cos(fAngle), sin(fAngle)};
+        // Check if ball has gone off screen
+        if (vBallPos.y >= HEIGHT - 1)
+        {
+            // Reset ball location
+            vBallPos = {WIDTH / 2.0f, HEIGHT / 2.0f};
+            // Choose Random direction
+            float fAngle = (float(rand()) / float(RAND_MAX)) * 2.0f * 3.14159f;
+            vBallDir = {cos(fAngle), sin(fAngle)};
+        }
+
+        // Draw Bat
+        FillRect(int(vBatPos.x * vBlockSize.x),
+                 int(vBatPos.y * vBlockSize.y),
+                 int(fBatWidth * vBlockSize.x),
+                 int(fBatHeight * vBlockSize.y),
+                 olc::WHITE);
+
+        // Draw Ball
+        FillCircle(vBallPos * vBlockSize, fBallRadius, olc::CYAN);
+
+        // debug
+        std::cout << "Bat x: " << vBatPos.x << " y: " << vBatPos.y;
+        std::cout << " | Ball x: " << vBallPos.x << " y: " << vBallPos.y << std::endl;
+
+        return true;
     }
-
-    // Draw Bat
-    FillRect(int(vBatPos.x *vBlockSize.x),
-             int(vBatPos.y *vBlockSize.y),
-             int(fBatWidth *vBlockSize.x),
-             int(fBatHeight *vBlockSize.y),
-             olc::WHITE);
-
-    // Draw Ball
-    FillCircle(vBallPos *vBlockSize, fBallRadius, olc::CYAN);
-
-    // debug
-    std::cout << "Bat x: " << vBatPos.x << " y: " << vBatPos.y;
-    std::cout << " | Ball x: " << vBallPos.x << " y: " << vBallPos.y << std::endl;
-
-    return true;
-}
-}
-;
+};
 
 int main()
 {
