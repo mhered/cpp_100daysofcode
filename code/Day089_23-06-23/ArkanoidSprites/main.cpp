@@ -66,10 +66,11 @@ public:
         // Load the sprite
         sprTile = std::make_unique<olc::Sprite>("./assets/tut_tiles.png");
 
-        // Start Ball
-        float fAngle = float(rand()) / float(RAND_MAX) * 2.0f * 3.14159f;
-        fAngle = -0.4f;
-        vBallDir = {cos(fAngle), sin(fAngle)};
+        // Start Ball in random direction in [pi/6, 5pi/6] range
+        float fAngle = 3.14159f /6.0f * (4*float(rand()) / float(RAND_MAX) + 1.0f);
+
+        // Use static_cast to avoid narrowing conversion Warning
+        vBallDir = {static_cast<float>(cos(fAngle)), static_cast<float>(sin(fAngle))};
         vBallPos = {12.5f, 15.5f};
 
         return true;
@@ -180,9 +181,12 @@ public:
         {
             // Reset ball location
             vBallPos = {WIDTH / 2.0f, HEIGHT / 2.0f};
-            // Choose Random direction
-            float fAngle = (float(rand()) / float(RAND_MAX)) * 2.0f * 3.14159f;
-            vBallDir = {cos(fAngle), sin(fAngle)};
+
+            // Choose Random direction in [pi/6, 5pi/6] range
+            float fAngle = 3.14159f /6.0f * (4*float(rand()) / float(RAND_MAX) + 1.0f);
+            // Use static_cast to avoid narrowing conversion Warning
+            vBallDir = {static_cast<float>(cos(fAngle)),
+                        static_cast<float>(sin(fAngle))};
         }
 
         // Draw Bat
@@ -196,8 +200,8 @@ public:
         FillCircle(vBallPos * vBlockSize, fBallRadius, olc::CYAN);
 
         // debug
-        std::cout << "Bat x: " << vBatPos.x << " y: " << vBatPos.y;
-        std::cout << " | Ball x: " << vBallPos.x << " y: " << vBallPos.y << std::endl;
+        // std::cout << "Bat x: " << vBatPos.x << " y: " << vBatPos.y;
+        // std::cout << " | Ball x: " << vBallPos.x << " y: " << vBallPos.y << std::endl;
 
         return true;
     }

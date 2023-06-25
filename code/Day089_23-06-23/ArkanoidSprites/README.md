@@ -1,8 +1,8 @@
 #link: https://github.com/OneLoneCoder/olcPixelGameEngine/wiki/TUTORIAL---Sprites
 
-# Arkanoid with Sprites
+# Arkanoid with Sprites (Tutorials iv and v)
 
-Sprites are 2D arrays of pixels. Typically, PNG format image files are used.
+Follow the tutorials to rewrite Arkanoid from previous project using Sprites. Sprites are 2D arrays of pixels. Typically, PNG format image files are used.
 
 # Tags
 #tags: 
@@ -27,3 +27,4 @@ Sprites are 2D arrays of pixels. Typically, PNG format image files are used.
 - [ ] API
 - [ ] web_scraping
 - [ ] OpenCV
+- [x] games 
