@@ -293,3 +293,6 @@ Day 86: #100DaysOfCode in #Cpp progress - today I worked on the project Keyboard
  ## 21-06-23
 
 Day 87: #100DaysOfCode in #Cpp progress - today I worked on the project CollisionDetection https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day087_21-06-23/CollisionDetection (see https://www.jeffreythompson.org/collision-detection/)
+ ## 22-06-23
+
+Day 88: #100DaysOfCode in #Cpp progress - today I worked on the projects GameEngineHelloWorld https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day088_22-06-23/GameEngineHelloWorld (see https://github.com/OneLoneCoder/olcPixelGameEngine) and Arkanoid1 https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day088_22-06-23/Arkanoid1 (see https://github.com/OneLoneCoder/olcPixelGameEngine/wiki/)
