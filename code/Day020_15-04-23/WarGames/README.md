@@ -71,3 +71,4 @@ HOW ABOUT A NICE GAME OF CHESS?
 - [ ] API
 - [ ] web_scraping
 - [ ] OpenCV
+- [x] games
