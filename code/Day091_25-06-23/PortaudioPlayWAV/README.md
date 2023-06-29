@@ -1,6 +1,8 @@
-#link:
+#link: https://github.com/albertz/music-player-core/blob/master/examples/portaudio-wavplay-demo.cpp
 
-# Title
+# Portaudio2
+
+A second attempt to play WAV sounds based on the link above. No luck.
 
 # Tags
 #tags: 
