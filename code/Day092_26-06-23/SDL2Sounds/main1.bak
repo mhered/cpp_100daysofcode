@@ -1,0 +1,136 @@
+// INCLUDES
+#include <SDL.h>
+#include <SDL_main.h>
+#include <string.h>
+#include <iostream>
+
+// DEFINES
+#define SDL_OK 0
+#define INVALID_AUDIO_DEVICE 0
+#define PLAY_AUDIO 0
+#define STOP_AUDIO 1
+#define CHANNELS 2
+#define AUDIO_LENGTH_MS 6000
+#define SAMPLE_RATE 32800
+#define SDL_AUDIO_FORMAT AUDIO_S32
+
+// DECLARATIONS
+
+// FUNCTIONS
+static int initialize_sdl();
+static int initialize_audio(std::string filename);
+static void play_audio();
+static void clean_up();
+
+// CALLBACKS
+static void audio_callback(void *, Uint8 *, int);
+
+// VARIABLES
+static SDL_AudioDeviceID _audioDeviceId = 0;
+static Uint8 *_audioBuffer = NULL;
+static Uint32 _audioLength = 0;
+
+int main(int argc, char **argv)
+{
+    int errorCode = SDL_OK;
+
+    errorCode = initialize_sdl();
+    if (errorCode)
+    {
+        return errorCode;
+    }
+    std::string filename =
+        "/home/mhered/cpp_100daysofcode/code/Day093_27-06-23/Challenge1/soundclips/phaser1.wav";
+    errorCode = initialize_audio(filename);
+    if (errorCode)
+    {
+        return errorCode;
+    }
+
+    play_audio();
+    clean_up();
+
+    return 0;
+}
+
+////////////////////////////////////////
+
+static int initialize_sdl()
+{
+    if (!SDL_Init(SDL_INIT_AUDIO) == SDL_OK)
+    {
+        std::cout << "Log error message in real program" << std::endl;
+        return -1;
+    }
+
+    return SDL_OK;
+}
+
+////////////////////////////////////////
+
+static int initialize_audio(std::string filename)
+{
+    SDL_AudioSpec audioSpec;
+    SDL_AudioSpec obtained;
+
+    audioSpec.channels = CHANNELS;
+    audioSpec.freq = SAMPLE_RATE;
+    audioSpec.format = SDL_AUDIO_FORMAT;
+    audioSpec.callback = audio_callback;
+
+    _audioDeviceId = SDL_OpenAudioDevice(NULL, 0, &audioSpec, &obtained, SDL_AUDIO_ALLOW_FREQUENCY_CHANGE);
+    if (_audioDeviceId == INVALID_AUDIO_DEVICE)
+    {
+        {
+            std::cout << "Could not open Device" << std::endl;
+            return -2;
+        }
+    }
+
+    if (SDL_LoadWAV(filename.c_str(), &audioSpec, &_audioBuffer, &_audioLength) == NULL)
+    {
+        {
+            std::cout << "File not found" << std::endl;
+            return -3;
+        }
+    }
+
+    return SDL_OK;
+}
+
+////////////////////////////////////////
+
+static void clean_up()
+{
+    SDL_CloseAudioDevice(_audioDeviceId);
+    SDL_FreeWAV(_audioBuffer);
+    SDL_Quit();
+}
+
+////////////////////////////////////////
+
+static void play_audio()
+{
+    SDL_PauseAudioDevice(_audioDeviceId, PLAY_AUDIO);
+    SDL_Delay(AUDIO_LENGTH_MS);
+    SDL_PauseAudioDevice(_audioDeviceId, STOP_AUDIO);
+}
+
+////////////////////////////////////////
+static void audio_callback(void *userData, Uint8 *stream, int length)
+{
+    if (_audioLength == 0)
+    {
+        return;
+    }
+    if (length > (int)_audioLength)
+    {
+        length = _audioLength;
+    }
+
+    memset(stream, 0, length); /* Silence everything */
+    SDL_MixAudioFormat(stream, _audioBuffer, SDL_AUDIO_FORMAT, length, SDL_MIX_MAXVOLUME);
+
+    _audioBuffer += length;
+    _audioLength -= length;
+}

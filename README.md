@@ -305,3 +305,6 @@ Day 90: #100DaysOfCode in #Cpp progress - today I worked on the project Asteroid
  ## 25-06-23
 
 Day 91: #100DaysOfCode in #Cpp progress - today I concluded sound in C++ is ridiculously difficult PortaudioPlayWAV https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day091_25-06-23/PortaudioPlayWAV (see https://github.com/albertz/music-player-core/blob/master/examples/portaudio-wavplay-demo.cpp) and PinkNoise https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day091_25-06-23/PinkNoise (see https://github.com/PortAudio/portaudio/blob/master/examples/paex_pink.c)
+ ## 26-06-23
+
+Day 92: #100DaysOfCode in #Cpp progress - today I worked on the project SDL2Sounds https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day092_26-06-23/SDL2Sounds (see https://www.youtube.com/watch?v=lBCVC7ubBzs)
