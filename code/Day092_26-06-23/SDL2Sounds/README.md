@@ -23,8 +23,16 @@ Compile with
 ```bash
 $ gcc -o myprogram myprogram.c `sdl2-config --cflags --libs`
 ```
+Or add in `tasks.json` : 
+```json
 
-Or add in `c_cpp_properties.json` : 
+"includePath": [
+                ...                
+                "`sdl2-config --cflags --libs`"
+                ...
+```
+
+And add in `c_cpp_properties.json` : 
 ```json
 
 "includePath": [
