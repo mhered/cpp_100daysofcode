@@ -91,7 +91,7 @@ Found: 2 islands in 3 x 3 map. Largest island has area: 3
 - [ ] CLI
 - [ ] arduino
 - [ ] ROS
-- [ ] chatGPT
+- [ ] AI_tools: chat GPT
 - [ ] databases
 - [ ] API
 - [ ] web_scraping

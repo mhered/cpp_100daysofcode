@@ -32,7 +32,7 @@ Practice on the sample file `768x576.avi` tracking multiple pedestrians walking 
 - [ ] CLI
 - [ ] arduino
 - [ ] ROS
-- [ ] chatGPT
+- [ ] AI_tools: chat GPT
 - [ ] databases
 - [ ] API
 - [ ] web_scraping

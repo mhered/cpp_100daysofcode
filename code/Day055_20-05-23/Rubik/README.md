@@ -71,7 +71,7 @@ ID,Name,Last Name,Time 1,Time 2,Time 3,Time 4,Time 5
 - [ ] CLI
 - [ ] arduino
 - [ ] ROS
-- [x] chatGPT
+- [x] AI_tools: chat GPT
 - [ ] databases
 - [ ] API
 - [ ] web_scraping

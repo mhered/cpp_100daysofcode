@@ -50,7 +50,7 @@ x = 520 | y= 305 | angle = -20
 - [ ] CLI
 - [ ] arduino
 - [ ] ROS
-- [ ] chatGPT
+- [ ] AI_tools: chat GPT
 - [ ] databases
 - [ ] API
 - [ ] web_scraping

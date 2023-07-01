@@ -55,7 +55,7 @@ Before 1600 the Julian calendar was used in most countries. The algorithm we wil
 - [ ] CLI
 - [ ] arduino
 - [ ] ROS
-- [ ] chatGPT
+- [ ] AI_tools: chat GPT
 - [ ] databases
 - [ ] API
 - [ ] web_scraping

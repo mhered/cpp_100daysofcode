@@ -23,7 +23,7 @@ In this example there could be a conflict between two instances of the thread wo
 - [ ] CLI
 - [ ] arduino
 - [ ] ROS
-- [ ] chatGPT
+- [ ] AI_tools: chat GPT
 - [ ] databases
 - [ ] API
 - [ ] web_scraping

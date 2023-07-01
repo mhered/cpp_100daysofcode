@@ -34,7 +34,7 @@ reads lines from a text file `filename` and prints them out separated by `\n`. R
 - [ ] CLI
 - [ ] arduino
 - [ ] ROS
-- [ ] chatGPT
+- [ ] AI_tools: chat GPT
 - [ ] databases
 - [ ] API
 - [ ] web_scraping

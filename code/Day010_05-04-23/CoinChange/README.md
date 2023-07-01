@@ -62,7 +62,7 @@ Bottom Up dp: 125146 combinations (Elapsed Time: 27 microseconds)
 - [ ] CLI
 - [ ] arduino
 - [ ] ROS
-- [ ] chatGPT
+- [ ] AI_tools: chat GPT
 - [ ] databases
 - [ ] API
 - [ ] web_scraping

@@ -29,7 +29,7 @@ More info on input modes: https://www.youtube.com/watch?v=4TRUf75mJNU
 - [x] CLI
 - [ ] arduino
 - [ ] ROS
-- [ ] chatGPT
+- [ ] AI_tools: chat GPT
 - [ ] databases
 - [ ] API
 - [ ] web_scraping

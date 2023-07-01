@@ -40,7 +40,7 @@ To adapt the Javascript code to C++ we will relay on OpenCV for the graphical st
 - [ ] CLI
 - [ ] arduino
 - [ ] ROS
-- [ ] chatGPT
+- [ ] AI_tools: chat GPT
 - [ ] databases
 - [ ] API
 - [ ] web_scraping

@@ -92,7 +92,7 @@ Day 14 (09-04-23) Project: EasterDates
 
 Day 15 (10-04-23) Project: TestDriveChatGPT
 "/home/mhered/cpp_100daysofcode/code/Day015_10-04-23/TestDriveChatGPT"
- 3 Tags: data_structures, testing, chatGPT
+ 3 Tags: data_structures, testing, AI_tools
 
 Day 16 (11-04-23) Project: GoogleTest
 "/home/mhered/cpp_100daysofcode/code/Day016_11-04-23/GoogleTest"
@@ -172,6 +172,6 @@ file_management:4
 CLI:2
 algorithms:17
 plotting_data:3
-chatGPT:1
+AI_tools:1
 strings:14
 basics:14

@@ -22,7 +22,7 @@ Tutorial 3 of the OpenCV Car Counting Series - modified to work on OpenCV v4.
 - [ ] CLI
 - [ ] arduino
 - [ ] ROS
-- [ ] chatGPT
+- [ ] AI_tools: chat GPT
 - [ ] databases
 - [ ] API
 - [ ] web_scraping

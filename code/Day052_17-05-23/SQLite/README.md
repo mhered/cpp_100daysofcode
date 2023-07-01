@@ -56,7 +56,7 @@ More on SQLite syntax: https://www.geeksforgeeks.org/sqlite-statements-or-syntax
 - [ ] CLI
 - [ ] arduino
 - [ ] ROS
-- [ ] chatGPT
+- [ ] AI_tools: chat GPT
 - [x] databases
 - [ ] API
 - [ ] web_scraping

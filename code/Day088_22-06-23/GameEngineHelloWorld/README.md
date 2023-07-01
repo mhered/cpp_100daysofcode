@@ -66,7 +66,7 @@ $ sudo apt install build-essential libglu1-mesa-dev libpng-dev
 - [ ] CLI
 - [ ] arduino
 - [ ] ROS
-- [ ] chatGPT
+- [ ] AI_tools: chat GPT
 - [ ] databases
 - [ ] API
 - [ ] web_scraping

@@ -26,7 +26,7 @@ Make it beautiful by printing colored characters with cout: https://stackoverflo
 - [x] CLI
 - [ ] arduino
 - [ ] ROS
-- [ ] chatGPT
+- [ ] AI_tools: chat GPT
 - [ ] databases
 - [ ] API
 - [ ] web_scraping

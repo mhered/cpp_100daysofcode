@@ -38,7 +38,7 @@ Credits to [Freepik - Flaticon](https://www.flaticon.com/free-icons/) these 9 be
 - [ ] CLI
 - [ ] arduino
 - [ ] ROS
-- [ ] chatGPT
+- [ ] AI_tools: chat GPT
 - [ ] databases
 - [ ] API
 - [ ] web_scraping

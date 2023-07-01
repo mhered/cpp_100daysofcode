@@ -53,7 +53,7 @@ More info in: https://code.visualstudio.com/docs/cpp/launch-json-reference
 - [ ] CLI
 - [ ] arduino
 - [ ] ROS
-- [ ] chatGPT
+- [ ] AI_tools: chat GPT
 - [ ] databases
 - [ ] API
 - [ ] web_scraping

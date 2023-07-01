@@ -22,7 +22,7 @@ Applying Google Test framework to test EasterDate() function from code/Day014_09
 - [ ] CLI
 - [ ] arduino
 - [ ] ROS
-- [ ] chatGPT
+- [ ] AI_tools: chat GPT
 - [ ] databases
 - [ ] API
 - [ ] web_scraping

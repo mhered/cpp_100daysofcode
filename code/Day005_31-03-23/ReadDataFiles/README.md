@@ -80,7 +80,7 @@ Compiling instructions: https://libxmlplusplus.github.io/libxmlplusplus/manual/h
 - [x] CLI
 - [ ] arduino
 - [ ] ROS
-- [ ] chatGPT
+- [ ] AI_tools: chat GPT
 - [ ] databases
 - [ ] API
 - [ ] web_scraping

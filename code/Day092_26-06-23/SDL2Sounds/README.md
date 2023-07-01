@@ -69,7 +69,7 @@ So I finally got it to work! I wrapped SDL in a simple `Audio` class that allows
 - [ ] CLI
 - [ ] arduino
 - [ ] ROS
-- [ ] chatGPT
+- [ ] AI_tools: chat GPT
 - [ ] databases
 - [ ] API
 - [ ] web_scraping

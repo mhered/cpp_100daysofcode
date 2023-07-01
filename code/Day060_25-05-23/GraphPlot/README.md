@@ -119,7 +119,7 @@ Output:
 - [x] plotting_data
 - [ ] CLI: command line arguments, menus, TUI
 - [ ] robotics: arduino, ROS
-- [ ] chatGPT
+- [ ] AI_tools: chat GPT
 - [ ] databases
 - [ ] APIs
 - [ ] web_scraping

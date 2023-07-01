@@ -53,7 +53,7 @@ I cleaned up the code a bit, e.g. using auxiliary functions to avoid repetition,
 - [x] CLI
 - [ ] arduino
 - [ ] ROS
-- [ ] chatGPT
+- [ ] AI_tools: chat GPT
 - [ ] databases
 - [ ] API
 - [ ] web_scraping

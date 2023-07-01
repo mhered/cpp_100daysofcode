@@ -111,7 +111,7 @@ Where clearly optimal paths to nodes 1, 3, 4 have not been found yet.
 - [ ] CLI
 - [ ] arduino
 - [ ] ROS
-- [ ] chatGPT
+- [ ] AI_tools: chat GPT
 - [ ] databases
 - [ ] API
 - [ ] web_scraping

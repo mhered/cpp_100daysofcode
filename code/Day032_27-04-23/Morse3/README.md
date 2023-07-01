@@ -56,7 +56,7 @@ Next step is to check this C++ library: https://libserial.readthedocs.io/en/late
 - [ ] CLI
 - [x] arduino
 - [ ] ROS
-- [ ] chatGPT
+- [ ] AI_tools: chat GPT
 - [ ] databases
 - [ ] API
 - [ ] web_scraping

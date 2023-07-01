@@ -53,7 +53,7 @@ Although I initially discarded them, they have interesting elements like swarm o
 - [ ] CLI
 - [ ] arduino
 - [ ] ROS
-- [ ] chatGPT
+- [ ] AI_tools: chat GPT
 - [ ] databases
 - [ ] API
 - [ ] web_scraping

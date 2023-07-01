@@ -26,7 +26,7 @@ Unfortunately it does not seem to work as intended when I adapted the code for l
 - [ ] CLI
 - [ ] arduino
 - [ ] ROS
-- [ ] chatGPT
+- [ ] AI_tools: chat GPT
 - [ ] databases
 - [ ] API
 - [ ] web_scraping

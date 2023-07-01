@@ -26,7 +26,7 @@ The link shows code snippets in python, I used ChtGPT for translation to C++ the
 - [x] CLI
 - [ ] arduino
 - [ ] ROS
-- [x] chatGPT
+- [x] AI_tools: chat GPT
 - [ ] databases
 - [ ] API
 - [ ] web_scraping

@@ -30,7 +30,7 @@ More fun with GUIs with `wxWidgets`: https://www.youtube.com/watch?v=FwUGeV2fnfM
 - [ ] CLI
 - [ ] arduino
 - [ ] ROS
-- [ ] chatGPT
+- [ ] AI_tools: chat GPT
 - [ ] databases
 - [ ] API
 - [ ] web_scraping

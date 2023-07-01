@@ -76,7 +76,7 @@ Link to the libraries in `tasks.json`:
 - [ ] CLI
 - [ ] arduino
 - [ ] ROS
-- [ ] chatGPT
+- [ ] AI_tools: chat GPT
 - [ ] databases
 - [ ] API
 - [x] web_scraping

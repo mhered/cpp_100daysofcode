@@ -31,7 +31,7 @@ I said it before: ChatGPT rocks. It is true that their proposal required some fi
 - [ ] CLI
 - [ ] arduino
 - [ ] ROS
-- [x] chatGPT
+- [x] AI_tools: chat GPT
 - [ ] databases
 - [ ] API
 - [ ] web_scraping

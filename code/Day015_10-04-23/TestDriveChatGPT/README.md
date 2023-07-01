@@ -519,7 +519,7 @@ In general, the refactored code removes unnecessary comments (e.g., `# Import th
 - [ ] CLI
 - [ ] arduino
 - [ ] ROS
-- [x] chatGPT
+- [x] AI_tools: chat GPT
 - [ ] databases
 - [ ] API
 - [ ] web_scraping

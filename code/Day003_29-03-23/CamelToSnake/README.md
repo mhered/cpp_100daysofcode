@@ -40,7 +40,7 @@ Test input will always be appropriately formatted as either camelCase or snake_c
 - [ ] CLI
 - [ ] arduino
 - [ ] ROS
-- [ ] chatGPT
+- [ ] AI_tools: chat GPT
 - [ ] databases
 - [ ] API
 - [ ] web_scraping

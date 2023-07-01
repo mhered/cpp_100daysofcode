@@ -36,7 +36,7 @@ Finally got it to work after several hiccups:
 - [ ] CLI
 - [x] arduino
 - [ ] ROS
-- [ ] chatGPT
+- [ ] AI_tools: chat GPT
 - [ ] databases
 - [ ] API
 - [ ] web_scraping

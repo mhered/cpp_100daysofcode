@@ -38,7 +38,7 @@ javelinThrow(100.1, 89) ➞ "Ymax=511m, Xmax=36m"
 - [ ] CLI
 - [ ] arduino
 - [ ] ROS
-- [ ] chatGPT
+- [ ] AI_tools: chat GPT
 - [ ] databases
 - [ ] API
 - [ ] web_scraping

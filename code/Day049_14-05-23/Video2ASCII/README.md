@@ -24,7 +24,7 @@ Inspired by the tutorial in the link, which is for JS, not C++.
 - [ ] CLI
 - [ ] arduino
 - [ ] ROS
-- [ ] chatGPT
+- [ ] AI_tools: chat GPT
 - [ ] databases
 - [ ] API
 - [ ] web_scraping

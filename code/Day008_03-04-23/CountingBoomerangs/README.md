@@ -58,7 +58,7 @@ countBoomerangs([4, 4, 4, 9, 9, 9, 9]) ➞ 0
 - [ ] CLI
 - [ ] arduino
 - [ ] ROS
-- [ ] chatGPT
+- [ ] AI_tools: chat GPT
 - [ ] databases
 - [ ] API
 - [ ] web_scraping

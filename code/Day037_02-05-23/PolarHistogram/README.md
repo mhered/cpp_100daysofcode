@@ -23,7 +23,7 @@ Modify the representation of tags built for [BetterTags](https://github.com/mher
 - [ ] CLI
 - [ ] arduino
 - [ ] ROS
-- [ ] chatGPT
+- [ ] AI_tools: chat GPT
 - [ ] databases
 - [ ] API
 - [ ] web_scraping

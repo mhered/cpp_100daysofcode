@@ -61,7 +61,7 @@ Could not open or find the image "invalid.jpg" I'll show you Tomato.
 - [ ] CLI
 - [ ] arduino
 - [ ] ROS
-- [ ] chatGPT
+- [ ] AI_tools: chat GPT
 - [ ] databases
 - [ ] API
 - [ ] web_scraping

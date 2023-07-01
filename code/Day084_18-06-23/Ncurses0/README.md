@@ -28,7 +28,7 @@ Note: `ncurses` was installed already in my system.
 - [x] CLI
 - [ ] arduino
 - [ ] ROS
-- [ ] chatGPT
+- [ ] AI_tools: chat GPT
 - [ ] databases
 - [ ] API
 - [ ] web_scraping

@@ -37,7 +37,7 @@ Credit sample video: Thirdman https://www.pexels.com/video/woman-taking-selfie-w
 - [ ] CLI
 - [ ] arduino
 - [ ] ROS
-- [ ] chatGPT
+- [ ] AI_tools: chat GPT
 - [ ] databases
 - [ ] API
 - [ ] web_scraping

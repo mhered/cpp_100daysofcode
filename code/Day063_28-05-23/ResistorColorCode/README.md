@@ -82,7 +82,7 @@ resistorCode(["black", "white", "black", "orange", "red", "yellow"]) ➞ "90kΩ 
 - [ ] CLI
 - [ ] arduino
 - [ ] ROS
-- [ ] chatGPT
+- [ ] AI_tools: chat GPT
 - [ ] databases
 - [ ] API
 - [ ] web_scraping

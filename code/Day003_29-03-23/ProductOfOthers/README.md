@@ -39,7 +39,7 @@ canPartition([-1, -20, 5, -1, -2, 2]) ➞ true
 - [ ] CLI
 - [ ] arduino
 - [ ] ROS
-- [ ] chatGPT
+- [ ] AI_tools: chat GPT
 - [ ] databases
 - [ ] API
 - [ ] web_scraping

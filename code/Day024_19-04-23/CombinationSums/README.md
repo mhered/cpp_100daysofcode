@@ -52,7 +52,7 @@ The solution is based on what I learnt about [Recursion](https://github.com/mher
 - [ ] CLI
 - [ ] arduino
 - [ ] ROS
-- [ ] chatGPT
+- [ ] AI_tools: chat GPT
 - [ ] databases
 - [ ] API
 - [ ] web_scraping

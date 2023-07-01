@@ -51,7 +51,7 @@ I also added a new wireframe model for the destroyed ship to match the sound eff
 - [ ] CLI
 - [ ] arduino
 - [ ] ROS
-- [ ] chatGPT
+- [ ] AI_tools: chat GPT
 - [ ] databases
 - [ ] API
 - [ ] web_scraping

@@ -44,7 +44,7 @@ median([-23, -43, -29, -53, -67]) ➞ -43
 - [ ] CLI
 - [ ] arduino
 - [ ] ROS
-- [ ] chatGPT
+- [ ] AI_tools: chat GPT
 - [ ] databases
 - [ ] API
 - [ ] web_scraping

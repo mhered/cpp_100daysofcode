@@ -88,7 +88,7 @@ I played with the examples in the library and added a 3dplot, a heat map and a p
 - [ ] CLI
 - [ ] arduino
 - [ ] ROS
-- [ ] chatGPT
+- [ ] AI_tools: chat GPT
 - [ ] databases
 - [ ] API
 - [ ] web_scraping

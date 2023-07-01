@@ -63,7 +63,7 @@ The file  [morse_table.md](./morse_table.md)  contains a subset of morse codes a
 - [ ] CLI
 - [ ] arduino
 - [ ] ROS
-- [ ] chatGPT
+- [ ] AI_tools: chat GPT
 - [ ] databases
 - [ ] API
 - [x] web_scraping

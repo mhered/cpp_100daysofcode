@@ -20,7 +20,7 @@
 - [ ] CLI
 - [ ] arduino
 - [x] ROS
-- [ ] chatGPT
+- [ ] AI_tools: chat GPT
 - [ ] databases
 - [x] API
 - [ ] web_scraping

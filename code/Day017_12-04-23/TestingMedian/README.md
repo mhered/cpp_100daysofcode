@@ -25,7 +25,7 @@ See: https://stackoverflow.com/questions/23270078/test-a-specific-exception-type
 - [ ] CLI
 - [ ] arduino
 - [ ] ROS
-- [ ] chatGPT
+- [ ] AI_tools: chat GPT
 - [ ] databases
 - [ ] API
 - [ ] web_scraping

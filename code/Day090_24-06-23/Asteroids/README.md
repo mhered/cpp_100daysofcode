@@ -40,7 +40,7 @@ Note: `Asteroids.bak` tweaked from  [OneLoneCoder_Asteroids.cpp](https://github.
 - [ ] CLI
 - [ ] arduino
 - [ ] ROS
-- [ ] chatGPT
+- [ ] AI_tools: chat GPT
 - [ ] databases
 - [ ] API
 - [ ] web_scraping
