@@ -313,4 +313,4 @@ Day 92: #100DaysOfCode in #Cpp progress - today I worked on the project SDL2Soun
 Day 93: #100DaysOfCode in #Cpp progress - today I worked on the projects AsteroidsSoundKO https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day093_27-06-23/AsteroidsSoundKO and AsteroidsSoundOK https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day093_27-06-23/AsteroidsSoundOK (see https://github.com/OneLoneCoder/olcSoundWaveEngine/)
  ## 28-06-23
 
-Day 94: #100DaysOfCode in #Cpp progress - today I worked on the project GithubCopilot https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day094_28-06-23/GithubCopilot (see )
+Day 94: #100DaysOfCode in #Cpp progress - today I wrote a program to count the working days between two dates with the help of GithubCopilot https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day094_28-06-23/GithubCopilot (see https://docs.github.com/en/copilot/quickstart)
