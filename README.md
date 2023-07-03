@@ -314,3 +314,6 @@ Day 93: #100DaysOfCode in #Cpp progress - today I worked on the projects Asteroi
  ## 28-06-23
 
 Day 94: #100DaysOfCode in #Cpp progress - today I wrote a program to count the working days between two dates with the help of GithubCopilot https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day094_28-06-23/GithubCopilot (see https://docs.github.com/en/copilot/quickstart)
+ ## 29-06-23
+
+Day 95: #100DaysOfCode in #Cpp progress - today I worked on the project ChatGPTScrapesHolidays https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day095_29-06-23/ChatGPTScrapesHolidays (see https://chat.openai.com/share/b4077a5c-736d-41d2-be18-2360e0175d3c)
