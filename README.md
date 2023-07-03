@@ -317,3 +317,6 @@ Day 94: #100DaysOfCode in #Cpp progress - today I wrote a program to count the w
  ## 29-06-23
 
 Day 95: #100DaysOfCode in #Cpp progress - today I worked on the project ChatGPTScrapesHolidays https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day095_29-06-23/ChatGPTScrapesHolidays (see https://chat.openai.com/share/b4077a5c-736d-41d2-be18-2360e0175d3c)
+ ## 30-06-23
+
+Day 96: #100DaysOfCode in #Cpp progress - today I worked on the project Tello2 https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day096_30-06-23/Tello2 (see https://github.com/herrnamenlos123/tello)
