@@ -320,3 +320,6 @@ Day 95: #100DaysOfCode in #Cpp progress - today I worked on the project ChatGPTS
  ## 30-06-23
 
 Day 96: #100DaysOfCode in #Cpp progress - today I worked on the project Tello2 https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day096_30-06-23/Tello2 (see https://github.com/herrnamenlos123/tello)
+ ## 01-07-23
+
+Day 97: #100DaysOfCode in #Cpp progress - today I worked on the project RESTAPI https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day097_01-07-23/RESTAPI (see https://www.youtube.com/watch?v=UVYPtnWRtNA)
