@@ -4,6 +4,7 @@
 #include <iostream>
 #include <chrono>
 #include <sstream>
+#include <thread>
 
 #define PRINTF(msg) std::cout << msg << std::endl;
 #define PRINTF_WARN(msg) std::cout << "WARNING: " << msg << std::endl;
@@ -39,9 +40,9 @@ public:
         PRINTF("Tello has Landed!");
     };
 
-    void sleep(double secs)
+    void sleep(int millisecs)
     {
-        std::this_thread::sleep_for(std::chrono::milliseconds(int(secs * 1000)));
+        std::this_thread::sleep_for(std::chrono::milliseconds(int(millisecs)));
     };
 
     void move(double lr, double fb, double ud, double yaw)

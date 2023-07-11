@@ -9,7 +9,7 @@ Some time ago I left the project [Tello](https://github.com/mhered/cpp_100daysof
 
 As a reminder the goal was to replicate using C++ at least some of the projects I did two years ago with my Tello drone using python: https://github.com/mhered/tello-fun.
 
-I decided to try out [tello](https://github.com/herrnamenlos123/tello), a C++14 single-header library to control the Tello, last updated in Nov22. Note it uses SDK 2.0, which apparently may be not fully compatible with the "normal" Tello. 
+I decided to try out [tello](https://github.com/herrnamenlos123/tello), a C++14 single-header library to control the Tello, last updated in Nov22. Note it uses SDK 2.0, which apparently may be is not fully compatible with the "normal" Tello. 
 
 ## Getting started
 

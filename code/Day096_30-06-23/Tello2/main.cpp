@@ -1,6 +1,8 @@
+#include "tello.hpp"
+
 #define OLC_PGE_APPLICATION
 #include "olcPixelGameEngine.h"
-#include "tello_dummy.hpp"
+
 
 class Example : public olc::PixelGameEngine
 {
@@ -105,7 +107,7 @@ public:
         }
 
         tello.move(left_right, 0.0, up_down, 0.0);
-        tello.sleep(.1);
+        tello.sleep(100);
         return true;
     }
 };
