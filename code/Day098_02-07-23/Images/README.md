@@ -14,7 +14,7 @@ This works for many common image formats, such as JPG, PNG or WEBP. However, vid
 - [ ] as we scan the repo we could create a thumbnail of each image and save it in a separate folder.
 - [ ] for videos and animated gifs, we can create a static thumbnail from one of the video frames (maybe not the first because many of my videos start with a fade-in effect)
 
-Both items implemented in the project [Thumbnails]()
+Both items implemented in the project [Thumbnails](https://github.com/mhered/cpp_100daysofcode/tree/main/code/Day098_02-07-23/Thumbnails)
 
 # Tags
 #tags: 

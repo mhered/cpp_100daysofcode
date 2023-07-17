@@ -2,7 +2,7 @@
 
 # Thumbnails
 
-Create a function `Thumbnail()`:
+Following on the open actions from project [Images](https://github.com/mhered/cpp_100daysofcode/tree/main/code/Day098_02-07-23/Images) we will create a function `Thumbnail()`:
 
 ```c++
 bool Thumbnail(fs::path img_file_path,
@@ -11,13 +11,13 @@ bool Thumbnail(fs::path img_file_path,
                const int MAX_HEIGHT = 200,
                bool verbose = false)`
 ```
-The function receives:
+This function receives:
 - a path to an image or video file
 - a path to the destination folder
 - the maximum width and height dimensions of the thumbnails
 - a `bool verbose` parameter 
   
-The function will:
+This function will:
 - create a thumbnail not larger than the designated maximum dimensions while respecting the original aspect ratio
 - for video files of animated gifs the thumbnail will be created from a frame about 10% into the duration of the video
 - save the thumbnail with the name `tmb_[STEM].jpg` to the destination folder 
