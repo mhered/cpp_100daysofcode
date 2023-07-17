@@ -23,7 +23,7 @@ javelinThrow(100.1, 89) ➞ "Ymax=511m, Xmax=36m"
 # Tags
 #tags: 
 
-- [ ] basics
+- [x] basics
 - [ ] algorithms
 - [ ] data_structures: trees, graphs
 - [ ] strings: regex

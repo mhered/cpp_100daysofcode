@@ -24,7 +24,7 @@ Credits to [Freepik - Flaticon](https://www.flaticon.com/free-icons/) these 9 be
 #tags: 
 
 - [ ] basics
-- [X] algorithms
+- [x] algorithms
 - [ ] data_structures: trees, graphs
 - [ ] strings: regex
 - [ ] dates_times: timezones
@@ -42,4 +42,4 @@ Credits to [Freepik - Flaticon](https://www.flaticon.com/free-icons/) these 9 be
 - [ ] databases
 - [ ] API
 - [ ] web_scraping
-- [X] OpenCV
+- [x] OpenCV

@@ -23,7 +23,7 @@ I am starting to feel the weight of technical debt here. I barely managed to mak
 
 - [ ] basics
 - [ ] algorithms
-- [ ] data_structures: trees, graphs
+- [x] data_structures: trees, graphs
 - [ ] strings: regex
 - [ ] dates_times: timezones
 - [ ] file_management: input, output, folders and files
@@ -32,7 +32,7 @@ I am starting to feel the weight of technical debt here. I barely managed to mak
 - [ ] logging
 - [ ] object_oriented_programming
 - [ ] GUI
-- [ ] plotting_data
+- [x] plotting_data
 - [ ] CLI
 - [ ] arduino
 - [ ] ROS
