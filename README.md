@@ -323,3 +323,6 @@ Day 96: #100DaysOfCode in #Cpp progress - today I worked on the project Tello2 h
  ## 01-07-23
 
 Day 97: #100DaysOfCode in #Cpp progress - today I worked on the project RESTAPI https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day097_01-07-23/RESTAPI (see https://www.youtube.com/watch?v=UVYPtnWRtNA)
+ ## 02-07-23
+
+Day 98: #100DaysOfCode in #Cpp progress - today I worked on improving the looks of this repo's README.md file in the projects Images https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day098_02-07-23/Images and Thumbnails https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day098_02-07-23/Thumbnails 

@@ -3,25 +3,25 @@
 # Title
 
 # Tags
-#tags: 
+ #tags: 
 
 - [ ] basics
-- [ ] algorithms
+-  [x] algorithms
 - [ ] data_structures: trees, graphs
 - [ ] strings: regex
 - [ ] dates_times: timezones
 - [ ] file_management: input, output, folders and files
 - [ ] testing
-- [ ] exceptions
+- [ x ] exceptions
 - [ ] logging
 - [ ] object_oriented_programming
 - [ ] GUI
 - [ ] plotting_data
 - [ ] CLI
 - [ ] arduino
-- [ ] ROS
+- [x] ROS
 - [ ] AI_tools: chat GPT
 - [ ] databases
-- [ ] API
+- [x] API
 - [ ] web_scraping
-- [ ] OpenCV
+- [x] OpenCV
