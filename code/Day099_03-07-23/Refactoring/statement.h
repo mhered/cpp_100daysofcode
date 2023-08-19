@@ -35,29 +35,29 @@ std::string formatCurrency(double amount)
 
 double amountFor(Play play, Performance perf)
 {
-    double thisAmount = 0;
+    double result = 0;
     if (play.type == "tragedy")
     {
-        thisAmount = 40000;
+        result = 40000;
         if (perf.audience > 30)
         {
-            thisAmount += 1000 * (perf.audience - 30);
+            result += 1000 * (perf.audience - 30);
         }
     }
     else if (play.type == "comedy")
     {
-        thisAmount = 30000;
+        result = 30000;
         if (perf.audience > 20)
         {
-            thisAmount += 10000 + 500 * (perf.audience - 20);
+            result += 10000 + 500 * (perf.audience - 20);
         }
-        thisAmount += 300 * perf.audience;
+        result += 300 * perf.audience;
     }
     else
     {
         throw std::runtime_error("unknown type: " + play.type);
     }
-    return thisAmount;
+    return result;
 }
 
 std::string statement(Invoice invoice, std::map<std::string, Play> plays)
