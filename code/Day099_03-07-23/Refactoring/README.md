@@ -116,10 +116,25 @@ Note: because I add a second C++ source file to the project folder I had to modi
 1. Make a small behavior-preserving transformation in `statement.h`
 2. Compile and execute `tests.cpp` to run the tests
 3. When tests are green:
-   1. (Optionally save a copy of current status in `./steps/statement_[N+1].h`. This is only to document progress in this particular case)
+   1. (Optionally save a copy of current status in `./steps/statement_[N+1].h`. This is to save intermediate steps and only applies to this tutorial)
    2. Commit changes
 
+### Extracting `amountFor()`
 
+The first actual refactoring step consists of extracting the chunk of code that calculates the charge per one performance to a function `amountFor()` and then renaming parameters and local variables for clarity. 
+
+The author proposes also to remove the  `play` parameter by replacing it with a query. I did it but this seems to make more sense in original Javascript than in the C++ version for two reasons:
+
+- Due to the way scope works in JS the variable `plays` is available inside nested functions such such as `playFor()` or `amountFor()`, but in C++ you need to be pass it explicitly as a parameter, therefore removing the parameter `play`  from `amountFor()`does not result in less parameters being passed
+- Additionally, the `switch` statement in C++ works only with integers, so replacing `play.type` with a query `playFor(aPerformance, plays).type` in each if statement results in multiple calls to `playFor()` in each step of the loop which is not very efficient. The author recommends not to worry about this. In JS  there are 3 calls to `playFor()` per loop. However in C++ there are 4 calls (and there will be more when we add more kinds of play...)
+
+I saved the intermediate result as [./steps/statement_01.h](./steps/statement_01.h) 
+
+### Extracting `volumeCreditsFor()`
+
+Next we extract the chunk of code that calculates the credits to a function `volumeCreditsFor()` and rename local variables and parameters.
+
+I saved the intermediate result as [./steps/statement_02.h](./steps/statement_02.h) 
 
 # Tags
 #tags: 
