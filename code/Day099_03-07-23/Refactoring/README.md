@@ -136,6 +136,38 @@ Next we extract the chunk of code that calculates the credits to a function `vol
 
 I saved the intermediate result as [./steps/statement_02.h](./steps/statement_02.h) 
 
+### Change function declaration for `formatCurrency()`
+
+In the original JS code the `format` variable is an instance of type number formatter object. The next refactoring step is replacing this variable with a formatting function, but the C++ translation already created a function for that: `formatCurrency()`. we will rename to `usd()` and move to`/100` inside it.
+
+I used the migration approach. I first defined:
+
+```c++ 
+std::string usd(int numberCents) {
+    return formatCurrency(numberCents / 100.0);
+}
+```
+
+And then proceeded to replace all calls to `formatCurrency()` by calls to `usd()` This is cool because it allows both versions to coexist which is good to allow migrating slowly, e.g. to save and test in every replacement and/or to mark the old function as deprecated and allow time for API users to adapt.
+
+Note that I changed the type of the parameter to `int`. This had further implications, for consistency I also changed the declarations of `int totalAmount` and  `int amountFor()` and even the implementation of `amountFor()` so it would return an `int`. Probably should have taken small steps but I did it all in one go.
+
+I added some tests to the test suite to check `usd()` because for amounts < $1 it makes a difference between writing `/100.0` or `/100`.
+
+On a second step I can inline the function `formatCurrency()` and delete it:
+
+```c++
+std::string usd(int numberCents) {
+    return formatCurrency(numberCents / 100.0);
+}
+```
+
+
+
+
+
+I am not too happy with the name and would have preferred something like`formatCentsAsUSD()`
+
 # Tags
 #tags: 
 

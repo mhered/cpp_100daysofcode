@@ -25,6 +25,7 @@ struct Invoice
     std::vector<Performance> performances;
 };
 
+// deprecated
 std::string formatCurrency(double amount)
 {
     std::ostringstream formatted;
@@ -33,14 +34,18 @@ std::string formatCurrency(double amount)
     return formatted.str();
 }
 
+std::string usd(int numberCents) {
+    return formatCurrency(numberCents / 100.0);
+}
+
 Play &playFor(Performance aPerformance, std::map<std::string, Play> plays)
 {
     return plays[aPerformance.playID];
 }
 
-double amountFor(Performance aPerformance, std::map<std::string, Play> plays)
+int amountFor(Performance aPerformance, std::map<std::string, Play> plays)
 {
-    double result = 0;
+    int result = 0;
 
     if (playFor(aPerformance, plays).type == "tragedy")
     {
@@ -77,7 +82,7 @@ int volumeCreditFor(Performance aPerformance, std::map<std::string, Play> plays)
 
 std::string statement(Invoice invoice, std::map<std::string, Play> plays)
 {
-    double totalAmount = 0;
+    int totalAmount = 0;
     int volumeCredits = 0;
     std::string result = "Statement for " + invoice.customer + "\n";
 
@@ -86,12 +91,12 @@ std::string statement(Invoice invoice, std::map<std::string, Play> plays)
         volumeCredits += volumeCreditFor(perf, plays);
 
         // Print line for this order
-        result += "  " + playFor(perf, plays).name + ": " + formatCurrency(amountFor(perf, plays) / 100.0) +
+        result += "  " + playFor(perf, plays).name + ": " + usd(amountFor(perf, plays)) +
                   " (" + std::to_string(perf.audience) + " seats)\n";
         totalAmount += amountFor(perf, plays);
     }
 
-    result += "Amount owed is " + formatCurrency(totalAmount / 100.0) + "\n";
+    result += "Amount owed is " + usd(totalAmount) + "\n";
     result += "You earned " + std::to_string(volumeCredits) + " credits\n";
     return result;
 }

@@ -98,6 +98,13 @@ TEST(FormatCurrencyTest, Formatting) {
     EXPECT_EQ(formatCurrency(0.123), "$0.12");
 }
 
+// Test that the usd function formats currency correctly
+TEST(CentsToUSDTest, Formatting) {
+    EXPECT_EQ(usd(10000), "$100.00");
+    EXPECT_EQ(usd(123457), "$1,234.57");
+    EXPECT_EQ(usd(12), "$0.12");
+}
+
 int main(int argc, char** argv) {
     ::testing::InitGoogleTest(&argc, argv);
     return RUN_ALL_TESTS();
