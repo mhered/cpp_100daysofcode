@@ -43,7 +43,7 @@ The original code from Fowler's book is in the following files:
 
 The C++ translation is the following two files:
 
-* [statement_00.h](./statement_00.h): definition of the C++ function `std::string statement(Invoice invoice, std::map<std::string, Play> plays)` translated as closely as possible from the original Javascript with some help from ChatGPT. The code defines also simple `Performance`, `Play` and `Invoice` objects and an auxiliary function `formatCurrency()`
+* [statement.h](./statement.h): definition of the C++ function `std::string statement(Invoice invoice, std::map<std::string, Play> plays)` translated as closely as possible from the original Javascript with some help from ChatGPT. The code defines also simple `Performance`, `Play` and `Invoice` objects and an auxiliary function `formatCurrency()`
 * [main.cpp](./main.cpp): a C++ wrapper that reads the input data from the JSON files and calls the function `statement()` with it.
 
 ## Building Tests
@@ -113,11 +113,11 @@ Note: because I add a second C++ source file to the project folder I had to modi
 
 ## The refactoring loop
 
-1. Make a small behavior-preserving transformation
-2. Increment the counter and save changes as `statement_[N+1].h`
-3. Update the line `#include "statement_[N].h"` in `tests.cpp`
-4. Save and execute the tests 
-5. When tests are green, commit
+1. Make a small behavior-preserving transformation in `statement.h`
+2. Compile and execute `tests.cpp` to run the tests
+3. When tests are green:
+   1. (Optionally save a copy of current status in `./steps/statement_[N+1].h`. This is only to document progress in this particular case)
+   2. Commit changes
 
 
 
