@@ -33,10 +33,15 @@ std::string formatCurrency(double amount)
     return formatted.str();
 }
 
-double amountFor(Play play, Performance aPerformance)
+Play &playFor(Performance aPerformance, std::map<std::string, Play> plays)
+{
+    return plays[aPerformance.playID];
+}
+
+double amountFor(Performance aPerformance,std::map<std::string, Play> plays )
 {
     double result = 0;
-    if (play.type == "tragedy")
+    if (playFor(aPerformance, plays).type == "tragedy")
     {
         result = 40000;
         if (aPerformance.audience > 30)
@@ -44,7 +49,7 @@ double amountFor(Play play, Performance aPerformance)
             result += 1000 * (aPerformance.audience - 30);
         }
     }
-    else if (play.type == "comedy")
+    else if (playFor(aPerformance, plays).type == "comedy")
     {
         result = 30000;
         if (aPerformance.audience > 20)
@@ -55,7 +60,7 @@ double amountFor(Play play, Performance aPerformance)
     }
     else
     {
-        throw std::runtime_error("unknown type: " + play.type);
+        throw std::runtime_error("unknown type: " + playFor(aPerformance, plays).type);
     }
     return result;
 }
@@ -68,18 +73,16 @@ std::string statement(Invoice invoice, std::map<std::string, Play> plays)
 
     for (const Performance &perf : invoice.performances)
     {
-        const Play &play = plays[perf.playID];
-
-        double thisAmount = amountFor(play, perf);
+        double thisAmount = amountFor( perf, plays);
 
         // Add volume credits
         volumeCredits += std::max(perf.audience - 30, 0);
         // Add extra credit for every ten comedy attendees
-        if (play.type == "comedy")
+        if (playFor(perf, plays).type == "comedy")
             volumeCredits += std::floor(perf.audience / 5.0);
 
         // Print line for this order
-        result += "  " + play.name + ": " + formatCurrency(thisAmount / 100.0) +
+        result += "  " + playFor(perf, plays).name + ": " + formatCurrency(thisAmount / 100.0) +
                   " (" + std::to_string(perf.audience) + " seats)\n";
         totalAmount += thisAmount;
     }
