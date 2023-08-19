@@ -91,12 +91,6 @@ TEST_F(StatementTest, EmptyInvoiceStatement) {
     std::string expectedStatement = "Statement for Customer F\nAmount owed is $0.00\nYou earned 0 credits\n";
     EXPECT_EQ(statementResult, expectedStatement);
 }
-// Test that the formatCurrency function formats currency correctly
-TEST(FormatCurrencyTest, Formatting) {
-    EXPECT_EQ(formatCurrency(100.0), "$100.00");
-    EXPECT_EQ(formatCurrency(1234.5678), "$1,234.57");
-    EXPECT_EQ(formatCurrency(0.123), "$0.12");
-}
 
 // Test that the usd function formats currency correctly
 TEST(CentsToUSDTest, Formatting) {
