@@ -66,6 +66,17 @@ double amountFor(Performance aPerformance, std::map<std::string, Play> plays)
     return result;
 }
 
+int volumeCreditFor(Performance perf, std::map<std::string, Play> plays)
+{
+    int volumeCredits = 0;
+    // Add volume credits
+    volumeCredits += std::max(perf.audience - 30, 0);
+    // Add extra credit for every ten comedy attendees
+    if (playFor(perf, plays).type == "comedy")
+        volumeCredits += std::floor(perf.audience / 5.0);
+    return volumeCredits;
+}
+
 std::string statement(Invoice invoice, std::map<std::string, Play> plays)
 {
     double totalAmount = 0;
@@ -74,13 +85,7 @@ std::string statement(Invoice invoice, std::map<std::string, Play> plays)
 
     for (const Performance &perf : invoice.performances)
     {
-        //const double thisAmount = ;
-
-        // Add volume credits
-        volumeCredits += std::max(perf.audience - 30, 0);
-        // Add extra credit for every ten comedy attendees
-        if (playFor(perf, plays).type == "comedy")
-            volumeCredits += std::floor(perf.audience / 5.0);
+        volumeCredits += volumeCreditFor(perf, plays);
 
         // Print line for this order
         result += "  " + playFor(perf, plays).name + ": " + formatCurrency(amountFor(perf, plays) / 100.0) +
