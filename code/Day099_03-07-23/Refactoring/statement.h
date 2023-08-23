@@ -78,24 +78,24 @@ int volumeCreditFor(Performance aPerformance, std::map<std::string, Play> plays)
 int totalVolumeCredits(std::vector<Performance> performances,
                        std::map<std::string, Play> plays)
 {
-    int volumeCredits = 0;
+    int result = 0;
     for (const Performance &perf : performances)
     {
-        volumeCredits += volumeCreditFor(perf, plays);
+        result += volumeCreditFor(perf, plays);
     }
-    return volumeCredits;
+    return result;
 }
 
-int appleSauce(std::vector<Performance> performances,
+int totalAmount(std::vector<Performance> performances,
                std::map<std::string, Play> plays)
 {
-    int totalAmount = 0;
+    int result = 0;
     for (const Performance &perf : performances)
     {
-        totalAmount += amountFor(perf, plays);
+        result += amountFor(perf, plays);
     }
 
-    return totalAmount;
+    return result;
 }
 
 std::string statement(Invoice invoice, std::map<std::string, Play> plays)
@@ -109,7 +109,7 @@ std::string statement(Invoice invoice, std::map<std::string, Play> plays)
                   " (" + std::to_string(perf.audience) + " seats)\n";
     }
 
-    result += "Amount owed is " + usd(appleSauce(invoice.performances, plays)) + "\n";
+    result += "Amount owed is " + usd(totalAmount(invoice.performances, plays)) + "\n";
     result += "You earned " +
               std::to_string(totalVolumeCredits(invoice.performances, plays)) +
               " credits\n";
