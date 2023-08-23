@@ -102,6 +102,7 @@ int totalAmount(std::vector<Performance> performances,
 
 struct Statement
 {
+    std::string customer;
 };
 
 
@@ -109,7 +110,7 @@ std::string renderPlainText(Statement data,
                             Invoice invoice,
                             std::map<std::string, Play> plays)
 {
-    std::string result = "Statement for " + invoice.customer + "\n";
+    std::string result = "Statement for " + data.customer + "\n";
 
     for (const Performance &perf : invoice.performances)
     {
@@ -128,5 +129,6 @@ std::string renderPlainText(Statement data,
 std::string statement(Invoice invoice, std::map<std::string, Play> plays)
 {
     Statement statementData;
+    statementData.customer = invoice.customer;
     return renderPlainText(statementData, invoice, plays);
 }
