@@ -88,7 +88,6 @@ int totalVolumeCredits(std::vector<Performance> performances,
 
 std::string statement(Invoice invoice, std::map<std::string, Play> plays)
 {
-    int totalAmount = 0;
     std::string result = "Statement for " + invoice.customer + "\n";
 
     for (const Performance &perf : invoice.performances)
@@ -98,6 +97,7 @@ std::string statement(Invoice invoice, std::map<std::string, Play> plays)
                   " (" + std::to_string(perf.audience) + " seats)\n";
     }
 
+    int totalAmount = 0;
     for (const Performance &perf : invoice.performances)
     {
         totalAmount += amountFor(perf, plays);
