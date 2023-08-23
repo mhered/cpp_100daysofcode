@@ -7,6 +7,7 @@
 #include <sstream>
 #include <iomanip>
 
+
 struct Performance
 {
     std::string playID;
@@ -87,7 +88,7 @@ int totalVolumeCredits(std::vector<Performance> performances,
 }
 
 int totalAmount(std::vector<Performance> performances,
-               std::map<std::string, Play> plays)
+                std::map<std::string, Play> plays)
 {
     int result = 0;
     for (const Performance &perf : performances)
@@ -98,7 +99,15 @@ int totalAmount(std::vector<Performance> performances,
     return result;
 }
 
-std::string renderPlainText(Invoice invoice, std::map<std::string, Play> plays)
+
+struct Statement
+{
+};
+
+
+std::string renderPlainText(Statement data,
+                            Invoice invoice,
+                            std::map<std::string, Play> plays)
 {
     std::string result = "Statement for " + invoice.customer + "\n";
 
@@ -118,5 +127,6 @@ std::string renderPlainText(Invoice invoice, std::map<std::string, Play> plays)
 
 std::string statement(Invoice invoice, std::map<std::string, Play> plays)
 {
-    return renderPlainText(invoice, plays);
+    Statement statementData;
+    return renderPlainText(statementData, invoice, plays);
 }
