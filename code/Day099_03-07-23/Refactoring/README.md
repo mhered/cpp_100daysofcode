@@ -195,6 +195,15 @@ Five small steps for` totalAmount`:
 
 I saved the intermediate result as [./steps/statement_04.h](./steps/statement_04.h) 
 
+### Splitting calculation and formatting phases
+
+1. extract formatting into its own function `renderPlainText()` - actually this is all the code of `statement()`
+2. introduce an intermediate data structure `Statement` as additional argument of `renderPlainText()`
+3. move one by one to the `Statement` data structure the parameters used in the calculation: `customer`,  `performances` 
+4. Remove the  `invoice` parameter
+
+I saved the intermediate result as [./steps/statement_05.h](./steps/statement_05.h) 
+
 # Tags
 
 #tags: 
