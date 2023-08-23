@@ -99,9 +99,9 @@ std::string statement(Invoice invoice, std::map<std::string, Play> plays)
         totalAmount += amountFor(perf, plays);
     }
 
-    int volumeCredits = totalVolumeCredits(invoice.performances, plays);
-
     result += "Amount owed is " + usd(totalAmount) + "\n";
-    result += "You earned " + std::to_string(volumeCredits) + " credits\n";
+    result += "You earned " +
+              std::to_string(totalVolumeCredits(invoice.performances, plays)) +
+              " credits\n";
     return result;
 }
