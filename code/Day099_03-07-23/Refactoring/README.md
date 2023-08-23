@@ -170,7 +170,33 @@ Note: I am not too happy with the name and would have preferred something like`f
 
 I saved the intermediate result as [./steps/statement_03.h](./steps/statement_03.h) 
 
+### Removing `volumeCredits` and `totalAmount`
+
+Four small steps for` volumeCredits`: 
+
+1. split the `for` loop to separate the `volumeCredits`calculation
+
+2. slide the statement the initializes `volumeCredits` to move it next to the loop
+
+3. extract the chunk of code to a function `totalVolumeCredits()`
+
+4. inline the variable `volumeCredits` 
+
+Five small steps for` totalAmount`: 
+
+1. split the `for` loop to separate the `totalAmount`calculation
+
+2. slide the statement the initializes `totalAmount` to move it next to the loop
+
+3. extract the chunk of code to a function. We temporarily name it `appleSauce()`because we want to name it `totalAmount()` but we cannot while we still have a variable with the same name.
+
+4. inline the variable `totalAmount` 
+5. rename `appleSauce()` to `totalAmount()`, and while we are at it we rename the local variables `totalAmount` and `volumeCredits` to `result`
+
+I saved the intermediate result as [./steps/statement_04.h](./steps/statement_04.h) 
+
 # Tags
+
 #tags: 
 
 - [x] basics
