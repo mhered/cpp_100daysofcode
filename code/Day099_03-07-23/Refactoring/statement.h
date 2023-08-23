@@ -98,7 +98,7 @@ int totalAmount(std::vector<Performance> performances,
     return result;
 }
 
-std::string statement(Invoice invoice, std::map<std::string, Play> plays)
+std::string renderPlainText(Invoice invoice, std::map<std::string, Play> plays)
 {
     std::string result = "Statement for " + invoice.customer + "\n";
 
@@ -114,4 +114,9 @@ std::string statement(Invoice invoice, std::map<std::string, Play> plays)
               std::to_string(totalVolumeCredits(invoice.performances, plays)) +
               " credits\n";
     return result;
+}
+
+std::string statement(Invoice invoice, std::map<std::string, Play> plays)
+{
+    return renderPlainText(invoice, plays);
 }
