@@ -96,6 +96,10 @@ std::string statement(Invoice invoice, std::map<std::string, Play> plays)
         // Print line for this order
         result += "  " + playFor(perf, plays).name + ": " + usd(amountFor(perf, plays)) +
                   " (" + std::to_string(perf.audience) + " seats)\n";
+    }
+
+    for (const Performance &perf : invoice.performances)
+    {
         totalAmount += amountFor(perf, plays);
     }
 
