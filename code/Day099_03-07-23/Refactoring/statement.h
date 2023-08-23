@@ -109,9 +109,7 @@ std::string statement(Invoice invoice, std::map<std::string, Play> plays)
                   " (" + std::to_string(perf.audience) + " seats)\n";
     }
 
-    int totalAmount = appleSauce(invoice.performances, plays);
-
-    result += "Amount owed is " + usd(totalAmount) + "\n";
+    result += "Amount owed is " + usd(appleSauce(invoice.performances, plays)) + "\n";
     result += "You earned " +
               std::to_string(totalVolumeCredits(invoice.performances, plays)) +
               " credits\n";
