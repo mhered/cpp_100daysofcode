@@ -204,6 +204,16 @@ I saved the intermediate result as [./steps/statement_04.h](./steps/statement_04
 
 I saved the intermediate result as [./steps/statement_05.h](./steps/statement_05.h) 
 
+Next I need to add in sequence `play`, `amount`, and `volumeCredits` to the intermediate data structure. The goal is to extract the calculation to its own function that returns the data structure.
+
+I must admit I struggled implementing `enrichPerformance()` because there is no direct equivalent to JS `.map()` in C++. It seems unlike C++, JS is happy with altering the data structure without declaring it anywhere. 
+
+So I created an `EnrichedPerformance` data structure and slowly added fields and modified functions so they would accept it. I actually at some point made some functions e.g. `amountFor()`, `volumeCreditsFor()` polymorphic to work both with `Performance` and `EnrichedPerformance` parameters to preserve functionality through the migration.
+
+In the process I put everything a bit upside down, and although in the end I arrived somewhere close to the author, it was not through small behavior preserving changes...  
+
+I saved the intermediate result as [./steps/statement_06.h](./steps/statement_06.h) 
+
 # Tags
 
 #tags: 
