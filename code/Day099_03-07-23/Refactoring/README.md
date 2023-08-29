@@ -8,6 +8,8 @@ Fowler defines refactoring as a controlled technique for improving the design of
 
 Chapter 1 of the book demonstrates the technique by applying it step by step to a relatively simple example. The book uses Javascript language for the examples, and I thought it would be a good idea to translate the example to C++ as literally as possible and then follow along the steps proposed by Fowler in the book.
 
+By the way it seems that I am not the first person who had the same idea: https://www.eficode.com/blog/turning-an-example-by-martin-fowler-into-a-refactoring-kata
+
 ## The problem
 
 We are going to refactor the billing software for a theatre company.
@@ -123,10 +125,10 @@ Note: because I add a second C++ source file to the project folder I had to modi
 
 The first actual refactoring step consists of extracting the chunk of code that calculates the charge per one performance to a function `amountFor()` and then renaming parameters and local variables for clarity. 
 
-The author proposes also to remove the  `play` parameter by replacing it with a query. I did it but this seems to make more sense in original Javascript than in the C++ version for two reasons:
+The author proposes also to remove the  `play` parameter by replacing it with a query. I did it, but this seems to make more sense in the original Javascript than in the C++ version for two reasons:
 
-- Due to the way scope works in JS the variable `plays` is available inside nested functions such such as `playFor()` or `amountFor()`, but in C++ you need to be pass it explicitly as a parameter, therefore removing the parameter `play`  from `amountFor()`does not result in less parameters being passed
-- Additionally, the `switch` statement in C++ works only with integers, so replacing `play.type` with a query `playFor(aPerformance, plays).type` in each if statement results in multiple calls to `playFor()` in each step of the loop which is not very efficient. The author recommends not to worry about this. In JS  there are 3 calls to `playFor()` per loop. However in C++ there are 4 calls (and there will be more when we add more kinds of play...)
+- Due to the way scope works in JS the variable `plays` is available inside nested functions such as `playFor()` or `amountFor()`, but in C++ you need to pass it explicitly as a parameter. Therefore in order to replace the parameter `play`  in `amountFor()` by a query, you need to pass `plays` as a parameter, so the whole exercise does not result in less parameters being passed.
+- Additionally, the `switch` statement in C++ works only with integers, so replacing `play.type` with the query `playFor(aPerformance, plays).type` in each of the `if` statements results in multiple calls to `playFor()` in each step of the loop which is not very efficient. In JS there are 3 calls to `playFor()` per loop, but in C++ there are 4 calls (and there will be more when we add more kinds of play...). The author recommends not to worry about this. 
 
 I saved the intermediate result as [./steps/statement_01.h](./steps/statement_01.h) 
 
@@ -206,11 +208,11 @@ I saved the intermediate result as [./steps/statement_05.h](./steps/statement_05
 
 Next I need to add in sequence `play`, `amount`, and `volumeCredits` to the intermediate data structure. The goal is to extract the calculation to its own function that returns the data structure.
 
-I must admit I struggled implementing `enrichPerformance()` because there is no direct equivalent to JS `.map()` in C++. It seems unlike C++, JS is happy with altering the data structure without declaring it anywhere. 
+I must admit I struggled implementing `enrichPerformance()` because there is no direct equivalent to JS `.map()` in C++. It seems unlike C++, JS is happy with altering a data structure e.g. adding fields to it - without declaring it anywhere. 
 
-So I created an `EnrichedPerformance` data structure and slowly added fields and modified functions so they would accept it. I actually at some point made some functions e.g. `amountFor()`, `volumeCreditsFor()` polymorphic to work both with `Performance` and `EnrichedPerformance` parameters to preserve functionality through the migration.
+So I created an `EnrichedPerformance` data structure and slowly added fields to it while making some of the functions e.g. `amountFor()`, `volumeCreditsFor()` polymorphic to work both with `Performance` and `EnrichedPerformance` parameters in order to preserve functionality through the migration.
 
-In the process I put everything a bit upside down, and although in the end I arrived somewhere close to the author, it was not through small behavior preserving changes...  
+In the process I put everything upside down, and although in the end I somehow arrived somewhere close to where I wanted, it was not really through small behavior preserving changes...  
 
 I saved the intermediate result as [./steps/statement_06.h](./steps/statement_06.h) 
 
