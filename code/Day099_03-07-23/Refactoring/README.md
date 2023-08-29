@@ -216,6 +216,22 @@ In the process I put everything upside down, and although in the end I somehow a
 
 I saved the intermediate result as [./steps/statement_06.h](./steps/statement_06.h) 
 
+1. Replace in `totalVolumeCredits()` and `totalAmount()` the for loop with a pipeline using  `std::accumulate()`
+
+2. Extract the chunk of code that prepares the `Statement` data structure to its own function `createStatementData()`. In the process I realized I had forgotten to add `int total` and `int volumeCredits` to `Statement`.
+3. Move `createStatementData()` and related functions and data structures to a separate file `createStatementData.h`
+
+### Writing `htmlStatement()`
+
+> "For each desired change, make the change easy (warning: this may be hard), 
+> then make the easy change" -  Kent Beck
+
+Now it is trivial to implement a `htmlStatement()` function that instead of calling `renderPlainText()` calls a  `renderHtml()` function where the HTML is generated. 
+
+The result for the original input in [output.html](./output.html)
+
+
+
 # Tags
 
 #tags: 
