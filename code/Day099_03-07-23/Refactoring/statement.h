@@ -6,6 +6,7 @@
 #include <locale>
 #include <sstream>
 #include <iomanip>
+#include <numeric>
 
 struct Performance
 {
@@ -91,23 +92,22 @@ int volumeCreditFor(EnrichedPerformance aPerformance)
 
 int totalVolumeCredits(Statement data)
 {
-    int result = 0;
-    for (const EnrichedPerformance &perf : data.enrichedperformances)
-    {
-        result += volumeCreditFor(perf);
-    }
-    return result;
+    return std::accumulate(data.enrichedperformances.begin(),
+                           data.enrichedperformances.end(), 0,
+                           [](int total, const EnrichedPerformance &perf)
+                           {
+                               return total + volumeCreditFor(perf);
+                           });
 }
 
 int totalAmount(Statement data)
 {
-    int result = 0;
-    for (const EnrichedPerformance &perf : data.enrichedperformances)
-    {
-        result += amountFor(perf);
-    }
-
-    return result;
+    return std::accumulate(data.enrichedperformances.begin(),
+                           data.enrichedperformances.end(), 0,
+                           [](int total, const EnrichedPerformance &perf)
+                           {
+                               return total + amountFor(perf);
+                           });
 }
 
 std::string renderPlainText(Statement data)
@@ -129,13 +129,13 @@ std::string renderPlainText(Statement data)
 }
 
 EnrichedPerformance enrichPerformance(Performance aPerformance,
-                                                    std::map<std::string, Play> plays)
+                                      std::map<std::string, Play> plays)
 {
-        EnrichedPerformance result;
-        result.performance = aPerformance;
-        result.play = playFor(aPerformance, plays);
-        result.amount = amountFor(result);
-        result.volumeCredits = volumeCreditFor(result);
+    EnrichedPerformance result;
+    result.performance = aPerformance;
+    result.play = playFor(aPerformance, plays);
+    result.amount = amountFor(result);
+    result.volumeCredits = volumeCreditFor(result);
     return result;
 }
 
