@@ -33,9 +33,14 @@ int main() {
             invoice.performances.push_back({perf["playID"], perf["audience"]});
         }
 
+        
         // Generate and print the statement for each invoice
         std::string statementResult = statement(invoice, plays);
         std::cout << statementResult << std::endl;
+
+        // Generate and print the statement for each invoice in HTML
+        std::string htmlStatementResult = htmlStatement(invoice, plays);
+        std::cout << htmlStatementResult << std::endl;
     }
 
     return 0;

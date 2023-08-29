@@ -31,9 +31,37 @@ std::string renderPlainText(Statement data)
     return result;
 }
 
-
-
 std::string statement(Invoice invoice, std::map<std::string, Play> plays)
 {
     return renderPlainText(createStatementData(invoice, plays));
+}
+
+std::string renderHtml(Statement data)
+{
+    std::string result = "<h1>Statement for " + data.customer + "</h1>\n";
+    result += "<table>\n";
+
+    result += "<tr><th>play</th><th>seats</th><th>cost</th></tr>\n";
+
+    for (const EnrichedPerformance &perf : data.enrichedperformances)
+    {
+        // Print line for this order
+        result += "<tr>";
+        result += "<td>" + perf.play.name + "</td>";
+        result += "<td>" + std::to_string(perf.performance.audience) + "</td>";
+        result += "<td>" + usd(perf.amount) + "</td>";
+        result += "</tr>\n";
+    }
+    result += "</table>\n";
+
+    result += "<p>Amount owed is <em>" + usd(data.totalAmount) + "</em></p>\n";
+    result += "<p>You earned <em>" +
+              std::to_string(data.totalVolumeCredits) +
+              "</em> credits</p>\n";
+    return result;
+}
+
+std::string htmlStatement(Invoice invoice, std::map<std::string, Play> plays)
+{
+    return renderHtml(createStatementData(invoice, plays));
 }
