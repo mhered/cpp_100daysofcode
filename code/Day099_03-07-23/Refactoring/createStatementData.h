@@ -115,12 +115,20 @@ Play &playFor(Performance aPerformance, std::map<std::string, Play> plays)
     return plays[aPerformance.playID];
 }
 
+PerformanceCalculator createPerformanceCalculator(
+        Performance aPerformance,
+        Play aPlay){
+            return PerformanceCalculator(aPerformance, aPlay);
+        };
+
 
 EnrichedPerformance enrichPerformance(Performance aPerformance,
                                       std::map<std::string, Play> plays)
 {
     EnrichedPerformance result;
-    PerformanceCalculator calculator(aPerformance, playFor(aPerformance, plays));
+    PerformanceCalculator calculator = createPerformanceCalculator(
+        aPerformance,
+        playFor(aPerformance, plays));
     result.performance = aPerformance;
     result.play = calculator.play;
     result.amount = calculator.amount();
