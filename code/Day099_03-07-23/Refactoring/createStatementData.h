@@ -95,23 +95,34 @@ int totalVolumeCredits(Statement data)
                            });
 }
 
-
 Play &playFor(Performance aPerformance, std::map<std::string, Play> plays)
 {
     return plays[aPerformance.playID];
 }
 
+class PerformanceCalculator
+{
+private:
+    Performance performance;
+public:
+    PerformanceCalculator(Performance aPerformance)
+        : performance(aPerformance)
+    {
+    }
+
+}; 
+
 EnrichedPerformance enrichPerformance(Performance aPerformance,
-                                      std::map<std::string, Play> plays)
+                                        std::map<std::string, Play> plays)
 {
     EnrichedPerformance result;
+    PerformanceCalculator calculator(aPerformance);
     result.performance = aPerformance;
     result.play = playFor(aPerformance, plays);
     result.amount = amountFor(result);
     result.volumeCredits = volumeCreditFor(result);
     return result;
 }
-
 
 Statement createStatementData(Invoice invoice, std::map<std::string, Play> plays)
 {
