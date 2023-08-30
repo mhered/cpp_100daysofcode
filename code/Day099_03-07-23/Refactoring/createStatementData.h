@@ -50,7 +50,17 @@ public:
     Play play;
 
     int amount();
+    int volumeCredits();
 };
+
+int PerformanceCalculator::volumeCredits()
+{
+    int result = std::max(performance.audience - 30, 0);
+
+    if (play.type == "comedy")
+        result += std::floor(performance.audience / 5.0);
+    return result;
+}
 
 int PerformanceCalculator::amount()
 {
@@ -77,23 +87,6 @@ int PerformanceCalculator::amount()
     {
         throw std::runtime_error("unknown type: " + play.type);
     }
-    return result;
-}
-
-
-/*
-int amountFor(EnrichedPerformance aPerformance)
-{
-    PerformanceCalculator calculator(aPerformance.performance, aPerformance.play);
-    return calculator.amount();
-}*/
-
-int volumeCreditFor(EnrichedPerformance aPerformance)
-{
-    int result = std::max(aPerformance.performance.audience - 30, 0);
-
-    if (aPerformance.play.type == "comedy")
-        result += std::floor(aPerformance.performance.audience / 5.0);
     return result;
 }
 
@@ -131,7 +124,7 @@ EnrichedPerformance enrichPerformance(Performance aPerformance,
     result.performance = aPerformance;
     result.play = calculator.play;
     result.amount = calculator.amount();
-    result.volumeCredits = volumeCreditFor(result);
+    result.volumeCredits = calculator.volumeCredits();
     return result;
 }
 
