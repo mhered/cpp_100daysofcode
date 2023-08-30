@@ -102,7 +102,7 @@ int totalAmount(Statement data)
                            data.enrichedperformances.end(), 0,
                            [](int total, const EnrichedPerformance &perf)
                            {
-                               return total + amountFor(perf);
+                               return total + perf.amount;
                            });
 }
 
@@ -112,7 +112,7 @@ int totalVolumeCredits(Statement data)
                            data.enrichedperformances.end(), 0,
                            [](int total, const EnrichedPerformance &perf)
                            {
-                               return total + volumeCreditFor(perf);
+                               return total + perf.volumeCredits;
                            });
 }
 
