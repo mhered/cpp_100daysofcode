@@ -230,7 +230,23 @@ Now it is trivial to implement a `htmlStatement()` function that instead of call
 
 The result for the original input in [output.html](./output.html)
 
+I saved the intermediate status as [./steps/statement_07.h](./steps/statement_07.h) and  [./steps/createStatementData_07.h](./steps/createStatementData_07.h) 
 
+### Using polymorphism to organize calculations by type
+
+I want to get rid of the conditionals in `amountFor()`and `volumeCreditFor()` to make it easier to support more categories of plays.
+
+1. set up an inheritance hierarchy with subclasses for each type of play 
+
+2. move the calculation logic to the subclasses using replace conditional with polymorphism refactoring.
+
+To create a performance calculator:
+
+1. create a `PerformanceCalculator` class with a `performance` member and a constructor
+2. add a `play` member
+3. add an `amount()` method to the class with the logic of `amountFor()`, modify `amountFor()` to delegate to the new method and inline `amountFor()`
+4. In the process I realized I was unnecesarily calling `amountFor()` in `totalAmount()` and `volumeCreditFor()` in `totalVolumeCredits(`). I corrected it.
+5. add an `volumeCredits()` method to the class with the logic of `volumeCreditFor()`, modify `volumeCrfeditFor()` to delegate to the new method, inline `volumeCreditFor()` then delete it
 
 # Tags
 
