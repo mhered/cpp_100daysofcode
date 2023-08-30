@@ -38,32 +38,53 @@ struct Statement
     int totalVolumeCredits;
 };
 
-int amountFor(EnrichedPerformance aPerformance)
+class PerformanceCalculator
+{
+public:
+    PerformanceCalculator(Performance aPerformance, Play aPlay)
+        : performance(aPerformance),
+          play(aPlay)
+    {
+    }
+    Performance performance;
+    Play play;
+
+    int amount();
+};
+
+int PerformanceCalculator::amount()
 {
     int result = 0;
 
-    if (aPerformance.play.type == "tragedy")
+    if (play.type == "tragedy")
     {
         result = 40000;
-        if (aPerformance.performance.audience > 30)
+        if (performance.audience > 30)
         {
-            result += 1000 * (aPerformance.performance.audience - 30);
+            result += 1000 * (performance.audience - 30);
         }
     }
-    else if (aPerformance.play.type == "comedy")
+    else if (play.type == "comedy")
     {
         result = 30000;
-        if (aPerformance.performance.audience > 20)
+        if (performance.audience > 20)
         {
-            result += 10000 + 500 * (aPerformance.performance.audience - 20);
+            result += 10000 + 500 * (performance.audience - 20);
         }
-        result += 300 * aPerformance.performance.audience;
+        result += 300 * performance.audience;
     }
     else
     {
-        throw std::runtime_error("unknown type: " + aPerformance.play.type);
+        throw std::runtime_error("unknown type: " + play.type);
     }
     return result;
+}
+
+
+int amountFor(EnrichedPerformance aPerformance)
+{
+    PerformanceCalculator calculator(aPerformance.performance, aPerformance.play);
+    return calculator.amount();
 }
 
 int volumeCreditFor(EnrichedPerformance aPerformance)
@@ -100,17 +121,6 @@ Play &playFor(Performance aPerformance, std::map<std::string, Play> plays)
     return plays[aPerformance.playID];
 }
 
-class PerformanceCalculator
-{
-public:
-    PerformanceCalculator(Performance aPerformance, Play aPlay)
-        : performance(aPerformance),
-          play(aPlay)
-    {
-    }
-    Performance performance;
-    Play play;
-};
 
 EnrichedPerformance enrichPerformance(Performance aPerformance,
                                       std::map<std::string, Play> plays)
@@ -119,7 +129,7 @@ EnrichedPerformance enrichPerformance(Performance aPerformance,
     PerformanceCalculator calculator(aPerformance, playFor(aPerformance, plays));
     result.performance = aPerformance;
     result.play = calculator.play;
-    result.amount = amountFor(result);
+    result.amount = calculator.amount();
     result.volumeCredits = volumeCreditFor(result);
     return result;
 }
