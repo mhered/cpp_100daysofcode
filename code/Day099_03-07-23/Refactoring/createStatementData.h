@@ -102,23 +102,23 @@ Play &playFor(Performance aPerformance, std::map<std::string, Play> plays)
 
 class PerformanceCalculator
 {
-private:
-    Performance performance;
 public:
-    PerformanceCalculator(Performance aPerformance)
-        : performance(aPerformance)
+    PerformanceCalculator(Performance aPerformance, Play aPlay)
+        : performance(aPerformance),
+          play(aPlay)
     {
     }
-
-}; 
+    Performance performance;
+    Play play;
+};
 
 EnrichedPerformance enrichPerformance(Performance aPerformance,
-                                        std::map<std::string, Play> plays)
+                                      std::map<std::string, Play> plays)
 {
     EnrichedPerformance result;
-    PerformanceCalculator calculator(aPerformance);
+    PerformanceCalculator calculator(aPerformance, playFor(aPerformance, plays));
     result.performance = aPerformance;
-    result.play = playFor(aPerformance, plays);
+    result.play = calculator.play;
     result.amount = amountFor(result);
     result.volumeCredits = volumeCreditFor(result);
     return result;
