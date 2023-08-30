@@ -81,11 +81,12 @@ int PerformanceCalculator::amount()
 }
 
 
+/*
 int amountFor(EnrichedPerformance aPerformance)
 {
     PerformanceCalculator calculator(aPerformance.performance, aPerformance.play);
     return calculator.amount();
-}
+}*/
 
 int volumeCreditFor(EnrichedPerformance aPerformance)
 {
