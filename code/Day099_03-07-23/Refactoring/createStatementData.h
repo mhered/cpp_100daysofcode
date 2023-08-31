@@ -50,16 +50,12 @@ public:
     Play play;
 
     virtual int amount();
-    int volumeCredits();
+    virtual int volumeCredits();
 };
 
 int PerformanceCalculator::volumeCredits()
 {
-    int result = std::max(performance.audience - 30, 0);
-
-    if (play.type == "comedy")
-        result += std::floor(performance.audience / 5.0);
-    return result;
+    return std::max(performance.audience - 30, 0);
 }
 
 int PerformanceCalculator::amount()
@@ -68,11 +64,11 @@ int PerformanceCalculator::amount()
 
     if (play.type == "tragedy")
     {
-        throw std::runtime_error("this is bad: superclass should not be called");
+        throw std::runtime_error("this is bad: superclass amount() for tragedy should not be called");
     }
     else if (play.type == "comedy")
     {
-        throw std::runtime_error("this is bad: superclass should not be called");
+        throw std::runtime_error("this is bad: superclass amount() for comedy should not be called");
     }
     else
     {
@@ -113,6 +109,10 @@ public:
         result += 300 * performance.audience;
         return result;
     };
+    int volumeCredits()
+    {
+        return PerformanceCalculator::volumeCredits() + std::floor(performance.audience / 5.0);
+    }
 };
 
 int totalAmount(Statement data)
