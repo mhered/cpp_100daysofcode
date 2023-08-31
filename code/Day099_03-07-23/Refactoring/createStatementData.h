@@ -90,6 +90,16 @@ int PerformanceCalculator::amount()
     return result;
 }
 
+class TragedyCalculator : public PerformanceCalculator
+{
+    using PerformanceCalculator::PerformanceCalculator;
+};
+
+class ComedyCalculator : public PerformanceCalculator
+{
+    using PerformanceCalculator::PerformanceCalculator;
+};
+
 int totalAmount(Statement data)
 {
     return std::accumulate(data.enrichedperformances.begin(),
@@ -115,24 +125,36 @@ Play &playFor(Performance aPerformance, std::map<std::string, Play> plays)
     return plays[aPerformance.playID];
 }
 
-PerformanceCalculator createPerformanceCalculator(
-        Performance aPerformance,
-        Play aPlay){
-            return PerformanceCalculator(aPerformance, aPlay);
-        };
-
+PerformanceCalculator* createPerformanceCalculator(
+    Performance aPerformance,
+    Play aPlay)
+{
+    if (aPlay.type == "tragedy")
+    {
+        return new TragedyCalculator(aPerformance, aPlay);
+    }
+    else if (aPlay.type == "comedy")
+    {
+        return new ComedyCalculator(aPerformance, aPlay);
+    }
+    else
+    {
+        throw std::runtime_error("unknown type: " + aPlay.type);
+    }
+    
+};
 
 EnrichedPerformance enrichPerformance(Performance aPerformance,
                                       std::map<std::string, Play> plays)
 {
     EnrichedPerformance result;
-    PerformanceCalculator calculator = createPerformanceCalculator(
+    PerformanceCalculator *calculator = createPerformanceCalculator(
         aPerformance,
         playFor(aPerformance, plays));
     result.performance = aPerformance;
-    result.play = calculator.play;
-    result.amount = calculator.amount();
-    result.volumeCredits = calculator.volumeCredits();
+    result.play = calculator->play;
+    result.amount = calculator->amount();
+    result.volumeCredits = calculator->volumeCredits();
     return result;
 }
 
