@@ -49,7 +49,7 @@ public:
     Performance performance;
     Play play;
 
-    int amount();
+    virtual int amount();
     int volumeCredits();
 };
 
@@ -68,11 +68,7 @@ int PerformanceCalculator::amount()
 
     if (play.type == "tragedy")
     {
-        result = 40000;
-        if (performance.audience > 30)
-        {
-            result += 1000 * (performance.audience - 30);
-        }
+        throw std::runtime_error("this is bad: superclass should not be called");
     }
     else if (play.type == "comedy")
     {
@@ -93,6 +89,17 @@ int PerformanceCalculator::amount()
 class TragedyCalculator : public PerformanceCalculator
 {
     using PerformanceCalculator::PerformanceCalculator;
+public:
+    int amount()
+    {
+        int result = 40000;
+        if (performance.audience > 30)
+        {
+            result += 1000 * (performance.audience - 30);
+        }
+
+        return result;
+    };
 };
 
 class ComedyCalculator : public PerformanceCalculator
@@ -125,7 +132,7 @@ Play &playFor(Performance aPerformance, std::map<std::string, Play> plays)
     return plays[aPerformance.playID];
 }
 
-PerformanceCalculator* createPerformanceCalculator(
+PerformanceCalculator *createPerformanceCalculator(
     Performance aPerformance,
     Play aPlay)
 {
@@ -141,7 +148,6 @@ PerformanceCalculator* createPerformanceCalculator(
     {
         throw std::runtime_error("unknown type: " + aPlay.type);
     }
-    
 };
 
 EnrichedPerformance enrichPerformance(Performance aPerformance,
