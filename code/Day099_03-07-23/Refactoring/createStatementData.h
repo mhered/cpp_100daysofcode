@@ -72,12 +72,7 @@ int PerformanceCalculator::amount()
     }
     else if (play.type == "comedy")
     {
-        result = 30000;
-        if (performance.audience > 20)
-        {
-            result += 10000 + 500 * (performance.audience - 20);
-        }
-        result += 300 * performance.audience;
+        throw std::runtime_error("this is bad: superclass should not be called");
     }
     else
     {
@@ -89,6 +84,7 @@ int PerformanceCalculator::amount()
 class TragedyCalculator : public PerformanceCalculator
 {
     using PerformanceCalculator::PerformanceCalculator;
+
 public:
     int amount()
     {
@@ -105,6 +101,18 @@ public:
 class ComedyCalculator : public PerformanceCalculator
 {
     using PerformanceCalculator::PerformanceCalculator;
+
+public:
+    int amount()
+    {
+        int result = 30000;
+        if (performance.audience > 20)
+        {
+            result += 10000 + 500 * (performance.audience - 20);
+        }
+        result += 300 * performance.audience;
+        return result;
+    };
 };
 
 int totalAmount(Statement data)
