@@ -65,6 +65,10 @@ int PerformanceCalculator::amount()
     {
         throw std::runtime_error("this is bad: superclass amount() for comedy should not be called");
     }
+        else if (play.type == "musical")
+    {
+        throw std::runtime_error("this is bad: superclass amount() for musical should not be called");
+    }
     else
     {
         throw std::runtime_error("unknown type: " + play.type);

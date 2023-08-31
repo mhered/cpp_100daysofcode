@@ -121,6 +121,8 @@ Note: because I add a second C++ source file to the project folder I had to modi
    1. (Optionally save a copy of current status in `./steps/statement_[N+1].h`. This is to save intermediate steps and only applies to this tutorial)
    2. Commit changes
 
+## Refactorings to add HTML render
+
 ### Extracting `amountFor()`
 
 The first actual refactoring step consists of extracting the chunk of code that calculates the charge per one performance to a function `amountFor()` and then renaming parameters and local variables for clarity. 
@@ -232,21 +234,58 @@ The result for the original input in [output.html](./output.html)
 
 I saved the intermediate status as [./steps/statement_07.h](./steps/statement_07.h) and  [./steps/createStatementData_07.h](./steps/createStatementData_07.h) 
 
-### Using polymorphism to organize calculations by type
+## Refactorings to add new play categories
 
-I want to get rid of the conditionals in `amountFor()`and `volumeCreditFor()` to make it easier to support more categories of plays.
+The goal is to organize calculations by type using polymorphism.
 
-1. set up an inheritance hierarchy with subclasses for each type of play 
+I want to get rid of the conditionals in `amountFor()`and `volumeCreditFor()` to make it easier to support more categories of plays. We do it in two steps: 
+
+1. set up an inheritance hierarchy with a new class `PerformaceCalculator` and subclasses for each type of play 
 
 2. move the calculation logic to the subclasses using replace conditional with polymorphism refactoring.
 
-To create a performance calculator:
+### Creating a performance calculator and moving functions into it
 
 1. create a `PerformanceCalculator` class with a `performance` member and a constructor
-2. add a `play` member
+2. add a `play` member and move the identification of the play inside the calculator
 3. add an `amount()` method to the class with the logic of `amountFor()`, modify `amountFor()` to delegate to the new method and inline `amountFor()`
 4. In the process I realized I was unnecesarily calling `amountFor()` in `totalAmount()` and `volumeCreditFor()` in `totalVolumeCredits(`). I corrected it.
-5. add an `volumeCredits()` method to the class with the logic of `volumeCreditFor()`, modify `volumeCrfeditFor()` to delegate to the new method, inline `volumeCreditFor()` then delete it
+5. add a `volumeCredits()` method to the class with the logic of `volumeCreditFor()`, modify `volumeCreditFor()` to delegate to the new method, inline `volumeCreditFor()` then delete it
+
+### Making the calculator polymorphic
+
+I inherited subclasses `TragedyCalculator` and `ComedyCalculate` and replaced the constructor in `enrichPerformance()`by a call to a factory function `createPerformanceCalculator()` that returns a pointer to the appropriate subclass according to the type. Note that since `calculator` is now a pointer we need to change `calculator.play`, `calculator.amount()` etc by `calculator->play`, `calculator->amount()` .  
+
+Next I move the calculation of the amount for tragedies to the `TragedyConstructor` class. Important to make `virtual` `int amount()` otherwise it will not be superceeded by the inherited methods.
+
+Repeat for `ComedyConstructor`. 
+
+For `volumeCredits()` I only implement the method for `ComedyConstructor` and it actually calls the base case in the superclass as intermediate result (hence I cannot put the error message )
+
+With this the code is ready to add new play categories by simple creating a subclass e.g.
+
+```c++
+class MusicalCalculator : public PerformanceCalculator
+{
+    using PerformanceCalculator::PerformanceCalculator;
+
+public:
+    int amount()
+    {
+        int result = 50000;
+        if (performance.audience > 50)
+        {
+            result += 15000 + 500 * (performance.audience - 50);
+        }
+
+        return result;
+    };
+};
+```
+
+Also need to add an `if` statement to the factory and to the `amount()` method of the superclass. I added a test to the test suite and voilà!.
+
+
 
 # Tags
 
@@ -259,9 +298,9 @@ To create a performance calculator:
 - [ ] dates_times: timezones
 - [x] file_management: input, output, folders and files
 - [x] testing
-- [ ] exceptions
+- [x] exceptions
 - [ ] logging
-- [ ] object_oriented_programming
+- [x] object_oriented_programming
 - [ ] GUI
 - [ ] plotting_data
 - [ ] CLI
