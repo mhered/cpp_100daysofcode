@@ -50,13 +50,8 @@ public:
     Play play;
 
     virtual int amount();
-    virtual int volumeCredits();
+    virtual int volumeCredits() { return std::max(performance.audience - 30, 0); };
 };
-
-int PerformanceCalculator::volumeCredits()
-{
-    return std::max(performance.audience - 30, 0);
-}
 
 int PerformanceCalculator::amount()
 {
@@ -115,6 +110,24 @@ public:
     }
 };
 
+PerformanceCalculator *createPerformanceCalculator(
+    Performance aPerformance,
+    Play aPlay)
+{
+    if (aPlay.type == "tragedy")
+    {
+        return new TragedyCalculator(aPerformance, aPlay);
+    }
+    else if (aPlay.type == "comedy")
+    {
+        return new ComedyCalculator(aPerformance, aPlay);
+    }
+    else
+    {
+        throw std::runtime_error("unknown type: " + aPlay.type);
+    }
+};
+
 int totalAmount(Statement data)
 {
     return std::accumulate(data.enrichedperformances.begin(),
@@ -139,24 +152,6 @@ Play &playFor(Performance aPerformance, std::map<std::string, Play> plays)
 {
     return plays[aPerformance.playID];
 }
-
-PerformanceCalculator *createPerformanceCalculator(
-    Performance aPerformance,
-    Play aPlay)
-{
-    if (aPlay.type == "tragedy")
-    {
-        return new TragedyCalculator(aPerformance, aPlay);
-    }
-    else if (aPlay.type == "comedy")
-    {
-        return new ComedyCalculator(aPerformance, aPlay);
-    }
-    else
-    {
-        throw std::runtime_error("unknown type: " + aPlay.type);
-    }
-};
 
 EnrichedPerformance enrichPerformance(Performance aPerformance,
                                       std::map<std::string, Play> plays)
