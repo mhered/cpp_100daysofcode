@@ -16,7 +16,8 @@ protected:
         playData = {
             {"hamlet", {"Hamlet", "tragedy"}},
             {"as-like", {"As You Like It", "comedy"}},
-            {"othello", {"Othello", "tragedy"}}
+            {"othello", {"Othello", "tragedy"}},
+            {"sound-music", {"The Sound Of Music", "musical"}}
         };
     }
 
@@ -89,6 +90,14 @@ TEST_F(StatementTest, EmptyInvoiceStatement) {
     Invoice invoice = createInvoice("Customer F", {});
     std::string statementResult = statement(invoice, playData);
     std::string expectedStatement = "Statement for Customer F\nAmount owed is $0.00\nYou earned 0 credits\n";
+    EXPECT_EQ(statementResult, expectedStatement);
+}
+
+// Test the new play category "musical"
+TEST_F(StatementTest, SingleMusicalStatement) {
+    Invoice invoice = createInvoice("Customer G", {createPerformance("sound-music", 60)});
+    std::string statementResult = statement(invoice, playData);
+    std::string expectedStatement = "Statement for Customer G\n  The Sound Of Music: $700.00 (60 seats)\nAmount owed is $700.00\nYou earned 30 credits\n";
     EXPECT_EQ(statementResult, expectedStatement);
 }
 

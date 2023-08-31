@@ -110,6 +110,23 @@ public:
     }
 };
 
+class MusicalCalculator : public PerformanceCalculator
+{
+    using PerformanceCalculator::PerformanceCalculator;
+
+public:
+    int amount()
+    {
+        int result = 50000;
+        if (performance.audience > 50)
+        {
+            result += 15000 + 500 * (performance.audience - 50);
+        }
+
+        return result;
+    };
+};
+
 PerformanceCalculator *createPerformanceCalculator(
     Performance aPerformance,
     Play aPlay)
@@ -121,6 +138,10 @@ PerformanceCalculator *createPerformanceCalculator(
     else if (aPlay.type == "comedy")
     {
         return new ComedyCalculator(aPerformance, aPlay);
+    }
+        else if (aPlay.type == "musical")
+    {
+        return new MusicalCalculator(aPerformance, aPlay);
     }
     else
     {
