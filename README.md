@@ -326,3 +326,6 @@ Day 97: #100DaysOfCode in #Cpp progress - today I worked on the project RESTAPI 
  ## 02-07-23
 
 Day 98: #100DaysOfCode in #Cpp progress - today I worked on improving the looks of this repo's README.md file in the projects Images https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day098_02-07-23/Images and Thumbnails https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day098_02-07-23/Thumbnails 
+ ## 03-07-23
+
+Day 99: #100DaysOfCode in #Cpp progress -  I have resumed the challenge and today I finished the project Refactoring https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day099_03-07-23/Refactoring (see https://refactoring.com) - this took quite some time but the learning was worth it!
