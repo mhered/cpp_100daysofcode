@@ -46,6 +46,9 @@ With vs without threads: 49.8222% less time with threads
 | ------------------- | ----------------- |
 | ![](./before_blur.jpg) | ![](./after_blur.jpg) |
 
+## To Do
+- [ ] There is a part 2 of the tutorial worth checking: https://solarianprogrammer.com/2012/02/27/cpp-11-thread-tutorial-part-2/
+
 
 # Tags
 #tags: 
