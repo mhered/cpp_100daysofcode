@@ -14,18 +14,22 @@ My log for the #100DaysOfCode challenge with C++
 
 ## C++ learning resources
 
-* https://omkarghotekar.medium.com/100-days-of-code-complete-guide-w-resources-beginner-aae12a8af926 - a guide with resources to approach 100 days of code challenges 
+* [100 Days Of Code - Complete Guide W/ Resources(Beginner)](https://omkarghotekar.medium.com/100-days-of-code-complete-guide-w-resources-beginner-aae12a8af926) - a guide with resources to approach 100 days of code challenges 
 
-* https://edabit.com/challenges - resource with bite-sized exercises in several languages
-* https://www.learncpp.com/ - free resource to learn C++ seems, quite detailed and frequently updated, with example code: OOP, exceptions, STL etc
+* [Learn C++](https://www.learncpp.com/) - free resource to learn C++, seems quite detailed and frequently updated, with example code: OOP, exceptions, STL etc
 
-* https://www.geeksforgeeks.org/c-plus-plus/ -another track including also puzzles, competitive programming etc
+* [Geeks for Geeks C++ Programming Language section](https://www.geeksforgeeks.org/c-plus-plus/) - another learning track including puzzles, competitive programming etc
+
+* https://edabit.com/challenges - resource with bite-sized exercises in several languages. Only so many exercises are free.
 
 * https://en.cppreference.com/w/cpp/links/libs - list of libraries
+
+* [Standard C++ Library reference](https://cplusplus.com/reference/)
 
 * [A curated list of (awesome) header-only C++ libraries](https://github.com/p-ranav/awesome-hpp) - more libraries
 
 * https://stackoverflow.com/questions/388242/the-definitive-c-book-guide-and-list - The Definitive C++ Book Guide and List
+
 * https://app.theconstructsim.com/Course/59/ - C++ for Robotics
 
 ---
