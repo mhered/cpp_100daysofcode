@@ -6,12 +6,13 @@
 
 Top recommendations after some googling (e.g. https://stackoverflow.com/questions/4283731/plotting-package-for-c or https://stackoverflow.com/questions/63667255/plotting-graphs-in-c#63667672):
 
-- [ ] [GNU plot](http://www.gnuplot.info/): is a CLI, and there is a [gnuplot-iostream wrapper]( http://stahlke.org/dan/gnuplot-iostream/). Seems old and steep learning curve. 
+- [ ] [GNU plot](http://www.gnuplot.info/): is a CLI, and there is a [gnuplot-iostream wrapper](http://stahlke.org/dan/gnuplot-iostream/). Seems old and steep learning curve. Check out this tutorial: [gnuplot Tutorial 1: basic Plotting tips & tricks, errorbars, png output](https://www.youtube.com/watch?v=9QUtcfyBFhE)
 - [x] [Sciplot](https://sciplot.github.io/): seems to be another wrapper for GNUplot, requires installing GNUplot then a header file. Beautiful and simple syntax
-- [ ] [Matplotlib](https://github.com/lava/matplotlib-cpp): a C++ wrapper for the popular python package matplotlib. Requires python etc but then only needs to include a header file
+- [ ] [Matplotlib](https://github.com/lava/matplotlib-cpp): a C++ wrapper for the popular python package matplotlib. Requires python etc but then only needs to include a header file. Check out this tutorial [Full tutorial of INSTALLATION,COMPILATION(g++ & make,PLOTTING using MATPLOTLIB in C++ for Windows](https://www.youtube.com/watch?v=7eeyZQPd-kk&list=PLpuSZdJt0dKW8Rk0OPca3TXvAxd7bwJwq)
 - [ ] [Koolplot](http://koolplot.codecutter.org/): supposed to be very simple but limited
-- [ ] CERN's [ROOT](https://root.cern/): A C++ library to plot graphs. Also seems to be a CLI... 
+- [ ] CERN's [ROOT](https://root.cern/): A C++ library to plot graphs. Also seems to be a CLI... Check out this tutorial: https://root.cern/manual/first_steps_with_root/
 - [x] [Matplot++](https://alandefreitas.github.io/matplotplusplus/): looks super complete and cool. This article makes a comparison to alternatives and sells Matplot++ well: https://alandefreitas.github.io/matplotplusplus/white-paper/#alternatives-for-data-visualization-in-c
+- [ ] [GNU plotutils](https://www.gnu.org/software/plotutils/) package.  Its centerpiece is libplot, a powerful C/C++ function library for exporting 2-D vector graphics in many file formats, both vector and bitmap. 
 
 ## Matplot++
 
