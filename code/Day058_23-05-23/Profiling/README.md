@@ -160,6 +160,8 @@ $ perf report -g "graph,0.5,caller"
 Result
 ![](./profiler.png)
 
+## To do
+- [ ] Check out [How to Use Perf Performance Analysis Tool on Ubuntu 20.04](https://www.howtoforge.com/how-to-install-perf-performance-analysis-tool-on-ubuntu-20-04/)
 # Tags
 #tags: 
 
