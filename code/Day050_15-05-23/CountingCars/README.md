@@ -19,6 +19,9 @@ Sample files (not committed):
 * "countingcars_input2.mp4" -zoomed in version of previous video, also does not work so well, same reasons
 * "HSCCInterstateHighwaySurveillanceSystem-TESTVIDEO.mp4" original sample file from this repo: https://github.com/ahmetozlu/vehicle_counting/tree/master/src crossing line is too high -> works better at 45%, maybe need to detect smaller blobs. This sample also would allow counting traffic in both directions
 
+## Resources
+- [ ] check out [this repo](https://github.com/MartonPolcz/Cpp-CarCounting-with-YOLOv3) for a university project using YOLOv3 and C++ to detect and count vehicles in a given video footage, and its [companion video](https://www.youtube.com/watch?v%253DUClsWrBxGHA)
+
 # Tags
 #tags: 
 
