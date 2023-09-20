@@ -82,8 +82,12 @@ Some options(>300!):
 - CURLINFO_CONTENT_TYPE
 - etc.
 
-# Basic example
+## Basic example
 [main.cpp](./main.cpp) implements a basic download and a basic upload.
+
+## To Do
+- [ ] finish watching video tutorial including the multi interface
+- [ ] Check out this libcurl tutorial: https://curl.se/libcurl/c/libcurl-tutorial.html
 
 # Tags
 #tags: 

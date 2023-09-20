@@ -50,6 +50,21 @@ The `EmailSender` class public methods are a constructor, a destructor and a `se
 
 I also created auxiliary function `getRFC5322FormattedCurrentDateTime()` to format the current date as per the RFC 5322 standard used by email.
 
+## Resources
+- [How to send email using c++ (curl) - Stack Overflow](https://stackoverflow.com/questions/51044049/how-to-send-email-using-c-curl?rq=3)            
+- [libcurl - programming tutorial](https://curl.se/libcurl/c/libcurl-tutorial.html)            
+- [libcurl example - smtp-ssl.c](https://curl.se/libcurl/c/smtp-ssl.html)            
+- [libcurl example - smtp-mail.c](https://curl.se/libcurl/c/smtp-mail.html)            
+- [Sending email - Everything curl](https://everything.curl.dev/usingcurl/smtp)            
+- [Let's send email....with curl!](https://www.spamresource.com/2022/04/lets-send-emailwith-curl.html)            
+- [bash - Fetching and deleting a message over IMAP using cURL - Stack Overflow](https://stackoverflow.com/questions/49429092/fetching-and-deleting-a-message-over-imap-using-curl?rq=3)            
+- [Python quickstart  | Gmail  | Google for Developers](https://developers.google.com/gmail/api/quickstart/python)            
+- [Use Curl to read your imap emails – Helge's blog](https://helge.w.uib.no/use-curl-to-read-your-imap-emails/)            
+- [Mailboxes with children are reported as "(\HasNoChildren)" if mailbox with similar name · Issue #3182 · cyrusimap/cyrus-imapd](https://github.com/cyrusimap/cyrus-imapd/issues/3182)            
+- [Using libcurl to send a gmail message](https://groups.google.com/g/curlpp-devel/c/AeVImjan2S4?pli=1)            
+- [embeddedmz/mailclient-cpp: C++ client for making POP/SMTP/IMAP requests](https://github.com/embeddedmz/mailclient-cpp)            
+- [Test an IMAP connection with cURL – Bram.us](https://www.bram.us/2020/01/16/test-an-imap-connection-with-curl/)        
+
 # Tags
 #tags: 
 
