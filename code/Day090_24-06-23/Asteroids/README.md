@@ -22,6 +22,13 @@ Note: `Asteroids.bak` tweaked from  [OneLoneCoder_Asteroids.cpp](https://github.
 - [ ] random shapes for each asteroid
 - [ ] levels
 
+## Resources
+* website: https://community.onelonecoder.com/olcpixelgameengine/
+* Repo: https://github.com/OneLoneCoder/olcPixelGameEngine
+* Wiki: https://github.com/OneLoneCoder/olcPixelGameEngine/wiki/olc%3A%3APixelGameEngine
+* List of projects: https://github.com/OneLoneCoder/Javidx9/tree/master/ConsoleGameEngine/SmallerProjects
+
+
 # Tags
 #tags: 
 
