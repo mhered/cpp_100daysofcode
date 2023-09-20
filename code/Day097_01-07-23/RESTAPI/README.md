@@ -200,6 +200,11 @@ I don't fully understand everything I did there, and I am not sure that I have l
 
 However I am really proud that I managed to find the several workarounds required to make it work.
 
+## Resources
+https://crowcpp.org/master/getting_started/setup/linux/
+https://crowcpp.org/master/guides/templating/
+https://github.com/crowcpp/crow/tree/master/examples - examples from Crow repo
+
 # Tags
 #tags: 
 
