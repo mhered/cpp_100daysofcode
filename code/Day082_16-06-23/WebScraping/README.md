@@ -57,6 +57,12 @@ Link to the libraries in `tasks.json`:
 ```
 
 
+## Resources
+Found to paid subcriptions - ScrapingBee and Webscraping API - and an open source C++ library for Selenium Webdriver:
+
+- [ ] [Web Scraping with C++](https://www.scrapingbee.com/blog/web-scraping-c++/) is the inspiration for this project. Check out [ScrapingBee's blog](https://www.scrapingbee.com/blog/) for other languages and e.g. this article on [Web Scraping without getting blocked](https://www.scrapingbee.com/blog/web-scraping-without-getting-blocked/)
+- [ ] Check out also [The Ultimate Guide to Web Scraping With C++](https://www.webscrapingapi.com/c-web-scraping), and also [Webscraping API free trial](https://www.webscrapingapi.com/scraper-api)
+- [ ] Webdriverxx is a A C++ client library for Selenium Webdriver, see the [repo](https://github.com/durdyev/webdriverxx)
 
 # Tags
 #tags: 
