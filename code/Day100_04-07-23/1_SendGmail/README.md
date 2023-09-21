@@ -1,6 +1,6 @@
 #link: https://curl.se/libcurl/c/smtp-mail.html
 
-# SendGmail
+# 1_SendGmail
 
 The goal of this project is to write a C++ class to send emails from a Gmail account.  
 
@@ -16,13 +16,13 @@ Eventually I came across a recommendation to use `libcurl`, which is a C API for
 
 I decided to try first to make it work in the command line, using `curl` directly, and even that was a struggle. [Simple commands to send email via SMTP](https://everything.curl.dev/usingcurl/smtp) didn't work due to Gmail security settings. [These instructions](https://www.spamresource.com/2022/04/lets-send-emailwith-curl.html) - which describe also how to activate two-factor authentication in Gmail settings and create an app password - finally worked. 
 
-Rather than hardcoding the password in the command, it seems a better idea to put the password in a `./secret` file and use `"``cat /home/mhered/cpp_100daysofcode/code/Day100_04-07-23/SendGmail/secret``"` to read it from there.
+Rather than hardcoding the password in the command, it seems a better idea to put the password in a `./secret` file and use `"``cat /home/mhered/cpp_100daysofcode/code/Day100_04-07-23/1_SendGmail/secret``"` to read it from there.
 
-This idea I got from this link: https://helge.w.uib.no/use-curl-to-read-your-imap-emails/, which explains how to retrieve email with `curl` using IMAP. Note that this link was also the starting point for project [RetrieveAndParseEmail](https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day100_04-07-23/RetrieveAndParseEmail) to write a class that retrieves email from a Gmail inbox and parses it to extract the fields.
+This idea I got from this link: https://helge.w.uib.no/use-curl-to-read-your-imap-emails/, which explains how to retrieve email with `curl` using IMAP. Note that this link was also the starting point for project [2_RetrieveAndParseEmail](https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day100_04-07-23/2_RetrieveAndParseEmail) to write a class that retrieves email from a Gmail inbox and parses it to extract the fields.
 
 Here is the final `curl` command:
 ```bash
-$ curl --ssl-reqd --url 'smtps://smtp.gmail.com:465' --user "watchtower.test2023@gmail.com:`cat /home/mhered/cpp_100daysofcode/code/Day100_04-07-23/SendGmail/secret`" --mail-from 'watchtower.test2023@gmail.com' --mail-rcpt 'spam.mhered@gmail.com' --upload-file - << EOF
+$ curl --ssl-reqd --url 'smtps://smtp.gmail.com:465' --user "watchtower.test2023@gmail.com:`cat /home/mhered/cpp_100daysofcode/code/Day100_04-07-23/1_SendGmail/secret`" --mail-from 'watchtower.test2023@gmail.com' --mail-rcpt 'spam.mhered@gmail.com' --upload-file - << EOF
 From: Watchtower Tester <watchtower.test2023@gmail.com>
 To: SPAM <spam.mhered@gmail.com>
 Subject: Test 
@@ -32,11 +32,11 @@ Email body
 EOF
 ```
 
-## Using libcurl to implement SendGmail in a C++ program
+## Using libcurl to implement 1_SendGmail in a C++ program
 
 Next step was going from the above `curl` command to a C++ program that would achieve the same result using `libcurl`:
 
-First I followed this `libcurl` tutorial: https://www.youtube.com/watch?v=g83kYIQNRwU, see project [Libcurl](https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day100_04-07-23/Libcurl).
+First I followed this `libcurl` tutorial: https://www.youtube.com/watch?v=g83kYIQNRwU, see project [0_LibcurlIntro](https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day100_04-07-23/0_LibcurlIntro).
 
 Then I went to ChatGPT for help: https://chat.openai.com/share/a11264b1-6d55-4fed-9703-1d181db571dd 
 

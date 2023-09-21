@@ -1,6 +1,6 @@
 #link: https://curl.se/libcurl/c/smtp-mail.html
 
-# RetrieveAndParseEmail
+# 2_RetrieveAndParseEmail
 
 The goal of this project is to write a C++ class to retrieve an email by UID from a Gmail account, and then parse the response to extract the date, sender and body, and further process the body to extract the fields link, title and comment.
 
@@ -9,9 +9,8 @@ This is the second of a few tasks in which I split the project [Watchtower](http
 
 ## Retrieving an email with `curl`
 
-As discussed in the README of the previous project, [SendGmail](https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day100_04-07-23/SendGmail/README.md), sending and retrieving emails using C++ does not appear very straightforward. I was a bit put off by the apparent complexity of libraries such as https://www.vmime.org/ and https://pocoproject.org/index.html, and went for `libcurl`, the C API for the `curl` command. 
 
-First I tried to retrieve an email from my inbox using `curl` directly in the command line, see https://helge.w.uib.no/use-curl-to-read-your-imap-emails/. Note that this only worked after I activated two-factor authentication in Gmail settings and created a dedicated app password. The process is described in these instructions https://www.spamresource.com/2022/04/lets-send-emailwith-curl.html, which also explain how to send email with `curl` and SMTP, and were the basis for project [SendGmail](https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day100_04-07-23/SendGmail).
+First I tried to retrieve an email from my inbox using `curl` directly in the command line, see https://helge.w.uib.no/use-curl-to-read-your-imap-emails/. Note that this only worked after I activated two-factor authentication in Gmail settings and created a dedicated app password. The process is described in these instructions https://www.spamresource.com/2022/04/lets-send-emailwith-curl.html, which also explain how to send email with `curl` and SMTP, and were the basis for project [1_SendGmail](https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day100_04-07-23/1_SendGmail).
 
 Below is the basic `curl` command to retrieve an email from a Gmail account by `UID`:
 
@@ -21,12 +20,12 @@ $ curl --url "imaps://imap.gmail.com:993/INBOX;UID=5" --user "YOUR_GMAIL_ADDRESS
 
 Note that the `UID` is a unique identifier of the email in the inbox. Here it was easy to choose the `UID` of the email I wanted manually because I was working with a dummy email account I had just created and there were only a handful of mails in the inbox, but I need to investigate more because there must be a better way to retrieve email and to account for deleted emails, moved emails etc.
 
-Again, instead of hardcoding the password I stored it in a `./secret` file and called `"``cat /home/mhered/cpp_100daysofcode/code/Day100_04-07-23/SendGmail/secret``"`. 
+Again, instead of hardcoding the password I stored it in a `./secret` file and called `"``cat /home/mhered/cpp_100daysofcode/code/Day100_04-07-23/1_SendGmail/secret``"`. 
 
 Below is the full command and the output (abridged):
 
 ```bash
-$ curl --url "imaps://imap.gmail.com:993/INBOX;UID=5" --user "watchtower.test2023@gmail.com:`cat /home/mhered/cpp_100daysofcode/code/Day100_04-07-23/RetrieveAndParseEmail/secret`"
+$ curl --url "imaps://imap.gmail.com:993/INBOX;UID=5" --user "watchtower.test2023@gmail.com:`cat /home/mhered/cpp_100daysofcode/code/Day100_04-07-23/2_RetrieveAndParseEmail/secret`"
 
 Delivered-To: watchtower.test2023@gmail.com
 Received: ...
