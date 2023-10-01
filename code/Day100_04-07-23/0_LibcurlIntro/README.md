@@ -1,6 +1,6 @@
 #link: https://www.youtube.com/watch?v=g83kYIQNRwU
 
-# Libcurl
+# 0_LibcurlIntro
 Let's learn about [libcurl](https://curl.se/libcurl/), the C API for the `curl` command, following along the getting started video in the link by Daniel Stenberg himself (founder and maintainer of the library).
 
 ## Installing and compiling
