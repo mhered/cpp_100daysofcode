@@ -8,7 +8,13 @@ This is the third of a few tasks in which I split the project [Watchtower](https
 
 I played with ChatGPT, IMAP FETCH and IMAP IDLE and I got to a while loop that checks regularly and produces a rather useless list of outputs with UIDs and subject length, see sample output below. 
 
-I ended up giving up and changing the approach - see project [Watchtower](https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day100_04-07-23/Watchtower) for the solution I finally implemented.
+I ended up giving up and changing the approach. 
+
+See project [Watchtower](https://github.com/mhered/cpp_100daysofcode/blob/main/code/Day100_04-07-23/Watchtower) for the solution I finally implemented instead: 
+- store in a config file the UID of the last email that was processed by the app
+- at regular intervals check for new email by attempting to download the next email by UID
+- if successful, process the new email and repeat until no more email found
+
 
 ```bash
 Checking for email...
