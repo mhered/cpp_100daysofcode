@@ -22,7 +22,7 @@ The file [./dbManager.h](./dbManager.h) implements two classes:
 ## To do
 - [x] move code to a header file
 - [x] create unit tests
-- [ ] integrate with Watchtower
+- [x] integrate with Watchtower
 
 
 # Tags
