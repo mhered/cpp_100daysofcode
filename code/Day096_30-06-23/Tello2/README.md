@@ -47,7 +47,15 @@ Although I initially discarded them, they have interesting elements like swarm o
 * https://github.com/LucaRitz/tello ROS2 / C++ 17 driver for Tello, implements Swarm. Tested in windows. Several dependencies. Last updated Oct20
 * https://github.com/vss2sn/tello A C++ library for the Tello and Tello Edu. Features joystick control, command line control, command queues and SLAM. Last updated Sep20
 
+## More Links
+
+* [tello-fun/key_controls.py at main · mhered/tello-fun](https://github.com/mhered/tello-fun/blob/main/key_controls.py)
+* [mcx/tello: C++14 single-header library to control a DJI Ryze Tello drone using the Tello SDK 2.0](https://github.com/mcx/tello/tree/master)
+* [bendikrs/tello_ros: C++ ROS2 driver for DJI Tello drones](https://github.com/bendikrs/tello_ros)
+* [Cannot control the Tello using keystrokes · Issue #1 · HerrNamenlos123/tello](https://github.com/HerrNamenlos123/tello/issues/1)
+
 # Tags
+
 #tags: 
 
 - [ ] basics
