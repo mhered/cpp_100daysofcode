@@ -17,6 +17,16 @@ Working on `check_for_win()`
 * scan rows from top to bottom -> 10s 
 * replace `std::vector<char> board`  for `bool bool_board[]` -> no improvement. Why?
 
+## Links
+
+* [connect 4 c++ - Google Search](https://www.google.com/search?channel=fs&client=ubuntu&q=connect+4+c%2B%2B) 
+* [connect 4 game - C++ Forum](https://cplusplus.com/forum/general/67675/) 
+* [c++ - Connect4 With AI - Code Review Stack Exchange](https://codereview.stackexchange.com/questions/119291/connect4-with-ai) 
+* [An Exhaustive Explanation of Minimax, a Staple AI Algorithm](https://www.flyingmachinestudios.com/programming/minimax/) 
+* https://gummianime.tripod.com/tutorials/connect4.txt
+*  [connect 4 computer player c++ - Google Search](https://www.google.com/search?q=connect+4+computer+player+c%2B%2B&client=ubuntu&hs=R0i&channel=fs&sxsrf=APwXEdd-9VcZDV7H-SFnk30_p-Hcidd_zg%3A1684738575932&ei=DxJrZN3CONGgkdUP3qKY4Ag&ved=0ahUKEwidhu6irIj_AhVRUKQEHV4RBowQ4dUDCA4&uact=5&oq=connect+4+computer+player+c%2B%2B&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIFCAAQogQyBQgAEKIEMgUIABCiBDoKCAAQRxDWBBCwAzoGCAAQFhAeOggIABCKBRCGAzoFCCEQoAE6CAghEBYQHhAdOgcIIRCgARAKOgoIIRAWEB4QDxAdSgQIQRgAUJ0EWPMJYJELaAFwAXgAgAGYAYgBjQSSAQMwLjSYAQCgAQHIAQjAAQE&sclient=gws-wiz-serp) 
+* [connect-4/main.cpp at master · shashwatregmi/connect-4](https://github.com/shashwatregmi/connect-4/blob/master/main.cpp)
+
 # Tags
 #tags: 
 
